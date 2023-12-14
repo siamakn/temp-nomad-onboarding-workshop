@@ -3,9 +3,8 @@
 ![](https://img.shields.io/pypi/l/nomad-measurements)
 ![](https://img.shields.io/pypi/v/nomad-measurements)
 
-# NOMAD's Measurements Plugin
-This is a plugin for [NOMAD](https://nomad-lab.eu) which contains base sections for
-materials science measurements.
+# FAIRmat Knowledge Base
+This is knowledge base [FAIRmat](https://nomad-lab.eu) which contains materials related to research data management.
 
 ## Getting started
 `nomad-measurements` can be installed from PyPI using `pip`:
