@@ -23,6 +23,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material==8.1.1 pymdown-extensions mkdocs-click
 
+      - name: Create gh-pages branch if it doesn't exist
+        run: |
+          git branch gh-pages || true
+          git push origin gh-pages
+
       - name: Build and Deploy
         run: |
           mkdocs gh-deploy --force --remote-branch gh-pages
