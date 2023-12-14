@@ -7,7 +7,7 @@
 This is knowledge base [FAIRmat](https://nomad-lab.eu) which contains materials related to research data management.
 
 ## Getting started
-`nomad-measurements` can be installed from PyPI using `pip`:
+`nomad-measurements` can be installed from PyPI using `pip`: 
 ```sh
 pip install nomad-measurements
 ```
