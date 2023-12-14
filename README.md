@@ -8,7 +8,7 @@ This is a plugin for [NOMAD](https://nomad-lab.eu) which contains base sections 
 materials science measurements.
 
 ## Getting started
-`nomad-measurements` can be installed from PyPI using `pip`:
+`nomad-measurements` can be installed from PyPI using `pip`: 
 ```sh
 pip install nomad-measurements
 ```
