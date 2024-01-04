@@ -8,6 +8,6 @@ In order to add contents to the FAIRmat Knowledgebase follow the instructions he
 
 ## Current Materials
 
-At the moment, just empty ad test documents are added for the test purposes
+At the moment, just empty and test documents are added for the test purposes
 
 ### Test_doc1

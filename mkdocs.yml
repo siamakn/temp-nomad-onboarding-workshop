@@ -1,12 +1,13 @@
-site_name: Documentation
+site_name: FAIRmat Knowledgebase
 site_description: |
   The documentation for NOMAD plugin nomad-measurements.
 site_author: The NOMAD Authors
-repo_url: https://github.com/FAIRmat-NFDI/nomad-measurements
+repo_url: https://siamakn.github.io/fairmat-knowledgebase/
 edit_uri: ""
 
 nav:
   - Home: index.md
+  - Test_doc1: Test_doc1.md
   - Explanation: explanation/explanation.md
   - How-To Guides:
     - Use this Plugin: how_to/use_this_plugin.md
