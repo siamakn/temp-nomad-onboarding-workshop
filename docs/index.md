@@ -10,4 +10,3 @@ In order to add contents to the FAIRmat Knowledgebase follow the instructions he
 
 At the moment, just empty and test documents are added for the test purposes
 
-### Test_doc1

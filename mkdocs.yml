@@ -9,12 +9,10 @@ nav:
   - Home: index.md
   - Section1: Section1/Section1_mdfile.md
   - Section2:
-    - Section2_SubSection1: Section2_SubSection1/Section2_SubSection1_mdfile.md
-    - Section2_SubSection2: Section2_SubSection1/Section2_SubSection2_mdfile.md
-  - How-To Guides:
-    - Use this Plugin: how_to/use_this_plugin.md
-  - References: reference/references.md
-  - Tutorials: tutorial/tutorial.md
+    - Section2/Section2_mdfile.md
+    - Section2_SubSection1: Section2/Section2_SubSection1/Section2_SubSection1_mdfile.md
+    - Section2_SubSection2: Section2/Section2_SubSection2/Section2_SubSection2_mdfile.md
+
 plugins:
  - search
 theme:
@@ -24,7 +22,7 @@ theme:
     accent: '#008A67'
   font:
     text: 'Titillium Web'
-  logo: assets/nomad-logo.png
+  logo: assets/fairmat-logo.png
   favicon: assets/favicon.png
   features:
     - navigation.instant
@@ -48,7 +46,7 @@ markdown_extensions:
   - pymdownx.extra
 extra:
   generator: false
-  homepage: https://nomad-lab.eu
+  homepage: https://www.fairmat-nfdi.eu/fairmat/
 use_directory_urls: false
 extra_css:
   - stylesheets/extra.css
