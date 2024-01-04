@@ -1,7 +1,7 @@
 site_name: FAIRmat Knowledgebase
 site_description: |
-  The documentation for NOMAD plugin nomad-measurements.
-site_author: The NOMAD Authors
+  The FAIRmat Knowledgebase Documentaion.
+site_author: The FAIRmat Area F
 repo_url: https://siamakn.github.io/fairmat-knowledgebase/
 edit_uri: ""
 
