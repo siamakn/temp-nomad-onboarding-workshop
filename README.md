@@ -3,7 +3,7 @@
 ![](https://img.shields.io/pypi/l/nomad-measurements)
 ![](https://img.shields.io/pypi/v/nomad-measurements)
 
-# FAIRmat Knowledge Base
+# FAIRmat Knowledge Base 3
 This is knowledge base [FAIRmat](https://nomad-lab.eu) which contains materials related to research data management.
 
  ```
