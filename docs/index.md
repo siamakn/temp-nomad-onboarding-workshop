@@ -1,18 +1,13 @@
-# Welcome to the **FAIRmat Knowledgebase 2, 4 in index.md** 
+# Welcome to the **FAIRmat Knowledgebase** 
 
-This plugin provides NOMAD schemas, readers, and parsers for materials science measurements.
+This is the work in progress to prepare a template to insert FAIRmat knowledgebase materials"
 
 ## Getting Started
 
-This is a NOMAD plugin. For information on how to use them, see [NOMAD Plugins](https://nomad-lab.eu/prod/v1.0/docs/plugins.html).
+In order to add contents to the FAIRmat Knowledgebase follow the instructions here (not available yet) [FAIRmat Knowledgebase ](https://nomad-lab.eu/prod/v1.0/docs/plugins.html).
 
-## Supported Measurement Techniques
+## Current Materials
 
-At the moment, the following measurement techniques are supported:
+At the moment, just empty ad test documents are added for the test purposes
 
-### X-ray diffraction
-
-Supported file formats:
-
-- PANalytical `.xrdml`
-- Rigaku `.rsx`
+### Test_doc1
