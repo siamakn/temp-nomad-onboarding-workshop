@@ -1,4 +1,4 @@
-# Welcome to the **FAIRmat Knowledgebase** 
+# Welcome to the **FAIRmat Knowledgebase 2** 
 
 This plugin provides NOMAD schemas, readers, and parsers for materials science measurements.
 
