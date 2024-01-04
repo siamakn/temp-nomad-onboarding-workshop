@@ -7,8 +7,10 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - Test_doc1: Test_doc1.md
-  - Explanation: explanation/explanation.md
+  - Section1: Test_doc1.md
+  - Section2:
+    - Section2_SubSection1: Section2_SubSection1/Section2_SubSection1.md
+    - Section2_SubSection2: Section2_SubSection1/Section2_SubSection2.md
   - How-To Guides:
     - Use this Plugin: how_to/use_this_plugin.md
   - References: reference/references.md
