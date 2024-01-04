@@ -7,7 +7,7 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - Section1: Section1_mdfile.md
+  - Section1: Section1/Section1_mdfile.md
   - Section2:
     - Section2_SubSection1: Section2_SubSection1/Section2_SubSection1_mdfile.md
     - Section2_SubSection2: Section2_SubSection1/Section2_SubSection2_mdfile.md
