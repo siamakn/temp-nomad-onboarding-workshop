@@ -25,4 +25,4 @@ jobs:
 
       - name: Build and Deploy
         run: |
-          mkdocs gh-deploy --force --remote-branch gh-pages --token ${{ secrets.MKDOCS_ONBOARDING_DEPLOY_TOKEN }}
+          mkdocs gh-deploy --force --remote-branch gh-pages 
