@@ -1,6 +1,6 @@
 # Welcome to the **NOMAD onboarding workshop** 
 
-This is the work in progress to prepare training materials for upcomming NOMAD onboarding workshop
+This is the work in progress to prepare training materials for upcomming NOMAD onboarding workshop.
 
 ## Current Materials
 
