@@ -108,7 +108,7 @@ gives:
  
 ```python
 def example_function():
-    print("Let's FAIR")
+    print("Let's be more FAIR")
 
 example_function()
 ```
