@@ -1,4 +1,4 @@
-# Welcome to the **FAIRmat Knowledgebase** 
+# Welcome to the **NOMAD onboarding workshop** 
 
 This is the work in progress to prepare a template to insert FAIRmat knowledgebase materials"
 
