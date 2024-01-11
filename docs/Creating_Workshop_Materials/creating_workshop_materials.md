@@ -104,7 +104,8 @@ Include code blocks with syntax highlighting by specifying the language:
 
     example_function()
     ```
-gives: 
+gives:
+ 
 ```python
 def example_function():
     print("Let's FAIR")
