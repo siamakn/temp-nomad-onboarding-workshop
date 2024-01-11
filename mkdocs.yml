@@ -1,8 +1,8 @@
-site_name: FAIRmat Knowledgebase
+site_name: NOMAD Onboarding Workshop
 site_description: |
-  The FAIRmat Knowledgebase Documentaion.
+  Temporary repo to produce the NOMAD onboarding workshop materials.
 site_author: The FAIRmat Area F
-repo_url: https://siamakn.github.io/fairmat-knowledgebase/
+repo_url: https://siamakn.github.io/temp-nomad-onboarding-workshop/
 edit_uri: ""
 
 nav:
