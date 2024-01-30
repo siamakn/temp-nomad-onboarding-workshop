@@ -100,7 +100,7 @@ Include code blocks with syntax highlighting by specifying the language:
 
     ```python
     def example_function():
-        print("Let's FAIR")
+        print("Let's be FAIR")
 
     example_function()
     ```
@@ -108,7 +108,7 @@ gives:
  
 ```python
 def example_function():
-    print("Let's be more FAIR")
+    print("Let's be FAIR")
 
 example_function()
 ```
