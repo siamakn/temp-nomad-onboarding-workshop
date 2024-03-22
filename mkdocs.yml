@@ -15,8 +15,8 @@ nav:
     - Section2/Section2_mdfile.md
     - Section2_SubSection1: Section2/Section2_SubSection1/Section2_SubSection1_mdfile.md
     - Section2_SubSection2: Section2/Section2_SubSection2/Section2_SubSection2_mdfile.md
-  - "Using NOMAD as an ELN": Module 3/1_Overview.md
-    - "Create your ELN using built-in schema": Module 3/5_ELN using built-in schema/5_0_Overview.md
+  - Using NOMAD as an ELN: Module 3/1_Overview.md
+    - Create your ELN using builtin schema: Module 3/5_ELN using built-in schema/5_0_Overview.md
 
 plugins:
  - search
