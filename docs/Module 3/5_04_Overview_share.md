@@ -5,7 +5,6 @@ Finally, it is essential to share your progress and findings with others. This i
 
 NOMAD allows you share your ELNs with your PI, collaborators, and the community. 
 
-![Alt text](../images/Overview/5.png)
+![Alt text](images/Overview/5.png)
 
-| [[Previous]](5_0_Overview_manage.md) |   Sharing you progress and outcomes    | [[Next]](5A_0_Getting_started.md)
-|------------|-----------|-------|
+**| [[Previous] ](5_03_Overview_manage.md) |   Sharing your progress and outcomes    | [[Next]](5A_0_Getting_started.md) |**

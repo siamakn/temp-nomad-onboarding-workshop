@@ -16,9 +16,12 @@ nav:
     - Section2_SubSection1: Section2/Section2_SubSection1/Section2_SubSection1_mdfile.md
     - Section2_SubSection2: Section2/Section2_SubSection2/Section2_SubSection2_mdfile.md
   - Using NOMAD as an ELN:
-    - Module 3/5_0_Overview.md
-    - Create your ELN using builtin schema: Module 3/5_ELN using builtin schema/5_0_Overview.md
-
+    - Overview: Module 3/5_0_Overview.md
+    - Getting Started: Module 3/5A_0_Getting_started.md
+    - Creating Entities: Module 3/5B_0_Creating_entities.md
+    - Creating Activities: Module 3/5C_0_Creating_activities.md
+    - Managing Experiments: Module 3/5D_0_Managing_experiments.md
+    - Sharing and Collaboration: Module 3/5E_0_sharing_ELN.md
 plugins:
  - search
 theme:

@@ -14,9 +14,8 @@ Finally, it is really important to share your progress and findings with others.
 
 Each part of this process is important because it helps the next step go smoothly. By following these steps, you will set yourself up for success in your research endeavors.
 
-![Alt text](../images/Overview/1.png)
+![Alt text](images/Overview/1.png)
 
 In this module, we will show you how to use NOMAD's ELN functionality to record your experiments and effectively manage your researchd data, from planning, documentation, management, and sharing your experiments in the lab.
 
-| [Previous] | Introduction | [[Next]](5_01_Overview_plan.md)
-|------------|-----------|-------|
+**| [Previous] | Introduction | [[Next] ](5_01_Overview_plan.md)|**

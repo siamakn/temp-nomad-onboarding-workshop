@@ -3,5 +3,4 @@
 ## **Recording your experiments using the *experiment ELN* schema**
 
 
-| [[Previous]](5D_1_Organizing_your_upload.md) |   Recording your experiments using the *experiment ELN* schema| [[Next]](5E_0_sharing_ELN.md)
-|------------|-----------|-------|
+**| [[Previous]](5D_1_Organizing_your_upload.md) |   Recording your experiments using the *experiment ELN* schema| [[Next] ](5E_0_sharing_ELN.md)|**
