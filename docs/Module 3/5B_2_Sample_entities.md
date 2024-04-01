@@ -2,7 +2,7 @@
 
 ## **Creating sample entities using the *Generic sample ELN* schema**
 
-![Screenshot of the NOMAD UI showing the Generic Example ELN Schema](../images/buit-in%20schema/generic%20sample/1.png)
+![Screenshot of the NOMAD UI showing the Generic Example ELN Schema](images/buit-in%20schema/generic%20sample/1.png)
 
 In this section you will learn how to create NOMAD entries for entities that will be the samples used/produced in your experiments. You will use the NOMAD built-in schema called Generic Sample ELN and explore the various fields you can populate and the information you can add to NOMAD. 
 
@@ -10,11 +10,11 @@ Based on the example described earlier, we need to create entries for the follow
 1. P3HT Thin Film
 2. P3HT Solution
 
-![Alt text](../images/Lab%20images/Samples.png)
+![Alt text](images/Lab%20images/Samples.png)
 
-For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting started](5A_%20Getting%20started.md) page. When you reach step 8, select the *Generic Sample ELN* from the drop-down menu, enter a name for your entry, and then click Create. 
+For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting started](5A_1_ELN_built_in_schemas.md) page. When you reach step 8, select the *Generic Sample ELN* from the drop-down menu, enter a name for your entry, and then click Create. 
 
-![Creating an entry in NOMAD for a sample entity and naming it P3HT_thin_film_on_glass](../images/buit-in%20schema/generic%20sample/P3HT_film.png)
+![Creating an entry in NOMAD for a sample entity and naming it P3HT_thin_film_on_glass](images/buit-in%20schema/generic%20sample/P3HT_film.png)
 
 After clicking the Create button, NOMAD will automatically perform the following tasks:
 1. NOMAD creates a file for the entry, using the format *.archive.json*.
@@ -32,7 +32,7 @@ can be entered manually.
 
 * Description: A free text field that can be used to enter any additional information about the entry. 
 
-![Alt Text](../images/buit-in%20schema/generic%20sample/Quantities.png)
+![Alt Text](images/buit-in%20schema/generic%20sample/Quantities.png)
 
 > Remember that this is your ELN and you are using a built-in schema that was created to be as generic as possible to accommodate as many users as possible. You can use the different fields however you like. For example, the Description field can be used to add any batch information, lab conditions, storage location, etc.
 
@@ -46,7 +46,7 @@ These can be found at the bottom of the Entry/Data/Data page and include:
 
 * Sample identifier
 
-![generic sample sub-sections](../images/buit-in%20schema/generic%20sample/subsections.png)
+![generic sample sub-sections](images/buit-in%20schema/generic%20sample/subsections.png)
 
 ### Elemental Composition sub-section:
 Here you can create quantities to define the chemical composition of your sample. You can add the chemical element, its atomic fraction, and its mass fraction. 
@@ -65,5 +65,4 @@ Note that only items such as Samples or Substances can be selected in the System
 
 For the P3HT thin film sample, we can select the components as the solution used to prepare the sample and the glass substrate. 
 
-| [[Previous]](5B_1_Substance_entities.md) |   Creating sample entities using the *Generic sample ELN* schema| [[Next]](5B_3_Instrument_entities.md)
-|------------|-----------|-------|
+**| [[Previous]](5B_1_Substance_entities.md) |   Creating sample entities using the *Generic sample ELN* schema | [[Next]](5B_3_Instrument_entities.md)|**

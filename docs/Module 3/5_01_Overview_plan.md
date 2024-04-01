@@ -17,7 +17,6 @@ Planning is the critical first step in effectively conducting your experiments t
 
 By carefully completing these planning tasks, you will lay a solid foundation for the smooth execution and meaningful results of your scientific endeavors.
 
-![Alt text](../images/Overview/2.png)
+![Alt text](images/Overview/2.png)
 
-| [[Previous]](5_0_Overview.md) |  Planning your experiment | [[Next]](5_02_Overview_document.md)
-|------------|-----------|-------|
+**| [[Previous] ](5_0_Overview.md) | Planning your experiment | [[Next] ](5_02_Overview_document.md)|**

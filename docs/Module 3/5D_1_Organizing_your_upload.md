@@ -3,5 +3,4 @@
 ## **Organizing your upload**
 
 
-| [[Previous]](5D_0_Managing_experiments.md) |   Organizing your upload| [[Next]](5D_2_experiments_ELN.md)
-|------------|-----------|-------|
+**| [[Previous]](5D_0_Managing_experiments.md) |   Organizing your upload | [[Next]](5D_2_experiments_ELN.md)|**

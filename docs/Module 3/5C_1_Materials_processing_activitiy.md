@@ -2,7 +2,7 @@
 
 ## **Create materials preparation activities using the *materials processing ELN* schema**
 
-![Screenshot from the NOMAD UI which shows the material processing ELN schema](../images/buit-in%20schema/material%20processing/1.png)
+![Screenshot from the NOMAD UI which shows the material processing ELN schema](images/buit-in%20schema/material%20processing/1.png)
 
 In this section you will learn how to create NOMAD entries for activities that will be used to describe the sample preparation process in your experiments. You will use the NOMAD built-in schema called *Material Processing ELN* and explore the various fields you can fill in and the information you can add to NOMAD.
 
@@ -11,11 +11,11 @@ Based on the example described earlier, we will need to create entries for the f
 2. Preparation of P3HT thin film on glass.
 3. Preparation of P3HT thin film on prepatterned ITO substrate.
 
-![Alt text](../images/Lab%20images/Samples.png)
+![Alt text](images/Lab%20images/Samples.png)
 
-For general steps on how to create records in NOMAD using the built-in ELN schema, please refer to the [Getting started](5A_%20Getting started.md) page. When you reach step 8, select *Materials Processing ELN* from the drop down menu, enter a name for your record, and click Create. 
+For general steps on how to create records in NOMAD using the built-in ELN schema, please refer to the [Getting started](5A_1_ELN_built_in_schemas.md) page. When you reach step 8, select *Materials Processing ELN* from the drop down menu, enter a name for your record, and click Create. 
 
-![Creating an entry in NOMAD for a material processing activity and naming it solution_preparation](../images/buit-in%20schema/material%20processing/create.png)
+![Creating an entry in NOMAD for a material processing activity and naming it solution_preparation](images/buit-in%20schema/material%20processing/create.png)
 
 After clicking the Create button, the following tasks are automatically performed in NOMAD:
 1. NOMAD will create a file for the entry using the *.archive.json* format.
@@ -24,7 +24,7 @@ After clicking the Create button, the following tasks are automatically performe
 
 The *data* sub-sections page allows user input to fill in the information about the substance. 
 
-![The default entry page that opens when an entry is created. ](../images/buit-in%20schema/material%20processing/Entry%20page.png)
+![The default entry page that opens when an entry is created. ](images/buit-in%20schema/material%20processing/Entry%20page.png)
 
 The built-in Material Processing ELN schema provides several fields that allow you to enter different quantities: 
 * Short Name: This is the name of the input file created.
@@ -52,11 +52,11 @@ These can be found at the bottom of the Entry/Data/Data page and include
 * Sample
 
 
-![Alt-Text](../images/buit-in%20schema/material%20processing/subsections.png)
+![Alt-Text](images/buit-in%20schema/material%20processing/subsections.png)
 
 First, we add the relevant information about our process as quantities in the main fields, which will define the main quantities for our activity record.
 
-![Alt-Text](../images/buit-in%20schema/material%20processing/quantities_filled.png)
+![Alt-Text](images/buit-in%20schema/material%20processing/quantities_filled.png)
 
 The next step is to record the steps performed during the solution preparation process.
 The *steps* subsection can be used to create multiple steps as needed. 
@@ -65,14 +65,14 @@ Let us create the following steps:
 2. sovent_filling: Fill 2 ml of chloroform into a vial.
 3. mix: add the polymer powder to the sovent vial. 
 
-![Alt-Text](../images/buit-in%20schema/material%20processing/steps.png)
+![Alt-Text](images/buit-in%20schema/material%20processing/steps.png)
 
 
 Continue by adding the connection of your process to the instrument used and the resulting sample entities.
 
 Note that the added information in the subsections will be used to automatically fill in the Workflow section as tasks, as well as the References section, which can be viewed in the *Overview* page.
 
-![Alt-Text](../images/buit-in%20schema/material%20processing/overview1.png)
+![Alt-Text](images/buit-in%20schema/material%20processing/overview1.png)
 
 You can modify the workflow section by adding additional information such as inputs, additional tasks, and outputs. 
 To do this, click on the Workflow2 section in the side pane. 
@@ -80,7 +80,6 @@ To do this, click on the Workflow2 section in the side pane.
 Let us add the substance entities we created for P3HT powder and chloroform solvent as inputs to our process.
 The changes will be reflected in the Workflow section and the Reference section of the *Overview* page.
 
-![Alt-Text](../images/buit-in%20schema/material%20processing/overview2.png)
+![Alt-Text](images/buit-in%20schema/material%20processing/overview2.png)
 
-| [[Previous]](5C_0_Creating_activities.md) |   Create materials preparation activities using the *materials processing ELN* schema| [[Next]](5C_1_Measurement_activity.md)
-|------------|-----------|-------|
+**| [[Previous]](5C_0_Creating_activities.md) |   Create materials preparation activities using the *materials processing ELN* schema| [[Next]](5C_2_Measurement_activity.md)|**

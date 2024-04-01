@@ -5,7 +5,6 @@ After carefully planning your experiments and thoroughly documenting all entitie
 
 In NOMAD, the process involves integrating multiple records into a single experiment, establishing a clear workflow, and creating comprehensive connections to all entries using the built-in schemas. NOMAD also facilitates recording and analyzing data. By using NOMAD's features, researchers can streamline the experimental process, ensuring accurate documentation, efficient workflow management, and thorough analysis. This leads to robust and reliable research outcomes.
 
-![Alt text](../images/Overview/4.png)
+![Alt text](images/Overview/4.png)
 
-| [[Previous]](5_0_Overview_document.md) |   Managing you experiments   | [[Next]](5_02_Overview_share.md)
-|------------|-----------|-------|
+**| [[Previous]](5_02_Overview_document.md) |   Managing you experiments   | [[Next]](5_04_Overview_share.md) |**
