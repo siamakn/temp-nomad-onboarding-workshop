@@ -1,0 +1,7 @@
+# Overview
+
+The first three modules of this tutorial primarily introduced the NOMAD features which utilized its Graphical User Interface (GUI). However, NOMAD has much more to offer, especially when it comes to aligning with the FAIR principles for Research Data Management (RDM). One key feature is the ability to access data programmatically through its Application Programming Interface (API), which strongly supports the accessibility and reusability of the data.
+
+Understanding and utilizing the NOMAD API opens up new possibilities for researchers. From advanced data filtering that allows for building datasets with exclusively needed information (e.g., for machine learning), to the automation of data collection, retrieval, and analysis tasks, the API serves as a gateway to a more dynamic, efficient, and customizable research and analysis experience.
+
+In this module, we will start with an overview of commonly used terms to ensure clarity throughout the rest of the module. Next, we will prepare our environment for using the API. We will then introduce a simple API example to explain the basics. Finally, we will engage in a more practical example, using the NOMAD database to extract data and visualize insightful information. 
