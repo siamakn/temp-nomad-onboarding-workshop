@@ -94,6 +94,7 @@ Let’s consider the following simplified layout of the server response, which i
 
 ```
  In this simplified response:
+
 *   **Owner**: Indicates which data are being queried. `public` meaning anyone can access the data.
 *   **Query**: This section reiterates the search parameters we sent, but in a normalized structure.
 *   **Pagination**: Manages how the data is returned or displayed.  
@@ -125,11 +126,11 @@ Please note, it is just a simple query. However, more complex queries can be wri
 * **`pagination`**: The `pagination` section in the API response organizes how results are delivered:
 
 
-  - page_size: Number of results per page, that we set to 1 in our query.
-  - order_by: Indicates the criteria used to order the entries. Here the matching 41531 eintries were sorted by `entry_id` (the default in this case) and the first one (page_size which was 1) is returend in the response.
-  - order:  The sorting direction to sort the 41531 matching entries. can be ascending `asc`)  or descending `des`. The default is `asc`.
-  - total: Total number of entries matching the query, here 41531.
-  - next_page_after_value: Provides a cursor for pagination. This value is used to fetch the next set of results in subsequent queries. It helps in managing large datasets by allowing the user to continue retrieving data right where the previous query left off. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides a an example on how to use the `next_page_after_value` in order to fetch larger datasets. 
+    - `page_size`: Number of results per page, that we set to 1 in our query.
+    - `order_by`: Indicates the criteria used to order the entries. Here the matching 41531 eintries were sorted by `entry_id` (the default in this case) and the first one (`"page_size": 1`) is returend in the response.
+    - `order`:  The sorting direction to sort the 41531 matching entries. can be ascending `asc`)  or descending `des`. The default is `asc`.
+    - `total`: Total number of entries matching the query, here 41531.
+    - `next_page_after_value`: Provides a cursor for pagination. This value is used to fetch the next set of results in subsequent queries. It helps in managing large datasets by allowing the user to continue retrieving data right where the previous query left off. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides a an example on how to use the `next_page_after_value` in order to fetch larger datasets. 
 
 
 ```{bash}
