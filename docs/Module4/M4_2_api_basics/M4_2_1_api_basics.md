@@ -19,7 +19,7 @@ There are five fundamental HTTP methods used to interact with resources:
 
 
 > **Note:** NOMAD highlights the type of requests that are possible on each resource. Here is an example from the [NOMAD's API Dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs):
-![Example NOMAD API Dashboard](./images/API_dashboard_example.png)
+![Example NOMAD API Dashboard](../images/API_dashboard_example.png)
 
 #### Understanding HTTP status and error codes
 

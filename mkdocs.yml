@@ -23,16 +23,13 @@ nav:
     - Managing Experiments: Module 3/5D_0_Managing_experiments.md
     - Sharing and Collaboration: Module 3/5E_0_sharing_ELN.md
   - Using NOMAD's API:
-    - Overview:
-      - Module4/M4_0_overview.md
+    - Overview: Module4/M4_0_overview.md
     - Getting Started:
-      - Module4/M4_1_getting_started/M4_1_0_getting_started.md
-      - Module4/M4_1_getting_started/M4_1_1_preparing_local.md
-      - Module4/M4_1_getting_started/M4_1_2_preparing_north.md
-    - API Basics:
-      - Module4/M4_2_api_basics/M4_2_1_api_basics.md
-    - A Simple API Call Explained:
-      - Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
+      - Programming Environments: Module4/M4_1_getting_started/M4_1_0_getting_started.md
+      - Local Installation: Module4/M4_1_getting_started/M4_1_1_preparing_local.md
+      - Cloud-based (NORTH): Module4/M4_1_getting_started/M4_1_2_preparing_north.md
+    - API Basics: Module4/M4_2_api_basics/M4_2_1_api_basics.md
+    - A Simple API Call Explained: Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
 
 
 plugins:
