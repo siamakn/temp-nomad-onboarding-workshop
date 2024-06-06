@@ -1,0 +1,42 @@
+definitions:
+  name: 'My Absorption ELN'
+  sections:
+    Optical_absorption:
+      base_sections:
+       - nomad.datamodel.data.EntryData
+       - nomad.parsing.tabular.TableData
+      m_annotations:
+        plot:
+          - label: Absorbance
+            x: Wavelength
+            y: 
+              - Absorbance
+      quantities:
+        data_file:
+          type: str
+          default: test.xlsx
+          m_annotations:
+            tabular_parser:
+              parsing_options:
+                comment: '#'
+              mapping_options:
+                - mapping_mode: column
+                  file_mode: current_entry
+                  sections:
+                    - '#root'
+            browser:
+              adaptor: RawFileAdaptor
+            eln:
+              component: FileEditQuantity
+        Wavelength:
+          type: np.float64
+          shape: ['*']
+          m_annotations:
+            tabular:
+              name: "Wavelength"
+        Absorbance:
+          type: np.float64
+          shape: ['*']
+          m_annotations:
+            tabular:
+              name: "Absorbance"
