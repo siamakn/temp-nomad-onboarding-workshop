@@ -27,12 +27,7 @@ nav:
     - Sharing and collaboration:
     - Exploring data:
   - Using NOMAD as an ELN:
-    - Introduction: 
-      - Overview: Module 3/5_0_Overview.md
-      - Planning your expriment:
-      - Documenting your plans:
-      - Managing your expriments:
-      - Sharing your progress and outcomes:
+    - Overview: Module 3/5_0_Overview.md
     - Getting Started: Module 3/5A_0_Getting_started.md
     - Creating Entities: Module 3/5B_0_Creating_entities.md
     - Creating Activities: Module 3/5C_0_Creating_activities.md
