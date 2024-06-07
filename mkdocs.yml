@@ -27,7 +27,8 @@ nav:
     - Sharing and collaboration:
     - Exploring data:
   - Using NOMAD as an ELN:
-    - Overview: Module 3/5_0_Overview.md
+    - Introduction: 
+      - Overview: Module 3/5_0_Overview.md
       - Planning your expriment:
       - Documenting your plans:
       - Managing your expriments:
