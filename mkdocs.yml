@@ -17,15 +17,15 @@ nav:
     - Section2_SubSection2: Section2/Section2_SubSection2/Section2_SubSection2_mdfile.md
   - RDM with NOMAD:
     - Introduction: Module 1/1_RDM_with_NOMAD.md
-    - NOMAD data model: Module 1/1_RDM_with_NOMAD.md
-    - Levels of NOMAD users: Module 1/1_RDM_with_NOMAD.md
-    - Getting support: Module 1/1_RDM_with_NOMAD.md
+    - NOMAD data model: Module 1/1_RDM_with_NOMAD2.md
+    - Levels of NOMAD users: Module 1/1_RDM_with_NOMAD3.md
+    - Getting support: Module 1/1_RDM_with_NOMAD4.md
   - First touches with NOMAD:
-    - Creating a user account: Module 1/1_RDM_with_NOMAD.md
-    - The NOMAD graphical user interface (GUI): Module 1/1_RDM_with_NOMAD.md
-    - Uploading and pulishing data: Module 1/1_RDM_with_NOMAD.md
-    - Sharing and collaboration: Module 1/1_RDM_with_NOMAD.md
-    - Exploring data: Module 1/1_RDM_with_NOMAD.md
+    - Creating a user account: Module 1/1_RDM_with_NOMAD5.md
+    - The NOMAD graphical user interface (GUI): Module 1/1_RDM_with_NOMAD6.md
+    - Uploading and pulishing data: Module 1/1_RDM_with_NOMAD7.md
+    - Sharing and collaboration: Module 1/1_RDM_with_NOMAD8.md
+    - Exploring data: Module 1/1_RDM_with_NOMAD9.md
   - Using NOMAD as an ELN:
     - Overview: Module 3/5_0_Overview.md
     - Getting Started: Module 3/5A_0_Getting_started.md
