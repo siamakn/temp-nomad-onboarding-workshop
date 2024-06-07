@@ -27,7 +27,7 @@ nav:
     - Sharing and collaboration: Module 1/1_RDM_with_NOMAD8.md
     - Exploring data: Module 1/1_RDM_with_NOMAD9.md
   - Using NOMAD as an ELN:
-    - Overview: Module 3/5_0_Overview.md
+    - Overview:
       - Introduction: Module 3/5_0_Overview.md
       - Planning your expriment: Module 3/5_01_Overview_plan.md
       - Documenting your plans: Module 3/5_02_Overview_document.md
