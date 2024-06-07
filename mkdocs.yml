@@ -21,13 +21,18 @@ nav:
     - Levels of NOMAD users: Module 1/1_RDM_with_NOMAD3.md
     - Getting support: Module 1/1_RDM_with_NOMAD4.md
   - First touches with NOMAD:
-    - Creating a user account: Module 1/1_RDM_with_NOMAD5.md
+    - Creating a user account: Module 2/2- First touches into NOMAD/2_0_Accessing NOMAD.md
     - The NOMAD graphical user interface (GUI): Module 1/1_RDM_with_NOMAD6.md
     - Uploading and pulishing data: Module 1/1_RDM_with_NOMAD7.md
     - Sharing and collaboration: Module 1/1_RDM_with_NOMAD8.md
     - Exploring data: Module 1/1_RDM_with_NOMAD9.md
   - Using NOMAD as an ELN:
     - Overview: Module 3/5_0_Overview.md
+      - Introduction: Module 3/5_0_Overview.md
+      - Planning your expriment: Module 3/5_01_Overview_plan.md
+      - Documenting your plans: Module 3/5_02_Overview_document.md
+      - Managing your expriments: Module 3/5_03_Overview_manage.md
+      - Sharing your progress and outcomes: Module 3/5_04_Overview_share.md
     - Getting Started: Module 3/5A_0_Getting_started.md
     - Creating Entities: Module 3/5B_0_Creating_entities.md
     - Creating Activities: Module 3/5C_0_Creating_activities.md
