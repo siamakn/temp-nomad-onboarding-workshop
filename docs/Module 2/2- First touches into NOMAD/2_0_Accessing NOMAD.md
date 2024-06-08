@@ -6,3 +6,4 @@ You can access the NOMAD repository through the NOMAD [_landing page_](https://n
 
 From the landing page, you can navigate to the NOMAD repository to upload, manage, and explore data, by clicking on the "OPEN NOMAD" button. 
 
+![Alt text](../Images/Navigating_to_NOMAD.gif)
