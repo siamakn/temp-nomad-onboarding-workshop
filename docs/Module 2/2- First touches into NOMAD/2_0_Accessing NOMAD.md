@@ -1,6 +1,7 @@
 <!-- ## First touches into NOMAD: This part is mainly copied from the NOMAD documentation-->
 
-# Navigating to NOMAD
+# First touches with NOMAD
+## Navigating to NOMAD
 
 You can access the NOMAD repository through the NOMAD [_landing page_](https://nomad-lab.eu/nomad-lab/){:target="_blank"} which offers a comprehensive overview of NOMAD's features, usage, and links to documentation, tutorials, and the project history.
 
