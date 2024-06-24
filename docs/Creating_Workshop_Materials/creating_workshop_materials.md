@@ -61,10 +61,21 @@ To add images to your  `.md`' file:
 
 
 
-![A sample text for the image](assets/image-filename.png)
+```str
+![A sample text for the image](relative_path_to_your_image/image-filename.png)
+```
 
 
-Be sure to replace `image-filename.png` with the actual file name and path to your image, and provide suitable alternative text.
+Be sure to replace `image-filename.png` with the actual file name and correct relative path to your image, and provide suitable alternative text.
+
+###### For writing relative paths in markdown:
+* Same directory: `![Image](image.png)`
+* Subdirectory: `![Image](subdirectory/image.png)` 
+* Parent directory: `![Image](../image.png)` 
+
+###### Best practices for file naming
+* Avoid spaces: Use hyphens (-) or underscores (\_) instead.
+* Use lowercase: Prevents issues with case sensitivity.
 
 ## Formatting Text
 
