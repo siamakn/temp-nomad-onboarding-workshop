@@ -1,9 +1,8 @@
-# Creating an Electronic Lab Notebook using NOMAD built-in ELN schema
+images/built-in_schema# Creating an Electronic Lab Notebook using NOMAD built-in ELN schema
 
 ## **Creating instrument entities using the *Instrument ELN* schema**
 
-![Screenshot of the NOMAD user interface showing the instrument ELN schema](../images/buit-in%20schema/instrument/1.png)
-
+![Screenshot of the NOMAD user interface showing the instrument ELN schema](../images/built-in_schema/Instrument/1.png)
 
 In this section, you will learn how to create NOMAD entries for entities that are instruments used to prepare and characterize your samples. You will use NOMAD's built-in schema, called Instrument ELN, and explore the various fields you can populate and the information you can add to NOMAD. 
 
@@ -15,11 +14,11 @@ Based on the example described earlier, we will need to create entries for the f
 5. Conductivity board
 6. Spin coater
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, see the[Getting started](5A_%20Getting%20started.md) page. When you reach step 8, select *Instrument ELN* from the drop-down menu, enter a name for your entry, and click Create. 
+> For general steps on how to create records in NOMAD using the built-in ELN schema, see the[Getting started](5A_0_Getting_started.md) page. When you reach step 8, select *Instrument ELN* from the drop-down menu, enter a name for your entry, and click Create. 
 
 Lets start by creating an entry for the UV Ozone Purifier. 
 
-![Creating an entry in NOMAD for an instrument](../images/buit-in%20schema/instrument/create.png)
+![Creating an entry in NOMAD for an instrument](../images/built-in_schema/Instrument/create.png)
 
 After clicking the Create button, the following tasks are automatically performed within NOMAD:
 1. NOMAD will create a file for the entry using the *.archive.json* format.
@@ -28,7 +27,7 @@ After clicking the Create button, the following tasks are automatically performe
 
 The *data* sub-sections page allows user input to fill in the information about the instrument. 
 
-![The Deafualt Entry page that opens when an entry is created. ](../images/buit-in%20schema/instrument/quantities.png)
+![The Deafualt Entry page that opens when an entry is created. ](../images/built-in_schema/Instrument/quantities.png)
 
 In the Instrument ELN built-in schema, several fields are available to accept entry of different quantities: 
 * Short Name: This is the name of the input file created.

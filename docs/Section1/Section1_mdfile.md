@@ -1,1 +1,0 @@
-### Example text in Section1_mdfile.md.

@@ -39,7 +39,7 @@ More details on the differnt representations of tabular data can be found [here]
 
 In this workshop, we will work with measurement data from optical absorption spectroscopy and conductivity measurement stored in a the tabular format .csv, with the columns representations which are shown in the figure below. 
 
-![Alt text](../images/Tabular%20parsers/Example%20data.png)
+![Alt text](../images/Tabular parsers/Example data.png)
 
 Our objecitve is to upload these files into our ELN, make NOMAD parse the data within these files, and then visualize the data in plots that can be viewed NOMAD. 
 

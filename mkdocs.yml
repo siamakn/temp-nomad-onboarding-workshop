@@ -10,11 +10,6 @@ nav:
   - Creating workshop materials:
     - Creating_Workshop_Materials/creating_workshop_materials.md
     - Creating_Workshop_Materials/git_collaboration_training_materials.md
-  - Section1: Section1/Section1_mdfile.md
-  - Section2:
-    - Section2/Section2_mdfile.md
-    - Section2_SubSection1: Section2/Section2_SubSection1/Section2_SubSection1_mdfile.md
-    - Section2_SubSection2: Section2/Section2_SubSection2/Section2_SubSection2_mdfile.md
   - RDM with NOMAD:
     - Introduction: Module 1/1_RDM_with_NOMAD.md
     - NOMAD data model: Module 1/1_RDM_with_NOMAD2.md
@@ -22,32 +17,32 @@ nav:
     - Getting support: Module 1/1_RDM_with_NOMAD4.md
   - First touches with NOMAD:
     - Creating a user account: Module 2/2- First touches into NOMAD/2_0_Accessing NOMAD.md
-    - The NOMAD graphical user interface (GUI): Module 1/1_RDM_with_NOMAD6.md
-    - Uploading and pulishing data: Module 1/1_RDM_with_NOMAD7.md
-    - Sharing and collaboration: Module 1/1_RDM_with_NOMAD8.md
-    - Exploring data: Module 1/1_RDM_with_NOMAD9.md
+    - The NOMAD graphical user interface (GUI): Module 1/1_RDM_with_NOMAD5.md
+    - Uploading and pulishing data: Module 1/1_RDM_with_NOMAD6.md
+    - Sharing and collaboration: Module 1/1_RDM_with_NOMAD7.md
+    - Exploring data: Module 1/1_RDM_with_NOMAD8.md
   - Using NOMAD as an ELN:
     - Overview:
-      - Introduction: Module 3/5_0_Overview.md
-      - Planning your expriment: Module 3/5_01_Overview_plan.md
-      - Documenting your plans: Module 3/5_02_Overview_document.md
-      - Managing your expriments: Module 3/5_03_Overview_manage.md
-      - Sharing your progress: Module 3/5_04_Overview_share.md
-    - Getting Started: Module 3/5A_0_Getting_started.md
+      - Introduction: Module 3/5_ELN using built-in schema/5_0_Overview.md
+      - Planning your experiment: Module 3/5_ELN using built-in schema/5_01_Overview_plan.md
+      - Documenting your plans: Module 3/5_ELN using built-in schema/5_02_Overview_document.md
+      - Managing your experiments: Module 3/5_ELN using built-in schema/5_03_Overview_manage.md
+      - Sharing your progress: Module 3/5_ELN using built-in schema/5_04_Overview_share.md
+    - Getting Started: Module 3/5_ELN using built-in schema/5A_0_Getting_started.md
     - Creating Entities:
-      - Create the entities of your experiments: Module 3/5B_0_Creating_entities.md
-      - Substances: Module 3/5B_1_Substance_entities.md
-      - Samples: Module 3/5B_2_Sample_entities.md
-      - Instruments: Module 3/5B_3_Instrument_entities.md
+      - Create the entities of your experiments: Module 3/5_ELN using built-in schema/5B_0_Creating_entities.md
+      - Substances: Module 3/5_ELN using built-in schema/5B_1_Substance_entities.md
+      - Samples: Module 3/5_ELN using built-in schema/5B_2_Sample_entities.md
+      - Instruments: Module 3/5_ELN using built-in schema/5B_3_Instrument_entities.md
     - Creating Activities: 
-      - Create the activites of your experiments: Module 3/5C_0_Creating_activities.md
-      - Processing: Module 3/5C_1_Materials_processing_activity.md
-      - Measurements: Module 3/5C_2_Measurement_activity.md
+      - Create the activities of your experiments: Module 3/5_ELN using built-in schema/5C_0_Creating_activities.md
+      - Processing: Module 3/5_ELN using built-in schema/5C_1_Materials_processing_activitiy.md
+      - Measurements: Module 3/5_ELN using built-in schema/5C_2_Measurement_activity.md
     - Managing Experiments: 
-      - Introduction: Module 3/5D_0_Managing_experiments.md
-      - Organizing your upload: Module 3/5D_1_Organizing_your_upload.md
-      - Recording your experiments: Module 3/5D_2_experiments_ELN.md
-      - Sharing and Collaboration: Module 3/5E_0_sharing_ELN.md
+      - Introduction: Module 3/5_ELN using built-in schema/5D_0_Managing_experiments.md
+      - Organizing your upload: Module 3/5_ELN using built-in schema/5D_1_Organizing_your_upload.md
+      - Recording your experiments: Module 3/5_ELN using built-in schema/5D_2_experiments_ELN.md
+      - Sharing and Collaboration: Module 3/5_ELN using built-in schema/5E_0_sharing_ELN.md
   - Using NOMAD's API:
     - Overview: Module4/M4_0_overview.md
     - Getting Started:
@@ -56,7 +51,6 @@ nav:
       - Cloud-based (NORTH): Module4/M4_1_getting_started/M4_1_2_preparing_north.md
     - API Basics: Module4/M4_2_api_basics/M4_2_1_api_basics.md
     - A Simple API Call Explained: Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
-
 
 plugins:
  - search
@@ -96,6 +90,6 @@ use_directory_urls: false
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
-  - javascript.js
+#  - javascript.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

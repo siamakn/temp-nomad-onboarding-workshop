@@ -16,7 +16,7 @@ By documenting your experimental plans with NOMAD, you create a comprehensive re
 
 ![Alt text](../images/Overview/3.png)
 
-NOMAD offers specifically tailored buit-in schemas that can be used to create the records mentioned above: 
+NOMAD offers specifically tailored  built-in schemas that can be used to create the records mentioned above: 
 
 | Entity or Activity | NOMAD ELN schema |
 |--------------------|------------------|
@@ -28,5 +28,5 @@ NOMAD offers specifically tailored buit-in schemas that can be used to create th
 | Experiment | *Experiment ELN*| 
 
 
-| [[Previous]](5_0_Overview_plan.md) |   Documenting your plans   | [[Next]](5_02_Overview_manage.md)
+| [[Previous]](5_01_Overview_plan.md) |   Documenting your plans   | [[Next]](5_03_Overview_manage.md)
 |------------|-----------|-------|

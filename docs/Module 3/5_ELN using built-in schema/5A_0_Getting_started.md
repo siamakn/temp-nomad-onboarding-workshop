@@ -30,6 +30,6 @@ Upon completion of the module, participants will be able to:
 
 4\. Proficiently create and employ a personalized Electronic LaboratoryNotebook (ELN) within the NOMAD platform.
 
-| [[Previous]](5_0_Overview_share.md) |   Introduction to NOMAD entries| [[Next]](5A_1_Getting_started.md)
+| [[Previous]](5_04_Overview_share.md) |   Introduction to NOMAD entries| [[Next]](5A_1_ELN_built_in_schemas.md)
 |------------|-----------|-------|
 

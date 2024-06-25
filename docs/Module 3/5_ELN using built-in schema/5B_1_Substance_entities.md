@@ -2,7 +2,7 @@
 
 ## **Create substance entities using the *substance ELN* schema**
 
-![Screenshot from the NOMAD UI which shows the Substance ELN schema](../images/buit-in%20schema/substance/1.png)
+![Screenshot from the NOMAD UI which shows the Substance ELN schema](../images/built-in_schema/substance/1.png)
 
 
 In this section you will learn how to create NOMAD entries for entities that will be used as substances in your experiments. You will use NOMAD's built-in schema, called the Substance ELN, and explore the various fields you can populate and the information you can add to NOMAD. 
@@ -13,11 +13,11 @@ Based on the example described earlier, we will need to create entries for the f
 3. Glass substrate
 4. Pre=patterned ITO substrates
 
-![Alt text](../images/Lab%20images/Substances.png)
+![Alt text](../images/Lab images/Substances.png)
 
-For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting started](5A_%20Getting%20started.md) page. Once you have reached step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
+For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting started](5A_0_Getting_started.md) page. Once you have reached step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
 
-![Creating an entry in NOMAD for a substance entity and naming it P3HT_powder](../images/buit-in%20schema/substance/P3H_powder%201.png)
+![Creating an entry in NOMAD for a substance entity and naming it P3HT_powder](../images/built-in_schema/substance/P3H_powder 1.png)
 
 After clicking the **Create** button, NOMAD will automatically perform the following tasks:
 1. NOMAD creates a file for the entry, using the format *.archive.json*.
@@ -26,7 +26,7 @@ After clicking the **Create** button, NOMAD will automatically perform the follo
 
 The *data* sub-sections page allows user input to fill in the information about the substance. 
 
-![The deafualt entry page that opens once an entry is created. ](../images/buit-in%20schema/substance/Entry%20page.png)
+![The deafualt entry page that opens once an entry is created. ](../images/built-in_schema/substance/Entry page.png)
 
 The *substance ELN* built-in schema provides several fields that allow input of different quantities:
 
@@ -51,7 +51,7 @@ These can be found at the bottom of the Entry/Data/Data page and include
 * Substance identifier
 
 
-![Alt text](../images/buit-in%20schema/substance/substance%20sub%20sections.png)
+![Alt text](../images/built-in_schema/substance/substance sub sections.png)
 
 ### Elemental Composition sub-section:
 Here you can create quantities to define the chemical composition of your substance. You can add the chemical element, its atomic fraction, and its mass fraction. 

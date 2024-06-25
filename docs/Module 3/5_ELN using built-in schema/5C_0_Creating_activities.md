@@ -17,5 +17,5 @@ In addition, workflows can be automatically created and modified to allow a visu
 
 Go to the next section for a step-by-step illustration of how to create an activity record using the *Materials Processing ELN* schema, and an explanation of the different features that can be used. 
 
-| [[Previous]](5B_3_Instrument_entities.md) |   Create the activites of your experiments| [[Next]](5C_1_Materials_processing_activity.md)
+| [[Previous]](5B_3_Instrument_entities.md) |   Create the activites of your experiments| [[Next]](5C_1_Materials_processing_activitiy.md)
 |------------|-----------|-------|

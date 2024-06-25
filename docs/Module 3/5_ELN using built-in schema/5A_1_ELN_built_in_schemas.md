@@ -12,26 +12,26 @@ This record in NOMAD is made by creating entries for each entity and activity th
 
 To create entries for your ELN using the NOMAD's built-in schemas, the following  general steps should be followed:
 
-![Create a new upload for the electronic lab note book for the experiments step 1.](../images/ELN%20builtin/1.png)
+![Create a new upload for the electronic lab note book for the experiments step 1.](../images/ELN builtin/1.png)
 
-![Create a new upload for the electronic lab note book for the experiments step 2.](../images/ELN%20builtin/2.png)
+![Create a new upload for the electronic lab note book for the experiments step 2.](../images/ELN builtin/2.png)
 
-![Create a new upload for the electronic lab note book for the experiments step 3.](../images/ELN%20builtin/3.png)
+![Create a new upload for the electronic lab note book for the experiments step 3.](../images/ELN builtin/3.png)
 
-![Provide a name for your upload step 1.](../images/ELN%20builtin/4.png)
+![Provide a name for your upload step 1.](../images/ELN builtin/4.png)
 
-![Provide a name for your upload step 2.](../images/ELN%20builtin/5.png)
+![Provide a name for your upload step 2.](../images/ELN builtin/5.png)
 
-![Provide a name for your upload step 3.](../images/ELN%20builtin/6.png)
+![Provide a name for your upload step 3.](../images/ELN builtin/6.png)
 
-![Select a built-in schema step 1.](../images/ELN%20builtin/7.png)
+![Select a built-in schema step 1.](../images/ELN builtin/7.png)
 
-![Select a built-in schema step 2.](../images/ELN%20builtin/8.png)
+![Select a built-in schema step 2.](../images/ELN builtin/8.png)
 
-![Provide a name for your entry](../images/ELN%20builtin/9.png)
+![Provide a name for your entry](../images/ELN builtin/9.png)
 
-![Create the entry based on the built-in schema](../images/ELN%20builtin/10.png)
+![Create the entry based on the built-in schema](../images/ELN builtin/10.png)
 
 
-| [[Previous]](5A_0_Getting_started.md) |   Creating NOMAD entries using the ELN built-in schemas| [[Next]](5A_1_Creating_entities.md)
+| [[Previous]](5A_0_Getting_started.md) |   Creating NOMAD entries using the ELN built-in schemas| [[Next]](5B_0_Creating_entities.md)
 |------------|-----------|-------|
