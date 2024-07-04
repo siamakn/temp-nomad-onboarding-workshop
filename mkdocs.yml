@@ -51,6 +51,7 @@ nav:
       - Cloud-based (NORTH): Module4/M4_1_getting_started/M4_1_2_preparing_north.md
     - API Basics: Module4/M4_2_api_basics/M4_2_1_api_basics.md
     - A Simple API Call Explained: Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
+    - Leveraging Pagination: Module4/M4_3_nomad_example1/M4_3_2_rest_api_nomad_example.md
 
 plugins:
  - search

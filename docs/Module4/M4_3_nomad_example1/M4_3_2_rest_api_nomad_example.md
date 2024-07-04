@@ -1,12 +1,10 @@
 
- ## Leveraging Pagination
-
- When working with large datasets in NOMAD's API, efficiently and control over retrieving data is important. Pagination allows to manage large responses by splitting them into manageable pages. In this section, we will demonstrate how to use `pagination` to retrieve a specific number of entries.
+ When working with large datasets in NOMAD's API, efficient retrieval of data is important. Pagination allows us to manage large responses by splitting them into manageable pages. In this section, we will demonstrate how to use `pagination` to retrieve a specific number of entries.
 
  Let's recall [[our first basic example]](M4_3_1_rest_api_nomad_example.md) where we sent a POST request to NOMAD's API to obtain the `entry_id` of entries containing both Ti and O in their chemical formula. The response looked like this:
  
 
-```bash
+```json
 {
   "owner": "public",
   "query": {
@@ -39,7 +37,7 @@
 ```
 
 ### Retrieving Multiple Entries
-Suppose we want to obtain the `entry_id` of the 120 **most recently** uploaded entries while keeping the query criteria the same. In our previous example, the `pagination` had `"page_size": 1`, which retrieved only one entry. NOMAD's API allows setting the `page_size` up to 10000. NOMAD's API allows setting the `page_size` up to 10000. We can also specify parameters such as `order_by` and `order`.
+Suppose we want to obtain the `entry_id` of the 120 **most recently** uploaded entries while maintaining the same query criteria. In our previous example, the `pagination` had `"page_size": 1`, which retrieved only one entry. NOMAD's API allows setting the `page_size` up to 10000. We can also specify parameters such as `order_by` and `order`.
 
 To achieve this, we can modify the `pagination` in our POST request: set the `page_size` to 120, and change `order_by` and `order` to "upload_create_time" and "desc", respectively.
 
@@ -82,7 +80,7 @@ In this specific example, we are only querying the `entry_id`, which is a string
 
 ### Handling Large Data Sets
 
-If we need to query larger data sets or inspect a larger number of entries (e.g., 12000 entries), it is practical to do this iteratively to avoid crashes. The `next_page_after_value` in the `pagination` of response can be used as a cursor to iteratively paginate through the results. How?
+If we need to query larger data sets or inspect a larger number of entries (e.g., 12000 entries), it is practical to retrieve data iteratively to avoid crashes. The `next_page_after_value` in the `pagination` of response can be used as a cursor to iteratively paginate through the results. How?
 
  The `page_after_value`is an attribute that defines the position after which the page begins, and is used to navigate through the total list of results.
 
