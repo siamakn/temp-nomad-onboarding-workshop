@@ -1,3 +1,6 @@
+# Draft folder on local to prepare materials
+draft_files/
+
 # Nomad specific and extra patterns needs to be ignored
 .*env/
 .pyenv*/
