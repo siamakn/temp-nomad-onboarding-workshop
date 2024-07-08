@@ -1,6 +1,6 @@
 ## An example NOMAD API call 
 
-Let's consider the following example. Imagine we would like to send a POST request to NOMAD's API and make a *search query* for entries that contain both Ti and O in their chemical formula. The NOMAD database most probably contains a large number of entries that satisfy our search query. To narrow it down, we restrict it to 1 entry and only ask for the entry_id of that entry. You can simply run the following code in your terminal:
+Let's consider the following example. Imagine we would like to send a POST request to NOMAD's API and make a *search query* for entries that contain both Ti and O in their chemical formula. The NOMAD database most probably contains a large number of entries that satisfy our search query. To narrow it down, we restrict it to 1 entry and only ask for the `entry_id` of that entry. You can simply run the following code in your terminal:
 
 ```bash
 curl -X POST "http://nomad-lab.eu/prod/v1/api/v1/entries/query" \
