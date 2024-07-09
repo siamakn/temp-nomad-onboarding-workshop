@@ -14,7 +14,7 @@ NOMAD goes beyond simple storage. It provides a comprehensive suite of tools for
 - **Data Publishing**: Publish your FAIR data for access and use by the wider scientific community.
 
 
-![Alt text](Images/NOMAD_overview.png)
+![Alt text](images/NOMAD_overview.png)
 
 
 By overcoming the challenge of heterogeneous and unfindable data, NOMAD empowers researchers on multiple levels. Individual scientists can streamline their data organization and analysis. Research groups gain a platform that facilitates collaboration and knowledge sharing.  Ultimately, NOMAD fosters the creation of a rich, centralized archive of FAIR research data for the benefit of the entire materials science community.
@@ -23,7 +23,7 @@ By overcoming the challenge of heterogeneous and unfindable data, NOMAD empowers
 
 The data lifecycle refers to the journey data takes throughout its existence.  This journey typically involves several stages: first, data is generated or collected during research activities, during which the data and the corresponding processing or measurement conditions are documented. Next, the data is processed to ensure accuracy and usability and analysis is performed on the data to extract insights and knowledge.  Once analyzed, the data is stored securely for later access.  Data management tools are then used to organize and retrieve the data.  Finally, data can be shared with colleagues or the broader scientific community, fostering collaboration and reuse.  Following these steps helps ensure that valuable data is not lost or forgotten, but rather preserved and used to its full potential.
 
-![Alt text](Images/RDM_with_NOMAD.png)
+![Alt text](images/RDM_with_NOMAD.png)
 
 NOMAD goes beyond simple storage. It provides a comprehensive suite of tools that empower researchers throughout the research data lifecycle, including:
 
