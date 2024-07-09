@@ -21,7 +21,7 @@ Sections in NOMAD are interrelated through **inheritance** and **composition**. 
 
 ![NOMAD Data Model](images/NOMAD_datamodel.png)
 
-### Base Sections
+## Base Sections
 
 Base sections are reusable building blocks in NOMAD's data model. The top-most parent base section, `BaseSection`, provide a set of four global quantities for basic information about entries:
 
@@ -36,7 +36,7 @@ Base sections are reusable building blocks in NOMAD's data model. The top-most p
 Both the `Entity` and `Activity` base sections, inherit these four global quantities from `BaseSection`.
  
 
-#### Entity
+### Entity
 
 Entities are objects that persist over time while maintaining their identity. In NOMAD, the main `Entity` section is composed of the three sections `System`, `Collection`, and `Instrument`.
 
@@ -45,7 +45,7 @@ Entities are objects that persist over time while maintaining their identity. In
 - **Instrument**: Describes tools used for material creation or characterization.
 
 
-#### Activity
+### Activity
 
 Activities are actions that occur over time and depend on some entity. The `Activity` section is subclassed by `Process`, `Measurement`, `Analysis`, and `Experiment` sections.
 
