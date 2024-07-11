@@ -52,6 +52,9 @@ nav:
     - API Basics: Module4/M4_2_api_basics/M4_2_1_api_basics.md
     - A Simple API Call Explained: Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
     - Leveraging Pagination: Module4/M4_3_nomad_example1/M4_3_2_rest_api_nomad_example.md
+    - Using API Helpers:
+      - NOMAD API Helpers: Module4/M4_4_using_api_helpers/M4_4_1_nomad_api_helpers.md
+      - Example 1 Using API Helpers in Explore Tab: Module4/M4_4_using_api_helpers/M4_4_2_using_api_helper_explore.md
 
 plugins:
  - search
