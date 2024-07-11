@@ -7,9 +7,9 @@ NOMAD offers several API helpers to facilitate data retrieval, processing, and i
 
 When exploring data in NOMAD, each page in the GUI includes an API button (`API`) or symbol (`<>`). This shows the GET request used to retrieve the data for that page. Often, there is an additional POST request available, for instance:
 
-- **Explore Tab**: Shows a POST request to narrow down entries based on filter criteria:
+- **Explore tab**: Shows a POST request to narrow down entries based on filter criteria:
   - `https://nomad-lab.eu/prod/v1/api/v1/entries/query`
-- **Entry Pages**: Includes a POST request to fetch archive data (processed data):
+- **Entry pages**: Includes a POST request to fetch archive data (processed data):
   - `https://nomad-lab.eu/prod/v1/api/v1/entries/{entry_id}/archive/query`
 
 ![Locating API helper buttons](../images/locate_API_buttons.gif)
@@ -29,14 +29,14 @@ The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs. It s
 
 ### Features of the NOMAD API dashboard
 
-1. **Rich Documentation**:
+1. **Rich documentation**:
     - It offers comprehensive descriptions of all available resources, relevant endpoints, and possible operations. Each endpoint is documented with its available methods (GET, POST, DELETE, etc.), required parameters, request bodies, and example responses.
 
 2. **Schemas**:
     - For each API endpoint, the dashboard provides detailed schema information, helping to understand the structure of requests and responses.
     - This is particularly useful for making correct API calls and interpreting the responses.
 
-3. **Testing in Browser**:
+3. **Testing in browser**:
     - Based on OpenAPI, the dashboard provides an interactive experience where you can explore all API endpoints.
     - The 'Try it out' feature allows you to test API calls directly in the browser. You can modify the request parameters and see real-time responses from the NOMAD backend. This feature is very useful for testing, debugging, and learning how different API calls work.
 
