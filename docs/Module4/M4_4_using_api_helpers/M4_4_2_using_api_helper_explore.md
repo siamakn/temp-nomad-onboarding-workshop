@@ -1,4 +1,4 @@
-# Exploring the NOMAD API Helpers
+# Using the API Helper in Exploring Data
 
 Let's consider [our first basic example](../M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md). Suppose we want to find `entry_id` entries that contain both Ti and O in their chemical formula, this time, using the NOMAD GUI.
 

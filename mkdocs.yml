@@ -55,7 +55,7 @@ nav:
     - Using API Helpers:
       - NOMAD API Helpers: Module4/M4_4_using_api_helpers/M4_4_1_nomad_api_helpers.md
       - Example 1 Using API Helpers in Explore Tab: Module4/M4_4_using_api_helpers/M4_4_2_using_api_helper_explore.md
-
+      - Example 2 Using API Helpers in Entry Page: Module4/M4_4_using_api_helpers/M4_4_3_using_api_helper_entry_page.md
 plugins:
  - search
 theme:
