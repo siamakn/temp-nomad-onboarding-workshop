@@ -1,7 +1,7 @@
 
  When working with large datasets in NOMAD's API, efficient retrieval of data is important. Pagination allows us to manage large responses by splitting them into manageable pages. In this section, we will demonstrate how to use `pagination` to retrieve a specific number of entries.
 
- Let's recall [[our first basic example]](M4_3_1_rest_api_nomad_example.md) where we sent a POST request to NOMAD's API to obtain the `entry_id` of entries containing both Ti and O in their chemical formula. The response looked like this:
+ Let's recall [[our first basic example]](M4_2_1_example_api_explained.md) where we sent a POST request to NOMAD's API to obtain the `entry_id` of entries containing both Ti and O in their chemical formula. The response looked like this:
  
 
 ```json

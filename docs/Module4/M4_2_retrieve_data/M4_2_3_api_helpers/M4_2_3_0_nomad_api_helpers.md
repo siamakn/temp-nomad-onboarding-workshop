@@ -12,7 +12,7 @@ When exploring data in NOMAD, each page in the GUI includes an API button (`API`
 - **Entry pages**: Includes a POST request to fetch archive data (processed data):
   - `https://nomad-lab.eu/prod/v1/api/v1/entries/{entry_id}/archive/query`
 
-![Locating API helper buttons](../images/locate_API_buttons.gif)
+![Locating API helper buttons](../../images/locate_API_buttons.gif)
 
 Depending on the data being requested from the API, the endpoints vary.
 
@@ -22,10 +22,10 @@ The NOMAD [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs) i
 
 ### Accessing the API dashboard
 
-The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs. It serves as both reference documentation and an interactive tool for trying out API requests:
+The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs. 
 
-![Navigating to API dashboard](../images/navigate_API_dashboard.gif)
-![Navigating API dashboard (extended)](../images/navigate_API_dashboard_extended.gif)
+![Navigating to API dashboard](../../images/navigate_API_dashboard.gif)
+![Navigating API dashboard (extended)](../../images/navigate_API_dashboard_extended.gif)
 
 ### Features of the NOMAD API dashboard
 
@@ -40,4 +40,4 @@ The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs. It s
     - Based on OpenAPI, the dashboard provides an interactive experience where you can explore all API endpoints.
     - The 'Try it out' feature allows you to test API calls directly in the browser. You can modify the request parameters and see real-time responses from the NOMAD backend. This feature is very useful for testing, debugging, and learning how different API calls work.
 
-For more detailed documentation and examples, visit the [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html).
+The [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides f
