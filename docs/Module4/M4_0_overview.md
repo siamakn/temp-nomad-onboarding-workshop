@@ -4,4 +4,10 @@ The first three modules of this tutorial primarily introduced the NOMAD features
 
 Understanding and utilizing the NOMAD API opens up new possibilities for researchers. From advanced data filtering that allows for building datasets with exclusively needed information (e.g., for machine learning), to the automation of data collection, retrieval, and analysis tasks, the API serves as a gateway to a more dynamic, efficient, and customizable research and analysis experience.
 
-In this module, we will start with an overview of commonly used terms to ensure clarity throughout the rest of the module. Next, we will prepare our environment for using the API. We will then introduce a simple API example to explain the basics. Finally, we will engage in a more practical example, using the NOMAD database to extract data and visualize insightful information. 
+
+Throughout this module, you will:
+
+* **Set up your programming environment**: Prepare both local and cloud-based environments for using the NOMAD API.
+* **Understand API basics**: Gain an understanding of essential API concepts and HTTP methods.
+* **Retrieve data from NOMAD using API**: Explore practical examples of making API calls, using pagination for large datasets, and leveraging API helpers available in the NOMAD GUI.
+* **Upload data**: Discover how to authenticate with the API, create datasets and upload your data programmatically.
