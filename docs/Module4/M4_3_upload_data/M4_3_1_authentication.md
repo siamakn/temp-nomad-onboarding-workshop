@@ -65,7 +65,7 @@ uploads = response.json()['data']
 
 ```
 
-# Checking Uploads 
+## Checking Uploads 
 
 Following example shows how you can check your uploads in NOMAD.
 
