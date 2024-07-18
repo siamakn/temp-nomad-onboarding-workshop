@@ -1,13 +1,13 @@
-# Using the API Helper in Exploring Data
+# Using the API helper in the Explore Page
 
-Let's consider [our first basic example](../M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md). Suppose we want to find `entry_id` entries that contain both Ti and O in their chemical formula, this time, using the NOMAD GUI.
+Let's consider [our first basic example](../M4_2_1_example_api_explained.md). Suppose we want to find `entry_id` entries that contain both Ti and O in their chemical formula, this time using the NOMAD GUI.
 
-We learned in Module [Module 2](../../Module 2/2- First touches into NOMAD/2_0_Accessing NOMAD.md) how to use the GUI filters:
+We learned in [Module 2](../../../Module 2/2- First touches into NOMAD/2_0_Accessing NOMAD.md) how to use the GUI filters:
 
 1. Open the NOMAD GUI, go to the 'Explore' tab.
 2. On the left sidebar under 'Filters', select 'Ti' and 'O' from the periodic table under 'Elements / Formula'. You will see that approximately 41,544 entries match your search criteria.
 3. Locate the API symbol (`<>`) at the top-left of the page and click on it.
-4. A new page opens showing a query independent of the actual request. Scroll down to find the related POST request to the `entries/query` endpoint. This request body, similar to the `request_data` that we used to send with the `requests library` in our [[our first basic example]](../M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md), is a JSON file containing `owner`, `query`, `aggregations`, `pagination`, and `required` parts.
+4. A new page opens showing a query independent of the actual request. Scroll down to find the related POST request to the `entries/query` endpoint. This request body, similar to the `request_data` in our [[our first example]](../M4_2_1_example_api_explained.md), is a JSON object containing `owner`, `query`, `aggregations`, `pagination`, and `required` parts.
 
 The request body should look like this:
 ```json
@@ -40,14 +40,14 @@ The request body should look like this:
 * The `aggregations` define how data is displayed, e.g., histograms. 
 * The `required` section excludes specific data fields (`quantities`, `sections`, and `files`)
 
-The response body in the GUI in the compact view looks like below:
+The response body in the GUI in the compact view looks like this:
 
-![GUI response compact](../images/response_compact.png)
+![GUI response compact](../../images/response_compact.png)
 
 
 The `data` part contains our actual results, with entries listed from 0 to 19 (since `page_size` is 20). The `entry_id` can be found at the bottom of each entry. 
 
-## Download the response data using the GUI
+## Downloading the API response using the GUI
 
 To get the response data in JSON format, use the API Dashboard:
 
@@ -58,11 +58,11 @@ To get the response data in JSON format, use the API Dashboard:
    
 After execution, scroll down and you will see a successful response (code 200). Look for the `entry_id` under `data` in the response. You can download this response as a JSON file using the `Download` button at the bottom-right of the response window.
 
-![Example to use the API helper in explore tab](../images/example_use_API_explore.gif)
+![Example to use the API helper in explore tab](../../images/example_use_API_explore.gif)
 
 Notice, the response data we received contains various other information in addition to our desired one, the `entry_id`. It actually contains all the information that the `entries/query` endpoint provides, excluding `quantities`, `sections`, and `files`.
 
-To retrieve only the `entry_id`, modify the `required` part to include only `entry_id` (iny a python list), set `page_size` to 1, and remove `aggregations`. Your request body should look like this:
+To retrieve only the `entry_id`, modify the `required` part to include only `entry_id` (in a python list), set `page_size` to 1, and remove `aggregations`. Your request body should look like this:
 
 ```json
 {
@@ -87,7 +87,7 @@ To retrieve only the `entry_id`, modify the `required` part to include only `ent
 
 ```
 
-Executing this will give a response like:
+Executing this will give a response similar to:
 
 ```json
 {
@@ -122,6 +122,6 @@ Executing this will give a response like:
 ```
 You can download this JSON object or use it programmatically to extract the `entry_id`.
 
-![Example to use the API helper in explore tab with required fields](../images/example_use_API_explore_required.gif)
+![Example to use the API helper in explore tab with required fields](../../images/example_use_API_explore_required.gif)
 
-Remember, the API Dashboard is a helper tool, not the most efficient way to use the API. It helps you understand the correct request body and endpoint. To explore available information from this endpoint (or other endpoints), we can remove the `required` field completely, or set it to `"required": {}`, and use `"page_size": 1` to obtain all possible information from the endpoint.
+Remember, the API dashboard is a helper tool, not the most efficient or fastest way to use the API. It helps you understand the correct request body and endpoint. To explore available information from this endpoint (or other endpoints), we can remove the `required` field completely, or set it to `"required": {}`, and use `"page_size": 1` to obtain all possible information from the endpoint.

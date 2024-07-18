@@ -1,10 +1,9 @@
-## API Introduction
-
 Before we start with the practical examples of using NOMAD’s API, let's briefly provide a short explanation of essential concepts:
 
 ### API (Application Programming Interface):
 An API is a set of rules and protocols that allows different software programs to communicate with each other, facilitating communication and data exchange between them. This very broad term is often used for web-based systems, database systems, operating systems, or even computer hardware communicating with each other.
 You can think of an API as a waiter in a restaurant: you place your order (the request), the waiter brings it to the kitchen (the server). After your ordered dish is prepared, the waiter delivers the dish (the response) back to you. This *waiter-service interaction* is similar to how an API functions as a *messenger* between you and an application. For a simple explanation, check out this [YouTube video](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+
 
 ### HTTP (Hypertext Transfer Protocol):
 

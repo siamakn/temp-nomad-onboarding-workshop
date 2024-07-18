@@ -1,4 +1,4 @@
-# Using the API Helper in Entry Pages
+# Using the API helper on Entry Pages
 
 In this example, we will learn how to query data that are referenced in an expected location with a relatively complex address.
 
@@ -13,12 +13,12 @@ We had this previously, for the sake of completeness, the steps to follow are:
 3. Go to 'Properties' -> 'Electronic' and check 'Density of States'.
 4. The GUI will now display materials that contain both Ti and O, and have the selected electronic properties, namely dos and electronic band structure. Currently, there are 46 results matching these filters.
 
-## Step 2: Accessing the Entry Page
+## Step 2: Find the relevant endpoing from API helper.
 
 1. Let's choose the first entry that appears in the filtered results. The principle is similar for all the entries, but if you would prefer to look at the same entry of this example, you can access the entry with the `entry_id` "kAarJxUt4bGajfLZFyqEPnxRK59_" (you can use the search bar in the GUI to access it)
 2. On the entry page, locate and click the API button (`API`) at the bottom-left of the page.
 3. Scroll down to see the POST request.
-5. Find the POST request, have look ok the URL: "https://nomad-lab.eu/prod/v1/api/v1//entries/kAarJxUt4bGajfLZFyqEPnxRK59_/archive/query". You can see that there is a key which looks like an `entry_id`. Also, you can distinguish the API endpoint `entries/{entry_id}/archive/query` implying that this endpoint allows you to query the 'archive' data (processed) data, given you have its `entry_id`
+5. Find the POST request, have look ok the URL: "https://nomad-lab.eu/prod/v1/api/v1//entries/kAarJxUt4bGajfLZFyqEPnxRK59_/archive/query". You can see that there is a key which looks like an `entry_id`. Also, you can distinguish the API endpoint `entries/{entry_id}/archive/query` implying that this endpoint allows you to query the 'archive' data, i.e., (processed) data, given you have its `entry_id`
 6. Copy the `entry_id` from the POST request.
 
 ## Step 3: Using the API Dashboard
@@ -30,7 +30,7 @@ We had this previously, for the sake of completeness, the steps to follow are:
 
 ## Step 4: Locating the desired data
 
-Since we are only interested in the density of states, we need to specify this in the `required` field. Intuitively, we look for the dos data in the `data` section of the response:
+Since we are only interested in the density of states (dos), we need to specify this in the `required` field. Intuitively, we look for the dos data in the `data` section of the response:
 
 1. Go back to the API Helper on the entry page.
 2. Scroll down to see the RESPONSE under the POST request.
@@ -57,9 +57,9 @@ Now let's quickly verify if the dos data are in `/run/0/calculation/0/dos_electr
 9. Expand the first element (`0`) of the 'dos_electronic' section.
 10. Expand the 'energies' section to verify that the actual data is present.
 
-## Step 5: Constructing the `required` and executing the Query 
+## Step 5: Constructing the `required` and executing the query 
 
-Copy the `entry_id`, go to the API dashboard and find the `entries/{entry_id}/archive/query`. Click on 'Try it out' (if you haven't done yet). Paste the `entry_id` to its place.
+Switch to the API dashboard and under the endpoint `entries/{entry_id}/archive/query` click on 'Try it out'. Paste the `entry_id` to its place, if you havn't done it yet.
 
 Remember, the path to the data is `/run/0/calculation/0/dos_electronic/0/energies`. We need to construct the `required` field to reflect this path to be able to retrieve dos data. This is how it is done:
 
@@ -91,7 +91,7 @@ After clicking on "Execute", the response is back via code 200 and can be downlo
 
 Well done! You could retrieve data from data containers (sections) deep in NOMAD data architecture.
 
-??? note "JSON format"
+??? note "formatting JSON"
     When writing in JSON format (the `required`), indentation is not essential. One could write the same `required` as following:
     ```json
     {"required": {"run[0]": {"calculation[0]": {"dos_electronic[0]": {"energies": "*"}}}}} 
@@ -99,7 +99,7 @@ Well done! You could retrieve data from data containers (sections) deep in NOMAD
     Indentation just helps to easily identify the structure and hierarchy of the JSON data. A common practice is to use two or four spaces for each level of indentation you can write it. You could write everything in 1 line, or alternatively get your JSON formatted using one of several available online tools, e.g., [this one](https://jsonformatter.org/). These tools often allow checking the correctness of JSON format, e.g., missing curled brackets etc.
 
 
-![Example to use the API Dashboard](../images/TiO_dos_complete.gif)
+![Example to use the API Dashboard](../../images/TiO_dos_complete.gif)
 
 ??? question "How do you retrieve dos data for 10 entries?"
     What would you do if you want to do the same procedure for 10 entries?
@@ -107,8 +107,8 @@ Well done! You could retrieve data from data containers (sections) deep in NOMAD
 ??? note "Hint"
 
     - The API dashboard also shows the CURL request that can be sent to retrieve this data.
-    - You already learned how to use API via CURL [here](../M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md) 
-    - You have also learned how to extract the `entry_id` of the entries which match your search criteria in a [former example](../M4_3_nomad_example1/M4_3_2_rest_api_nomad_example.md) 
+    - You already learned how to use API via CURL [here](../M4_2_1_example_api_explained.md) 
+    - You have also learned how to extract the `entry_id` of the entries which match your search criteria in a [former example](../M4_2_2_leveraging_pagination.md) 
 
 
 

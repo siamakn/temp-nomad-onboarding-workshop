@@ -49,13 +49,17 @@ nav:
       - Programming Environments: Module4/M4_1_getting_started/M4_1_0_getting_started.md
       - Local Installation: Module4/M4_1_getting_started/M4_1_1_preparing_local.md
       - Cloud-based (NORTH): Module4/M4_1_getting_started/M4_1_2_preparing_north.md
-    - API Basics: Module4/M4_2_api_basics/M4_2_1_api_basics.md
-    - A Simple API Call Explained: Module4/M4_3_nomad_example1/M4_3_1_rest_api_nomad_example.md
-    - Leveraging Pagination: Module4/M4_3_nomad_example1/M4_3_2_rest_api_nomad_example.md
-    - Using API Helpers:
-      - NOMAD API Helpers: Module4/M4_4_using_api_helpers/M4_4_1_nomad_api_helpers.md
-      - Example 1 Using API Helpers in Explore Tab: Module4/M4_4_using_api_helpers/M4_4_2_using_api_helper_explore.md
-      - Example 2 Using API Helpers in Entry Page: Module4/M4_4_using_api_helpers/M4_4_3_using_api_helper_entry_page.md
+      - API Basics: Module4/M4_1_getting_started/M4_1_3_api_basics.md
+    - Retrieving Data:
+      - A Simple API Call Explained: Module4/M4_2_retrieve_data/M4_2_1_example_api_explained.md
+      - Leveraging Pagination: Module4/M4_2_retrieve_data/M4_2_2_leveraging_pagination.md
+      - Using API Helpers:
+        - NOMAD API Helpers: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_0_nomad_api_helpers.md
+        - API Helpers in Explore Tab: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_1_helper_explore.md
+        - API Helpers in Entry Page: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_2_helper_entry_page.md
+    - Authentication and Uploading Data: 
+      - Authentication: Module4/M4_3_upload_data/M4_3_1_authentication.md
+      - Creating Datasets and Uploading Data: Module4/M4_3_upload_data/M4_3_2_upload.md
 plugins:
  - search
 theme:
