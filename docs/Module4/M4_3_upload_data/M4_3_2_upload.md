@@ -48,7 +48,7 @@ The print should look something like the following:
 }
 ```
 
-# Uploading Files
+## Uploading Files
 
 Following example shows how you can upload a file (here the FAIRmat_logo.png) using NOMAD's API.
 
