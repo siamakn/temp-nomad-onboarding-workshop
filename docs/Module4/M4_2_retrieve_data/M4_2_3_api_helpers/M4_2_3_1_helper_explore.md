@@ -2,7 +2,7 @@
 
 Let's consider [our first basic example](../M4_2_1_example_api_explained.md). Suppose we want to find `entry_id` entries that contain both Ti and O in their chemical formula, this time using the NOMAD GUI.
 
-We learned in [Module 2](../../../Module 2/2- First touches into NOMAD/2_0_Accessing NOMAD.md) how to use the GUI filters:
+We learned in [Module2](../../../Module2/M2_first_touches_into_NOMAD/2_0_accessing_NOMAD.md) how to use the GUI filters:
 
 1. Open the NOMAD GUI, go to the 'Explore' tab.
 2. On the left sidebar under 'Filters', select 'Ti' and 'O' from the periodic table under 'Elements / Formula'. You will see that approximately 41,544 entries match your search criteria.
