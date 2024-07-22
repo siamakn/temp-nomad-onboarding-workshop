@@ -40,4 +40,4 @@ The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs.
     - Based on OpenAPI, the dashboard provides an interactive experience where you can explore all API endpoints.
     - The 'Try it out' feature allows you to test API calls directly in the browser. You can modify the request parameters and see real-time responses from the NOMAD backend. This feature is very useful for testing, debugging, and learning how different API calls work.
 
-The [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides f
+The [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides further information.
