@@ -1,6 +1,6 @@
 # NOMAD Users
 
-The NOMAD software offers a [wide range of extendable functionalities](./1_RDM_with_NOMAD.md) to support FAIR research data management. Therefore, users with a diverse and dynamic spectrum of needs and skills interact with NOMAD. Understanding your user role and responsibilities with respect to Research Data Management (RDM) in a research activity is important for the effective utilization of NOMAD.
+The NOMAD software offers a [wide range of extendable functionalities](./M1_1_RDM_with_NOMAD.md) to support FAIR research data management. Therefore, users with a diverse and dynamic spectrum of needs and skills interact with NOMAD. Understanding your user role and responsibilities with respect to Research Data Management (RDM) in a research activity is important for the effective utilization of NOMAD.
 
 In general, NOMAD users can be categorized into three user groups: 'Main Users', 'Application Administrators', and 'System Administrators'. This classification is not absolute and can have overlaps, depending on the RDM needs of an individual, research group, or institute.
 

@@ -11,10 +11,12 @@ nav:
     - Creating_Workshop_Materials/creating_workshop_materials.md
     - Creating_Workshop_Materials/git_collaboration_training_materials.md
   - RDM with NOMAD:
-    - Introduction: Module1/1_RDM_with_NOMAD.md
-    - NOMAD data model: Module1/1_RDM_with_NOMAD2.md
-    - Levels of NOMAD users: Module1/1_RDM_with_NOMAD3.md
-    - Getting support: Module1/1_RDM_with_NOMAD4.md
+    - Introduction: Module1/M1_1_RDM_with_NOMAD.md
+    - From Raw Files to FAIR Data: Module1/M1_x_NOMAD_workflow.md
+    - NOMAD data model: Module1/M1_x_NOMAD_datamodel.md
+    - Levels of NOMAD users: Module1/M1_x_NOMAD_users.md
+    - Getting support: Module1/M1_x_getting_support.md
+    - NOMAD Glossary: Module1/M1_x_glossary.md
   - First touches with NOMAD:
     - Creating a user account: Module2/M2_first_touches_into_NOMAD/2_0_accessing_NOMAD.md
     - The NOMAD graphical user interface (GUI): Module1/1_RDM_with_NOMAD5.md
