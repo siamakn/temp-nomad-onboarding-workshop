@@ -12,7 +12,7 @@ NOMAD offers a comprehensive suite of tools that go beyond simple storage, suppo
 - **Data Sharing**: Collaborate seamlessly with colleagues by sharing your data within a secure platform.
 - **Data Publishing**: Publish your FAIR data for broader access and use by the scientific community.
 
-![NOMAD Overview Diagram](images/NOMAD_overview.png)
+![NOMAD Overview Diagram](images/nomad_overview.png)
 
 NOMAD addresses the challenge of managing large amounts of heterogeneous research data, benefiting researchers on multiple levels. Individual scientists can better organize and analyze their data, while research groups gain a platform that facilitates collaboration and knowledge sharing. Ultimately, NOMAD helps create a rich, centralized archive of FAIR research data for the entire materials science community.
 

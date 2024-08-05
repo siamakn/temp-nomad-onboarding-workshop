@@ -13,6 +13,7 @@ nav:
   - RDM with NOMAD:
     - Introduction: Module1/M1_1_RDM_with_NOMAD.md
     - From Raw Files to FAIR Data: Module1/M1_x_NOMAD_workflow.md
+    - Towards a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis: Module1/M1_2_NOMAD_and_oasis.md
     - NOMAD data model: Module1/M1_x_NOMAD_datamodel.md
     - Levels of NOMAD users: Module1/M1_x_NOMAD_users.md
     - Getting support: Module1/M1_x_getting_support.md
