@@ -14,26 +14,26 @@ nav:
     - Introduction: Module1/M1_1_RDM_with_NOMAD.md
     - From Raw Files to FAIR Data: Module1/M1_x_NOMAD_workflow.md
     - Towards a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis: Module1/M1_2_NOMAD_and_oasis.md
-    - NOMAD data model: Module1/M1_x_NOMAD_datamodel.md
-    - Levels of NOMAD users: Module1/M1_x_NOMAD_users.md
-    - Getting support: Module1/M1_x_getting_support.md
+    - NOMAD Data Model: Module1/M1_x_NOMAD_datamodel.md
+    - Levels of NOMAD Users: Module1/M1_x_NOMAD_users.md
+    - Getting Support: Module1/M1_x_getting_support.md
     - NOMAD Glossary: Module1/M1_x_glossary.md
   - First touches with NOMAD:
-    - Creating a user account: Module2/M2_first_touches_into_NOMAD/2_0_accessing_NOMAD.md
-    - The NOMAD graphical user interface (GUI): Module1/1_RDM_with_NOMAD5.md
-    - Uploading and pulishing data: Module1/1_RDM_with_NOMAD6.md
-    - Sharing and collaboration: Module1/1_RDM_with_NOMAD7.md
-    - Exploring data: Module1/1_RDM_with_NOMAD8.md
+    - NOMAD Access Points: Module2/M2_x_accessing_NOMAD.md
+    - The NOMAD Graphical User Interface: Module2/M2_x_NOMAD_GUI.md
+    - Creating a User Account: Module2/M2_x_create_account.md
+    - Explore: Module2/M2_x_explore_tab.md
+    - Inspecting Entry Pages: Module2/M2_x_inspecting_entry_pages.md
   - Using NOMAD as an ELN:
     - Overview:
       - Introduction: Module3/5_ELN_using_built-in_schema/5_0_Overview.md
-      - Planning your experiment: Module3/5_ELN_using_built-in_schema/5_01_Overview_plan.md
-      - Documenting your plans: Module3/5_ELN_using_built-in_schema/5_02_Overview_document.md
-      - Managing your experiments: Module3/5_ELN_using_built-in_schema/5_03_Overview_manage.md
-      - Sharing your progress: Module3/5_ELN_using_built-in_schema/5_04_Overview_share.md
+      - Planning your Experiment: Module3/5_ELN_using_built-in_schema/5_01_Overview_plan.md
+      - Documenting your Plans: Module3/5_ELN_using_built-in_schema/5_02_Overview_document.md
+      - Managing your Experiments: Module3/5_ELN_using_built-in_schema/5_03_Overview_manage.md
+      - Sharing your Progress: Module3/5_ELN_using_built-in_schema/5_04_Overview_share.md
     - Getting Started: Module3/5_ELN_using_built-in_schema/5A_0_Getting_started.md
     - Creating Entities:
-      - Create the entities of your experiments: Module3/5_ELN_using_built-in_schema/5B_0_Creating_entities.md
+      - Create the Entities of Your Experiments: Module3/5_ELN_using_built-in_schema/5B_0_Creating_entities.md
       - Substances: Module3/5_ELN_using_built-in_schema/5B_1_Substance_entities.md
       - Samples: Module3/5_ELN_using_built-in_schema/5B_2_Sample_entities.md
       - Instruments: Module3/5_ELN_using_built-in_schema/5B_3_Instrument_entities.md
@@ -43,8 +43,8 @@ nav:
       - Measurements: Module3/5_ELN_using_built-in_schema/5C_2_Measurement_activity.md
     - Managing Experiments: 
       - Introduction: Module3/5_ELN_using_built-in_schema/5D_0_Managing_experiments.md
-      - Organizing your upload: Module3/5_ELN_using_built-in_schema/5D_1_Organizing_your_upload.md
-      - Recording your experiments: Module3/5_ELN_using_built-in_schema/5D_2_experiments_ELN.md
+      - Organizing your Upload: Module3/5_ELN_using_built-in_schema/5D_1_Organizing_your_upload.md
+      - Recording your Experiments: Module3/5_ELN_using_built-in_schema/5D_2_experiments_ELN.md
       - Sharing and Collaboration: Module3/5_ELN_using_built-in_schema/5E_0_sharing_ELN.md
   - Using NOMAD's API:
     - Overview: Module4/M4_0_overview.md
