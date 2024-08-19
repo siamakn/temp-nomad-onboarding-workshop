@@ -1,4 +1,4 @@
-# Towards Building a Federated FAIR Data Infrastructure Qith NOMAD and NOMAD Oasis
+# Towards Building a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis
 
 
 ## NOMAD
