@@ -2,6 +2,11 @@
 
 The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers efficiently discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an easy approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
 
+<div style="text-align: center;">
+    <img src="images/explore_menu_use_cases_option.png" alt="Explore Menu Use Cases Option" width="800">
+</div>
+
+
 ## What are Use Cases?
 
 Use cases in NOMAD refer to predefined categories of data that have been uploaded to NOMAD according to specifically designed schemas to meet the needs of a target research community. These categories are designed to help researchers quickly locate data that is most relevant to their field of study, without the need to explore large amounts of unrelated data. The schemas for use cases have been carefully and meticulously designed by domain experts in FAIRmat in tight collaboration with PIs in that specific field coming from a worldwide research community.
@@ -32,9 +37,9 @@ To make the most out of the use cases feature, consider the following tips:
 
 ## An Example for Solar Cells
 
-Let's go step by step to answer a fictional research question in the solar cells domain.
+Let's proceed with an example to address a specific research question within the domain of solar cell.
 
-Imagine we are working on Sn-based solar cell research, and the project is about using C60 as an electron transport layer in solar cells. We fabricated solar cell devices with an absorber material that contains Sn. The device's structure is illustrated below:
+Suppose we are working on Sn-based solar cell research, and the project is about using C60 as an electron transport layer in solar cells. We fabricated solar cell devices with an absorber material that contains Sn. The device's structure is illustrated below:
 
 <div style="text-align: center;">
     <img src="images/solar_cell_device.png" alt="Solar Cell Device" width="
