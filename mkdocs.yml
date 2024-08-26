@@ -65,6 +65,13 @@ nav:
     - Authentication and Uploading Data: 
       - Authentication: Module4/M4_3_upload_data/M4_3_1_authentication.md
       - Creating Datasets and Uploading Data: Module4/M4_3_upload_data/M4_3_2_upload.md
+    - Scientific Case Studies:
+      - Overview: Module4/M4_x_examples/M4_x_0_overview.md
+      - Compositional Based Property Prediction of Perovskites with CrabNet:
+        - Overview: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_0_perovskites_crabnet_overview.md
+        - Retrieve Data: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_1_perovskites_crabnet_retrieve_data_api.md
+        - Load and Clean Data: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_2_perovskites_crabnet_load_and_clean_data.md
+        - Bandgap Prediction using ML: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_3_perovskites_crabnet_ml.md
 plugins:
  - search
 theme:
