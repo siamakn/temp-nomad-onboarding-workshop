@@ -1,6 +1,6 @@
 # Exploring Data through Use Cases (Apps) in NOMAD
 
-The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers efficiently discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an easy approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
+The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an easy approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
 
 <div style="text-align: center;">
     <img src="images/explore_menu_use_cases_option.png" alt="Explore Menu Use Cases Option" width="800">
@@ -9,7 +9,7 @@ The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help re
 
 ## What are Use Cases?
 
-Use cases in NOMAD refer to predefined categories of data that have been uploaded to NOMAD according to specifically designed schemas to meet the needs of a target research community. These categories are designed to help researchers quickly locate data that is most relevant to their field of study, without the need to explore large amounts of unrelated data. The schemas for use cases have been carefully and meticulously designed by domain experts in FAIRmat in tight collaboration with PIs in that specific field coming from a worldwide research community.
+Use cases in NOMAD refer to predefined categories of data that have been uploaded to NOMAD according to specifically designed schemas to meet the needs of a target research community. These categories are designed to help researchers quickly locate data that is most relevant to their field of study, without the need to explore large amounts of unrelated data. The schemas for use cases have been carefully and meticulously designed by domain experts in FAIRmat in tight collaboration with PIs in that specific field coming from a global research community.
 
 ## Currently Available Use Cases
 
@@ -20,14 +20,14 @@ NOMAD currently offers two use cases:
 
 The FAIRmat community is actively working on expanding/advancing the use cases to other domains. The use cases with expected releases in the near future are:
 
-- **Catalysis:** Focuses on data related to catalytic processes, including catalyst design, reaction mechanisms, and efficiency.
+- **Heterogeneous Catalysis:** Focuses on data related to catalytic processes, including catalyst design, reaction mechanisms, and efficiency.
 - **Batteries:** Encompasses data on battery materials, electrochemical performance, and simulations relevant to energy storage technologies.
 
-## How to Explore Data using the `USE CASES` Option 
+## How to Explore Data using the `USE CASES` page 
 
-The ``USE CASES`` option in the EXPLORE menu is designed to facilitate exploring data in that specific field. Once you choose a use case, a predefined dashboard containing various important widgets which offer key information and visualizations to explore and analyze the data (that comply with that use case schema) is presented. Each research topic may have details and intricacies that the predefined dashboard does not address. However, NOMAD offers high flexibility, allowing you to edit the dashboard to meet your needs or add your own visualizations.
+The ``USE CASES`` page in the EXPLORE menu is designed to facilitate exploring data in that specific field. Once you choose a use case, a predefined dashboard containing various important widgets which offer key information and visualizations to explore and analyze the data (that comply with that use case schema) is presented. Each research topic may have details and intricacies that the predefined dashboard does not address. However, NOMAD offers high flexibility, allowing you to edit the dashboard to meet your needs or add your own visualizations.
 
-## Advanced Tips for Using the ``USE CASES`` option
+## Advanced Tips for Using the ``USE CASES`` page
 
 To make the most out of the use cases feature, consider the following tips:
 
@@ -51,9 +51,9 @@ Now, we want to answer the following research question:
 
 **Which HTL materials improve efficiency in Sn-based solar cells with C60 as the ETL?**
 
-1. Start by navigating to the EXPLORE menu in the NOMAD GUI. From here, select `Solar Cells` under use cases in the EXPLORE menu.
+1. Start by navigating to the ``EXPLORE`` menu in the NOMAD GUI. From here, select ``Solar Cells`` under use cases.
 
-2. Once you have selected the `Solar Cells` use case, you will be presented with a predefined search dashboard optimized for research in solar cells. This interface allows you to apply filters readily and easily narrow down the data to what is most relevant for your research.
+2. Once you have selected the ``Solar Cells`` use case, you will be presented with a predefined search dashboard optimized for research in solar cells. This interface allows you to apply filters readily and easily narrow down the data to what is most relevant for your research.
 
 <div style="text-align: center;">
     <img src="images/solar_cells_dashboard.png" alt="Solar Cells Dashboard" width="800">
@@ -71,7 +71,7 @@ Now, we want to answer the following research question:
 - **Interactive TERMS Plot:** Categorizes the materials used for the ETL.
 - **Interactive TERMS Plot:** Categorizes the materials used for the HTL.
 
-3. **Apply Filters:** Use the filters provided to refine your search. In our fictional example, we are looking for Sn-based solar cells with C60 as the ETL. So let's choose Sn in the periodic table and fix the ETL on C60 in the interactive TERMS plot. These filters narrow down the results to about 400 entries. Add more filters if your research question can be better answered. For instance, if you are looking for absorber materials with band gaps greater than 1.3 eV, you can use the slider on the interactive bandgap histogram to narrow down your search further. Or, if you are only looking for pin architecture, click on pin on the respective scatter plot to filter down the results only to the ones with pin.
+3. **Apply Filters:** Use the filters provided to refine your search. In our example, we are looking for Sn-based solar cells with C60 as the ETL. So let's choose Sn in the periodic table and fix the ETL on C60 in the interactive TERMS plot. These filters narrow down the results to about 400 entries. Add more filters if your research question can be better answered. For instance, if you are looking for absorber materials with band gaps greater than 1.3 eV, you can use the slider on the interactive bandgap histogram to narrow down your search further. Or, if you are only looking for pin architecture, click on pin on the respective scatter plot to filter down the results only to the ones with pin.
 
 4. **Modify or Add Customized Widgets:** All the widgets on each dashboard are customizable. By clicking on the pen icon on the top right of each widget, you can access the customizable quantities of that widget. For example, you can change the entity plotted on a specific axis, the color map, or the units in which that specific quantity is presented.
 
