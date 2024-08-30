@@ -28,26 +28,31 @@ nav:
     - Explore Data for Specific Use Cases: Module2/M2_x_explore_use_cases.md
   - Using NOMAD as an ELN:
     - Overview:
-      - Introduction: Module3/5_ELN_using_built-in_schema/5_0_Overview.md
-      - Planning your Experiment: Module3/5_ELN_using_built-in_schema/5_01_Overview_plan.md
-      - Documenting your Plans: Module3/5_ELN_using_built-in_schema/5_02_Overview_document.md
-      - Managing your Experiments: Module3/5_ELN_using_built-in_schema/5_03_Overview_manage.md
-      - Sharing your Progress: Module3/5_ELN_using_built-in_schema/5_04_Overview_share.md
-    - Getting Started: Module3/5_ELN_using_built-in_schema/5A_0_Getting_started.md
+      - Introduction: Module3/5_ELN_using_built-in_schema/M3_1_0_ELN_overview.md
+      - Planning your Experiment: Module3/5_ELN_using_built-in_schema/M3_1_1_planning_your_experiments.md
+      - Documenting your Plans: Module3/5_ELN_using_built-in_schema/M3_1_2_documenting_your_experiments.md
+      - Managing your Experiments: Module3/5_ELN_using_built-in_schema/M3_1_3_managing_your_experiments.md
+      - Sharing your Progress: Module3/5_ELN_using_built-in_schema/M3_1_4_sharing_your_experiments.md
+    - Getting Started: Module3/5_ELN_using_built-in_schema/M3_2_0_getting_started.md
+    - Entries in NOMAD: Module3/5_ELN_using_built-in_schema/M3_2_1_creating_entries_built-in_schema.md
     - Creating Entities:
-      - Create the Entities of Your Experiments: Module3/5_ELN_using_built-in_schema/5B_0_Creating_entities.md
-      - Substances: Module3/5_ELN_using_built-in_schema/5B_1_Substance_entities.md
-      - Samples: Module3/5_ELN_using_built-in_schema/5B_2_Sample_entities.md
-      - Instruments: Module3/5_ELN_using_built-in_schema/5B_3_Instrument_entities.md
+      - Substances: Module3/5_ELN_using_built-in_schema/M3_2_3_substance_entities.md
+      - Samples: Module3/5_ELN_using_built-in_schema/M3_2_4_sample_entites.md
+      - Instruments: Module3/5_ELN_using_built-in_schema/M3_2_5_instrument_entities.md
     - Creating Activities: 
-      - Create the activities of your experiments: Module3/5_ELN_using_built-in_schema/5C_0_Creating_activities.md
-      - Processing: Module3/5_ELN_using_built-in_schema/5C_1_Materials_processing_activitiy.md
-      - Measurements: Module3/5_ELN_using_built-in_schema/5C_2_Measurement_activity.md
+      - Create the Activities of Your Experiments: Module3/5_ELN_using_built-in_schema/M3_2_6_creating_activities.md
+      - Processing: Module3/5_ELN_using_built-in_schema/M3_2_7_materials_processing_activitiy.md
+      - Measurements: Module3/5_ELN_using_built-in_schema/M3_2_8_measurement_activity.md
     - Managing Experiments: 
-      - Introduction: Module3/5_ELN_using_built-in_schema/5D_0_Managing_experiments.md
-      - Organizing your Upload: Module3/5_ELN_using_built-in_schema/5D_1_Organizing_your_upload.md
-      - Recording your Experiments: Module3/5_ELN_using_built-in_schema/5D_2_experiments_ELN.md
-      - Sharing and Collaboration: Module3/5_ELN_using_built-in_schema/5E_0_sharing_ELN.md
+      - Introduction: Module3/5_ELN_using_built-in_schema/M3_3_0_managing_experiments.md
+      - Integrating activities into an experiment: Module3/5_ELN_using_built-in_schema/M3_3_1_integrating_your_experiment.md
+      - Organizing the Upload: Module3/5_ELN_using_built-in_schema/M3_3_2_organizing_your_upload.md
+      - Sharing and Collaboration: Module3/5_ELN_using_built-in_schema/M3_4_0_sharing_your_eln.md
+    - ELN Based on Custom Schema:
+      - Introduction: Module3/6_ELN_using_custom_schema/M3_4_0_overview.md
+      - Ground Rules: Module3/6_ELN_using_custom_schema/M3_4_1_ground_rules.md
+      - Building a custom ELN: Module3/6_ELN_using_custom_schema/M3_4_2_basic_eln.md
+      - Using the Tabular Parser: Module3/6_ELN_using_custom_schema/M3_4_3_measurement_data.md
   - Using NOMAD's API:
     - Overview: Module4/M4_0_overview.md
     - Getting Started:

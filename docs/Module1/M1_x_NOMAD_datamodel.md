@@ -1,14 +1,12 @@
 # NOMAD Data Model
 
-## Overview
-
 NOMAD uses a bottom-up approach to data management. Instead of only supporting data in specific predefined formats, NOMAD processes files to extract data (and metadata) from an extendable variety of data formats.
 
-This approach ensures that data are converted from heterogeneous files into homogeneous, machine-actionable structured data, making them FAIR (Findable, Accessible, Interoperable, Reusable). Once the data and metadata are organized and their relationships established, it enables the creation of search interfaces, APIs, visualization, and analysis tools that can operate without dependence on specific file formats.
+This approach ensures that data are converted from heterogeneous files into homogeneous, machine-actionable structured data, making them compliant with the FAIR principles (Findable, Accessible, Interoperable, Reusable). Once the data and metadata are organized and their relationships established, it enables the creation of search interfaces, APIs, visualization, and analysis tools that can operate without dependence on specific file formats.
 
 ## Data Structure
 
-NOMAD organizes data into **sections**, where each section can contain data and additional subsections. This hierarchical organization allows users to browse complex data similarly to browsing files and directories on a computer. Each section follows a specific definition, ensuring that all contained data and subsections have precise names, descriptions, types, shapes, and units. This structured approach not only makes it easier for users themselves to explore the data but also keeps the data and metadata consistent and interoperable, i.e., machine-interoperable.
+NOMAD organizes data into **sections**, where each section can contain data and additional subsections. This hierarchical organization allows users to browse complex data similarly to browsing files and directories on a computer. Each section follows a specific definition, ensuring that all contained data and subsections have precise names, descriptions, types, shapes, and units. This structured approach not only makes it easier for users themselves to explore the data but also keeps the data and metadata consistent and interoperable, i.e., machine-readable.
 
 
 ## Data Model
@@ -16,7 +14,7 @@ NOMAD organizes data into **sections**, where each section can contain data and 
 NOMAD's data model is based on an entity-activity framework. Essentially, each section that is intended to become an entry in NOMAD is a subsection of one of the two main base sections: entities or activities. Entities are objects that persist over time, such as systems, collections, or instruments. Activities are actions involving entities, including processes, measurements, analyses, and experiments.
 
 
-Sections in NOMAD are interrelated through **inheritance** and **composition**. Inheritance allows sections to inherit properties, attributes and functions from other sections, building on predefined structures. Composition enables sections to include other sections as subsections, organizing complex data hierarchically. This flexible design makes it simple to incorporate new data types by extending and reusing existing sections.
+Sections in NOMAD are interrelated through **inheritance** and **composition**. Inheritance allows sections to inherit properties, attributes, and functions from other sections, building on predefined structures. Composition enables sections to include other sections as subsections, organizing complex data hierarchically. This flexible design makes it simple to incorporate new data types by extending and reusing existing sections.
 
 
 ![NOMAD Data Model](images/NOMAD_datamodel.png)
@@ -42,7 +40,7 @@ Entities are objects that persist over time while maintaining their identity. In
 
 - **System**: Represents any material system, from atomic to device scale. It includes properties like `elemental_composition`, which tracks the elements and their atomic fractions within the system.
 - **Collection**: Used to group entities together, such as a batch of substrates.
-- **Instrument**: Describes tools used for material creation or characterization.
+- **Instrument**: Describes tools used for material processing or characterization.
 
 
 ### Activity

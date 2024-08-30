@@ -1,6 +1,6 @@
 # Explore Data with NOMAD
 
-The "EXPLORE" menu in NOMAD allows you to navigate and search through a vast amount of materials science data. Currently, the EXPLORE menu offers seven options for exploring data:
+The "EXPLORE" menu in NOMAD allows you to navigate and search through a vast amount of materials-science data. Currently, the EXPLORE menu offers several options for exploring data:
 
 - **Entries**: Search entries across all domains.
 - **Theory**: Focus on calculations and materials data derived from theoretical models.
@@ -27,7 +27,7 @@ This brings you to the main search interface, where you can see all entries avai
 With over 13 million entries, mostly consisting of electronic structure calculations, NOMAD is expanding to include a broader range of materials science and physics data. This now includes sample data, measurements, characterization, and theoretical data at different scales. In fact the search interface is already revised to allow the increasingly complex filter options that are required for a wider range of entry types. The filter bar on the left allows you to create complex searches based on different perspectives, including:
 
 - **Material**: Filter by elements, chemical formula, or structure/symmetry.
-- **Method**: Filter by the scientific method used, such as various DFT programs.
+- **Method**: Filter by the scientific method used, such as various DFT codes.
 - **Properties**: Filter by desired properties, such as electronic properties.
 - **Use Cases**: Filter data relevant to specific applications, like solar cells.
 - **Origin**: Filter based on the data's origin, such as the author or date of upload.
@@ -47,18 +47,18 @@ For example, you could filter down to materials with only two atoms of B and N, 
 
 ### Method Filter
 
-Under the "Method" tab, you can control the applied physics method. This allows you to specify whether you are looking for simulation data (e.g., DFT) or experimental data (e.g., EELS). For example, you could filter h-BN data down to only those entries created using VASP.
+Under the ``Method`` tab, you can control the applied physics method. This allows you to specify whether you are looking for simulation data (e.g., DFT) or experimental data (e.g., EELS). For example, you could filter h-BN data down to only those entries created using VASP.
 
 ### Properties Filter
 
-The "Properties" filter tab allows you to focus on specific calculated or measured properties. For example, if you are interested in electronic properties, you can filter entries to display only those with available band structure or density of states data etc.
+The ``Properties`` filter tab allows you to focus on specific calculated or measured properties. For example, if you are interested in electronic properties, you can filter entries to display only those with available band structure or density of states data etc.
 
 
 ### Adding the Filters to the Search Interface
 
 You can customize your search interface by pinning filter items from any filter tab to the search page. Clicking the (+) button adds the selected filter to your custom search interface, allowing you to use them side by side.
 
-This feature helps uncover relationships within the data on NOMAD. For example, selecting Boron and fixing the symmetry to hexagonal might reveal a pattern where many entries involve elements from group 5, reflecting the abundance of III-V semiconductor data in NOMAD.
+This feature helps uncover relationships within the data on NOMAD. For example, selecting Boron and fixing the symmetry to hexagonal might reveal a pattern where many entries involve elements from group 5 in the periodic table, reflecting the abundance of III-V semiconductor data in NOMAD.
 
 > **Important Note:** The relationships you observe through the filters are dependent on the data published in NOMAD. Interpret them within the context of the available data, as they do not necessarily carry an inherent physical or scientific meaning.
 

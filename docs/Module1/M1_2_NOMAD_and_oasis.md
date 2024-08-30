@@ -1,27 +1,25 @@
+<!-- This pages seems to be a "marketing" page. we can drop it out of the onboarding workshop materials -->
 # Towards Building a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis
 
 
-## NOMAD
 
-<div style="text-align: center;">
+<div style="text-align: left;">
     <img src="images/nomad_logo_horizontal.png" alt="NOMAD LOGO" width="200">
 </div>
 
-NOMAD is a free, open-source web-based software designed for managing, sharing, and publishing materials science data. It provides a comprehensive suite of tools to help researchers organize, analyze, and publish their data.
+NOMAD is a free, open-source web-based software designed for managing, sharing, and publishing materials-science data. It provides a comprehensive suite of tools to help researchers organize, analyze, and publish their data.
 
-NOMAD's data are organized in well-defined structures described by a formal schema known as the NOMAD Metainfo. This schema ensures that data are hierarchically structured and cross-referenced, enabling efficient searching, accessibility via APIs, interoperability, and reusability.
-
-NOMAD's data are organized in well-defined structures described by a formal schema known as the NOMAD Metainfo. This schema ensures that data are hierarchically structured and cross-referenced, enabling efficient searching, and accessibility via APIs, interoperability, and reusability.
+Research data in NOMAD are organized in well-defined structures described by a formal schema known as the NOMAD Metainfo. This schema ensures that data are hierarchically structured and cross-referenced, enabling efficient searching, accessibility via APIs, interoperability, and reusability.
 
 <div style="text-align: center;">
-    <img src="images/nomad_overview.png" alt="NOMAD Overview" width="400">
+    <img src="images/NOMAD_overview.png" alt="NOMAD Overview" width="400">
 </div>
 
 NOMAD offers important features for effective research data management including:
 
 
-- **FAIR Data**: RDM with NOMAD ensures data are Findable, Accessible, Interoperable, and Reusable by extracting machine-actionable data from over 60 formats and codes. With NOMAD you can provide rich and organized metadata for custom theoretical and experimental research data. 
-- **Organizing in Hierarchical Format**: NOMAD organizes your files as you would on your hard drive, allowing for file-by-file or batch uploads using drag and drop. All data are hierarchically structured and interconnected. NOMAD uses a file-based archival system, meaning that you access all your raw files, in case a migration or archival in other data management systems are desired.
+- **FAIR Data**: RDM with NOMAD ensures data are Findable, Accessible, Interoperable, and Reusable by extracting machine-actionable data from various file formats. With NOMAD you can provide rich and organized metadata for custom theoretical and experimental research data. 
+- **Organizing in Hierarchical Format**: NOMAD organizes your files as you would on your hard drive, allowing for file-by-file or batch uploads using drag-and-drop. All data are hierarchically structured and interconnected. NOMAD uses a file-based archival system, meaning that you access all your raw files, in case a migration or archival in other data management systems are desired.
 - **API Access**: NOMAD allows you to programmatically manage your research data. Everything you might need for an effective research data management is accessible via API, including raw files, data, metadata, processed data, etc.
 - **Extensible Schema**: With NOMAD, you have highest flexibility for your RDM needs. The existing NOMAD schema can be extended to suit your specific needs.
 - **Practical User Control**: Using NOMAD, you can manage your data privately or collaborate within your group before making it public. For even higher privacy, e.g., due to restrictions within an institute or research group, NOMAD has further solutions, the NOMAD Oasis.  
@@ -32,10 +30,7 @@ NOMAD offers important features for effective research data management including
 
 
 
-
-## NOMAD Oasis
-
-<div style="text-align: center;">
+<div style="text-align: left;">
     <img src="images/oasis_logo_horizontal.png" alt="NOMAD Oasis LOGO" width="200">
 </div>
 
