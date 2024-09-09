@@ -1,8 +1,8 @@
-# Creating entries for your samples using the *Generic sample ELN* schema**
+# Creating Entries for Your Samples Using the *Generic sample ELN* Schema
 
 ![Screenshot of the NOMAD UI showing the Generic Sample ELN Schema](../images/built-in_schema/generic_sample/1.png)
 
-In this section you will learn how to create NOMAD entries for entities that will be the samples used/produced in your experiments. You will use the NOMAD built-in schema called Generic Sample ELN and explore the various fields you can populate and the information you can add to NOMAD. 
+In this section, you will learn how to create NOMAD entries for entities that will be the samples used or produced in your experiments. You will use the NOMAD built-in schema called Generic Sample ELN and explore the various fields you can populate and the information you can add to NOMAD. 
 
 Based on the example described earlier, we need to create entries for the following entities:
 1. P3HT Thin Film
@@ -10,16 +10,17 @@ Based on the example described earlier, we need to create entries for the follow
 
 ![Alt text](../images/lab_images/samples.png)
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting strated](M3_2_0_getting_started.md) page. When you reach step 8, select the *Generic Sample ELN* from the drop-down menu, enter a name for your entry, and then click Create. 
+> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting Started](M3_2_0_getting_started.md) page. When you reach step 8, select the *Generic Sample ELN* from the drop-down menu, enter a name for your entry, and then click Create. 
+> > <mark>SN: I think the above text can be more precise, e.g., For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step depicted in figure 8, select **Generic Sample ELN** from the drop-down menu, enter a name for your entry, and click **Create**. <mark>
 
 ![Creating an entry in NOMAD for a sample entity and naming it P3HT_thin_film_on_glass](../images/built-in_schema/generic_sample/P3HT_film.png)
 
-After clicking the Create button, NOMAD will automatically perform the following tasks:
+After clicking the **Create** button, NOMAD will automatically perform the following tasks:
 1. NOMAD creates a file for the entry, using the format *.archive.json*.
 2. The entry file is stored in the main upload directory. 
 3. NOMAD will open the entry, switch to the *data* tab, and open the *data* sub-sections page. 
 
-The *data* sub-sections page allows user input to fill in the information about the substance. 
+The *data* sub-sections page allows users to input information about the substance. 
 
 The built-in generic ELN schema provides general fields that allow the entry of various quantities: 
 * Short Name: This is the name of the record file created.
@@ -46,11 +47,11 @@ These can be found at the bottom of the Entry/Data/Data page and include:
 
 ![generic sample sub-sections](../images/built-in_schema/generic_sample/subsections.png)
 
-## Elemental Composition sub-section:
+## Elemental Composition Sub-section:
 Here you can create quantities to define the chemical composition of your sample. You can add the chemical element, its atomic fraction, and its mass fraction. 
 Add as many elements as needed to represent your samples. 
 
-## Components sub-section:
+## Components Sub-section:
 Here you can provide more information about your sample based on the components it is made up of. 
 The Components subsection provides three different ways to add this information:
 

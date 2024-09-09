@@ -1,8 +1,8 @@
 <!-- ## Creating an Electronic Lab Notebook using Custom schema -->
 
-# Your first NOMAD custom ELN
+# Your First NOMAD Custom ELN
 
-In this section we will take you through writing your first custom ELN schema, that we will use to create a basic ELN to capture an experiment of solution processing of polymer films.
+In this section, we will take you through writing your first custom ELN schema, which we will use to create a basic ELN to capture an experiment of solution processing of polymer films.
 
 We will create an ELN for documenting polymer thin films samples prepared by spincoating.
 
@@ -19,13 +19,13 @@ We would like our ELN to accept input for the following quantities:
 - Film thickness (in nm)
 - Comments
 
-## **Lets build our custom schema**
+## **Let's Build Our Custom Schema**
 The first step of writing a schema is to create a new file using any text editor and save it in the  `.archive.yaml` format.
-Lets name our file `My_spincoating_ELN.archive.yaml`
+Lets name our file `My_spincoating_ELN.archive.yaml`.
 
 The next step is to start filling in the schema file with the name, description, and sections. 
 
-We will use the keyword `definitions`, and will only define one section in this schema. The sections should inheret the base section `nomad.datamodel.data.EntryData`
+We will use the keyword `definitions`, and will only define one section in this schema. The sections should inherit the base section `nomad.datamodel.data.EntryData`.
 <!-- add a note on why this is needed -->
 ```yaml
 definitions:
@@ -36,7 +36,7 @@ definitions:
       base_sections:
           - nomad.datamodel.data.EntryData
 ```
-Now we define the the quantities which will capture the inforamtion of our experiment.
+Now we define the quantities which will capture the information of our experiment.
 
 ```yaml
 definitions:
@@ -117,12 +117,11 @@ definitions:
         Comments:
             type: str
 ```
-Lets save the schema and instantiate an entry to 
-see how it will look ike in NOMAD GUI. 
+Let's save the schema and instantiate an entry to see how it will look like in the NOMAD GUI. 
 
-The entry created contains all the quantites that we have created, however, it offers no means for user interactivity, i.e., input for the ELN. 
+The entry created contains all the quantities that we have created; however, it offers no means for user interactivity, i.e., input for the ELN. 
 
-In order to allow user input in your ELN, we need to instruct NOMAD how to deal with the different quantities using annotations. Annotations in NOMAD are created using the `m_annotation`. 
+In order to allow user input in your ELN, we need to instruct NOMAD how to deal with the different quantities using annotations. Annotations in NOMAD are created using the `m_annotations`. 
 
 Annotations are named blocks of key-value pairs.
 ```yaml
@@ -131,9 +130,9 @@ Annotations are named blocks of key-value pairs.
           key1: value
           key2: value
 ```
-A complete list of annotations avaialble in NOMAD can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/reference/annotations.html).
+A complete list of annotations available in NOMAD can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/reference/annotations.html).
 
-We will primarly used the ELN annotations in the schema to allow data entry to quantities we have created. 
+We will primarily use the ELN annotations in the schema to allow data entry to quantities we have created. 
 
 ```yaml
 definitions:
@@ -222,8 +221,8 @@ definitions:
 
 ```
 
-Lets save the schema and reupload the file NOMAD. Entries associated with this schema will be automatically updated. 
+Let's save the schema and re-upload the file to NOMAD. Entries associated with this schema will be automatically updated. 
 You can see now that the ELN allows for interactivity, and accepts input of user for the various quantities. 
 
-This now a functional ELN in which you can document the samples and the fabrication conditions. 
-Lets create few entries with your first ELN. 
+This is now a functional ELN in which you can document the samples and the fabrication conditions. 
+Let's create a few entries with your first ELN. 

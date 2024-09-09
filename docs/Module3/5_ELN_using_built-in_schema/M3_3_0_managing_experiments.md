@@ -1,4 +1,4 @@
-# Managing your experiments
+# Managing Your Experiments
 
 Once you have defined all the substances, samples, processes, and measurements involved in your experimental work, you can start creating workflows that connect all these elements into a cohesive overview of the entire experiment. NOMAD's ELN offers a specially designed schema to help you do this: the *Experiment ELN*.
 
@@ -45,7 +45,7 @@ In this section, you will learn:
 
 - Viewing and Managing Files within Uploads:
     - How to navigate the file structure within NOMAD.
-    - Techniques for organizing your entries into folders for better manageability.
+    - Techniques for organizing your entries into folders for easier management.
     - Tips on uploading additional files, managing folder structures, and downloading your data for backup.
 
 

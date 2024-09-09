@@ -1,10 +1,11 @@
-# Create materials preparation activities using the *materials processing ELN* schema
+# Create Materials Preparation Activities Using the *materials processing ELN* Schema
 
 ![Screenshot from the NOMAD UI which shows the material processing ELN schema](../images/built-in_schema/material_processing/1.png)
 
 In this section you will learn how to create NOMAD entries for activities that will be used to describe the sample preparation process in your experiments. You will use the NOMAD built-in schema called *Material Processing ELN* and explore the various fields you can fill in and the information you can add to NOMAD.
 
 Based on the example described earlier, we will need to create entries for the following processes:
+
 1. Preparation of P3HT solution in chloroform.
 2. Preparation of P3HT thin film on glass.
 3. Preparation of P3HT thin film on prepatterned ITO substrate.

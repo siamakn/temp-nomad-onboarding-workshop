@@ -1,8 +1,8 @@
 <!-- ## uploading experimental measurement data files to your ELN -->
 
- # Adding characterization data files to your NOMAD ELN
+ # Adding Characterization Data Files to Your NOMAD ELN
 
-In this section, we'll explore the process of documenting experiments within the NOMAD ELN, focusing on the essential step of uploading characterization results data files along with sample and processing information.
+In this section, we will explore the process of documenting experiments within the NOMAD ELN, focusing on the essential step of uploading characterization results along with sample and processing information.
 
 Within NOMAD, any file type can be added seamlessly through the ELN upload feature. However, to take full advantage of NOMAD's capabilities, it's critical that data files become Entries. These Entries are processed by NOMAD, transforming them into structured data that allows for easy metadata extraction, visualization, and analysis.
 
@@ -31,25 +31,25 @@ For a comprehensive list of codes and related file formats supported in NOMAD, p
 
 In the following sections, we'll explore how to utilize NOMAD's tabular parser effectively to enhance your data documentation and visualization.
 
-## **NOMAD support for data stored in tabular file formats**
-It is very common to export measurement data into a tabular format such .csv or .xlsx
+## **NOMAD Support for Data Stored in Tabular File Formats**
+It is very common to export measurement data into a tabular format such as .csv or .xlsx.
 
-NOMAD offers a versatile tabular parser that can be configured to process tabular data with different representations, such as data arragned in columns or rows.  
+NOMAD offers a versatile tabular parser that can be configured to process tabular data with different representations, such as data arranged in columns or rows.  
 - Columns: each column contains an array of cells that we want to parse into one quantity. Example: current and voltage arrays to be plotted as x and y.
 - Rows: each row contains a set of cells that we want to parse into a section, i.e. a set of quantities. Example: an inventory tabular data file (for substrates, precursors, or more) where each column represents a property and each row corresponds to one unit stored in the inventory.
 
-More details on the differnt representations of tabular data can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/tabular.html)
+More details on the different representations of tabular data can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/tabular.html).
 
 In this workshop, we will work with measurement data from optical absorption spectroscopy and conductivity measurement stored in a the tabular format .csv, with the columns representations which are shown in the figure below. 
 
 ![Alt text](../images/Tabular%20parsers/Example%20data.png)
 
-Our objecitve is to upload these files into our ELN, make NOMAD parse the data within these files, and then visualize the data in plots that can be viewed NOMAD. 
+Our objective is to upload these files into our ELN, make NOMAD parse the data within these files, and then visualize the data in plots that can be viewed in NOMAD. 
 
 To achieve this we will write a schema using the .YAML language and the illustrate how it can be used as ELN in NOMAD. 
 
-### **Step 1: Defining and saving the schema file**
-Lets start by creating a new schema file with the `.archive.yaml` format, and create a section called Optical_absorption.
+### **Step 1: Defining and Saving the Schema File**
+Let's start by creating a new schema file with the `.archive.yaml` format, and create a section called Optical_absorption.
 
 ```yaml
 definitions:
@@ -57,22 +57,25 @@ definitions:
   sections:
     Optical_absorption:
 ```
-### **Step 2: Adding the needed base sections**
-The next step is to inheret the base sections to meet our ELN needs. 
+### **Step 2: Adding the Needed Base Sections**
+The next step is to inherit the base sections to meet our ELN needs. 
+
 - To create entries from this schema we will use  ``` nomad.datamodel.data.EntryData ```
 - To use the tabular parser we will use
 ``` nomad.parsing.tabular.TableData ```
 - To enable the plot function we will use
 ``` nomad.datamodel.metainfo.plot.PlotSection``` 
 
-### **Step 3: Defining the quantities of our schema**
-We will define the quantities in our ELN schema. Three quantities are needed: 
-1. A quanitiy to allow the upload of the data file, and apply the tabular parser to transfrom the data into NOMAD strucutre. Lets call this ```data_file```
+### **Step 3: Defining the !uantities of Our Schema**
+We will define the quantities in our ELN schema. Three quantities are needed:
+
+1. A quantity to allow the upload of the data file, and apply the tabular parser to transform the data into NOMAD structure. Let's call this ```data_file```
 
 2. A quantity to store the values of our x-axis coming from the tabular parser. Let call this ``` wavelength``` 
 3. A quantity to store the values of our x-axis coming from the tabular parser. Let call this ```absorption```
 
 At this stage our schema file will look like this:
+
 ```yaml
 definitions:
   name: This is a parser for optical absorption data in the .csv format
@@ -94,8 +97,8 @@ definitions:
           shape: ['*']
 
 ```
-### **Step 4: Instructing NOMAD on how to treat the different quantities**
-For this we use the ```m_annotation``` function within each of the quantities to prefor the intended task. 
+### **Step 4: Instructing NOMAD on How to Treat the Different Quantities**
+For this, we use the ```m_annotations``` function within each of the quantities to peeform the intended task. 
 **```data_file``` quantity**
 We will need three annotations: 
 - The first is to instruct NOMAD to allow for droping and selecting files in this quantity.
@@ -129,7 +132,7 @@ For this purpose we will use the following annotation:
 tabular:
     name: Wavelength
 ```
-Note that the value for the ```name``` key should be exactly written as the heared of the first column of in the data file. 
+Note that the value for the ```name``` key should be exactly written as the header of the first column in the data file. 
 
 **```absorbance```  quantity**
 This quantitiy will accept the values from the second column of our tabular data file, that will be extracted by the tabular parser. 
@@ -182,10 +185,10 @@ definitions:
             tabular:
               name: Absorbance
 ```
-### **Step 5: Creating a plot for your data**
+### **Step 5: Creating a Plot for Your Data**
 To visualize the data from the uploaded and parsed file within your ELN, we will use an annotation for the main section of our schema ```Optical_absorption```
 
-We will use the ```plotly_graph_object``` annotaion to instruct NOMAD on which quantities to use in the x-axis and the y-axis, as well as providing a title for the plote.
+We will use the ```plotly_graph_object``` annotation to instruct NOMAD on which quantities to use for the x-axis and the y-axis, as well as providing a title for the plot.
 within ``` plotly_graph_object ``` annotation we use the ```data``` key to define the quantites for each axis. Here the name of the varaiables as will be defined by the scheme should be given.
 We will also provide a title to appear on the plot using the ```layout``` key.
 ```yaml
@@ -246,8 +249,8 @@ definitions:
                 layout:
                   title: Optical Spectrum
 ```
-### **Step 6: Uploading our schema file to NOMAD and creating an entry with our data**
+### **Step 6: Uploading Our Schema File to NOMAD and Creating an Entry with Our Data**
 
-Now that we have created the ELN schema file for parsing the optical absorption data file, lets put it into test in the NOMAD GUI. 
+Now that we have created the ELN schema file for parsing the optical absorption data file, let's put it into the test in the NOMAD GUI. 
 
 <iframe src="https://scribehow.com/shared/Creating_a_NOMAD_schema_to_parse_tabular_data__hM8UugxXR8CY-U9qIL-dUw?skipIntro=true" width="100%" height="640" allowfullscreen frameborder="0"></iframe>

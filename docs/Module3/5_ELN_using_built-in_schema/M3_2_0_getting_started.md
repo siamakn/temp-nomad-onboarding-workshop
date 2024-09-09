@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 NOMAD is a free, and open-source data management platform for materials science, whose goal is to make scientific research data FAIR (findable, accessible, interoperable and reusable).
 
@@ -6,23 +6,23 @@ NOMAD provides tools for data management, sharing, and publishing. The platform 
 
 Similar to general use databases, NOMAD manages a structured collection of data and is designed to capture the relationships between sets of similar data. These specific pieces of data are referred to as data records.
 
-## **Introduction to NOMAD entries**
+## **Introduction to NOMAD Entries**
 
-In NOMAD data records are called **Entries**, which have individual pages that can be explored using the NOMAD graphical user interface (GUI) or programatically via API.
+In NOMAD, data records are called **Entries**, which have individual pages that can be explored using the NOMAD graphical user interface (GUI) or programmatically via the API.
 
 Every **entry** in NOMAD (data record) includes a set of attributes defining information about the respective record.
 
-In databases, at least one attribute must serve as the unique identifier for the record, and this designated attribute becomes the primary key.
+In databases, at least one attribute serves as the unique identifier for the record, known as the primary key.
 
-In NOMAD, the primary key for an Entry is the **Entry ID**, and is assigned automatically by NOMAD.
+In NOMAD, the primary key for an Entry is the **entry_id**, and is assigned automatically by NOMAD.
 
-Entries related to the same subject (application, experimental method,computation method, etc.) are organized into groups, each possessing a defined organizational structure. The arrangement of a data group is known as a **schema**, serving as a map that outlines the relationships between each attribute in a data record. Importantly, all records within a data group adhere to the same schema. The precise definition of the schema is crucial for optimizing database searches and constructing FAIR(Findable, Accessible, Interoperable, and Reusable) data.
+Entries related to the same subject (application, experimental method, computation method, etc.) are organized into groups, each with a defined organizational structure. The arrangement of a data group is known as a **schema**, serving as a map that outlines the relationships between each attribute in a data record. Importantly, all records within a data group adhere to the same schema. The precise definition of the schema is crucial for optimizing database searches and constructing FAIR(Findable, Accessible, Interoperable, and Reusable) data.
 
 ## **Entries in NOMAD ELN**
 
-Using the NOMAD ELN functionality, you will want to capture all the information related the substances, samples, and instruments that will be used in your experiment. Furthermore, documenting the measurements performed and the analysis of the acquired data will also be needed. 
+Using the NOMAD ELN functionality, you will want to capture all the information related to the substances, samples, and instruments that will be used in your experiment. Furthermore, documenting the measurements performed and the analysis of the acquired data will also be needed. 
 
-For each of these records, an entry in NOMAD will be created based on a data schema that defines the structure of these entries. You can think of a schema as a template that offers your input fields for the various parameters of each entry. NOMAD offers a wide range of built-in schemas for general use, as well as, the ability to create your own schema and uploading it to NOMAD. 
+For each record, an entry in NOMAD is created based on a data schema that defines the structure. A schema serves as a template with input fields for various parameters of each entry. NOMAD offers a wide range of built-in schemas for general use, as well as, the ability to create your own schema and uploading it to NOMAD. 
 
 ## **Learning objectives**
 
