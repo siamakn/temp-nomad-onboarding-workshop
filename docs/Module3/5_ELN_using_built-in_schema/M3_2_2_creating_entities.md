@@ -1,13 +1,13 @@
-# Create entries for the entities used in your experiments
+# Create Entries for the Entities Used in Your Experiments
 
-The recording of entities in NOMAD is done by creating entries for each entity.
+Recording entities in NOMAD is done by creating entries for each entity.
 
-Entities are objects that are used throughout your experiments and can include the following:
+Entities are objects that are used throughout your experiments, and can include the following:
 1. **Substances** or raw materials used to create samples.
 2. **Samples** to be examined.
 3. **Instruments** used to create and measure the samples.
 
-For example, consider a simple experiment where you need to prepare polymer solutions and then deposit them on substrates to create thin film samples. Then you want to measure the optical absorption spectra and/or the electrical conductivity of your samples.
+For example, consider a simple experiment where you need to prepare polymer solutions and then deposit them on substrates to create thin film samples. Then, you want to measure the optical absorption spectra and/or the electrical conductivity of your samples.
 
 To do this, you need your solute (polymer powder) and solvent to make the solution at a predefined concentration. Then you will deposit your thin film on a pre-cleaned substrate to create your samples. 
 The polymer powder, solvent, and substrate are considered to be the **substances** used to create your **samples**, i.e. the solution and the thin film. 
@@ -41,7 +41,4 @@ Let's get hands-on and create entries for the different entities that will be us
 1. Substances
 2. Samples
 3. Instruments
-
-All the built-in schemas in NOMAD contain a sub sections that is called *entity_identifier*.
-(consice description is needed.) 
 

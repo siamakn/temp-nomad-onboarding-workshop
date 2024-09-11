@@ -1,5 +1,5 @@
 # Overview
-## **Managing your expriments**
+## **Managing Your Experiments**
 
 After carefully planning your experiments and thoroughly documenting all entities and activities involved, the next crucial step is to effectively manage them. Efficient experiment management is essential for maintaining organization and ensuring the quality of research outcomes.
 

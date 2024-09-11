@@ -1,4 +1,4 @@
-# Organizing your upload
+# Organizing Your Upload
 
 NOMAD is a file-based system. This means that the data and information within NOMAD are primarily stored, managed, and accessed in the form of files. This approach contrasts with systems that might rely heavily on databases for data storage.
 
@@ -6,7 +6,7 @@ In the context of NOMAD as an ELN, being a file-based system means that all the 
 
 In this section, you will learn how to view and manage files within NOMAD. We’ll cover navigating the file structure, organizing entries into folders, and uploading or downloading files for better data management and backup.
 
-## Accessing your files in NOMAD
+## Accessing Your Files in NOMAD
 To access your files in an upload, simply navigate to the *File* tab at the top of the upload page. 
 
 ![Navigating to files in the upload](../images/organization/1.png)
@@ -19,14 +19,14 @@ In essence, this page acts as your online storage drive for the uploaded content
 
 You can organize your files by creating folders, upload additional items like images or PDFs, and even download the entire directory to your local computer for offline access.
 
-Note that changing the folders strucutre will not affect the view or the function of the entries in **overview** page. 
+Note that changing the folders structre will not affect the view or the function of the entries on **overview** page. 
 
-## Organizing your entries into folders
+## Organizing Your Entries into Folders
 
 Let's organize the entries into folders of materials, samples, instruments, processes, results, and measurements. 
 
 ![Alt text](../images/organization/after_organization.png)
-### **Create new folders**
+### **Create New folders**
 You can create a new folder by clicking on the folder icon shown on the top.
 ![Create new folder icon](../images/organization/new_folder.png)
 
@@ -34,33 +34,33 @@ Then choose a name for your folder and click OK.
 
 ![Animation of creating the folders](../images/organization/creating_new_folders.gif)
 
-### **Move your entries to the relevant folder**
+### **Move Your Entries to the Relevant Folder**
 
 Click on the folder to which you want to transfer entries to. A second panel will open to show the contents of the folder, which should be empty by now.  
-You can drag-and-drop the entry files to the relevant folder. A prompt will appear asking if you want to copy or move the folder. Select *move*. 
+You can drag-and-drop the entry files into the relevant folder. A prompt will appear asking if you want to copy or move the folder. Select *move*. 
 
 ![Animation of moving files to folders](../images/organization/moving_files_to_a_folder.gif)
 
 
-## Adding files to your upload
+## Adding Files to Your Upload
 
-Being a file-based systems, NOMAD allows you to upload documents and images to your upload. 
+Being a file-based system, NOMAD allows you to upload documents and images to your upload. 
 
 
-To add files to your upload, click on the uplaod cloud icon shown on the top.
+To add files to your upload, click on the upload cloud icon shown at the top.
 
 ![upload icon](../images/organization/upload.png)
 
-For example, you can add relevant publications and images to you upload and share them with your collaborators, in a similar manner to online shared drives.
+For example, you can add relevant publications and images to your upload and share them with your collaborators, in a similar manner to online shared drives.
 
 ![Uploading files to NOMAD](../images/organization/uploading_files_to_upload.gif)
 
-## Backing up your upload
+## Backing Up Your Upload
 
 NOMAD allows you to download the entire upload folder to your local machine. To do so, click on the download cloud icon on the top. 
 
 ![download icon](../images/organization/download.png)
 
-The all the contents of your upload will be downloaded as a zip file in your computer.
+All the contents of your upload will be downloaded as a zip file to your computer.
 
 ![Animation demonstrating creating backups](../images/organization/download_your_upload.gif)

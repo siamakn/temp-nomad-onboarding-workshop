@@ -1,4 +1,4 @@
-# Create entries for your substance using the *substance ELN* schema
+# Create Entries for your Substance Using the *substance ELN* Schema
 
 ![Screenshot from the NOMAD UI which shows the Substance ELN schema](../images/built-in_schema/substance/1.png)
 
@@ -9,11 +9,11 @@ Based on the example described earlier, we will need to create entries for the f
 1. P3HT powder
 2. Chloroform
 3. Glass substrate
-4. Pre=patterned ITO substrates
+4. Pre-patterned ITO substrates
 
 ![Alt text](../images/lab_images/substances.png)
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting strated](M3_2_0_getting_started.md) page. Once you have reached step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
+> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting Started](M3_2_0_getting_started.md) page. Once you have reached step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
 
 ![Creating an entry in NOMAD for a substance entity and naming it P3HT_powder](../images/built-in_schema/substance/P3H_powder.png)
 
@@ -22,16 +22,16 @@ After clicking the **Create** button, NOMAD will automatically perform the follo
 2. The entry file is stored in the main upload directory. 
 3. NOMAD will open the entry, switch to the *data* tab, and open the *data* sub-sections page. 
 
-The *data* sub-sections page allows user input to fill in the information about the substance. 
+The *data* sub-sections page allows user to fill in the information about the substance. 
 
-![The deafualt entry page that opens once an entry is created. ](../images/built-in_schema/substance/entry_page.png)
+![The defualt entry page that opens once an entry is created. ](../images/built-in_schema/substance/entry_page.png)
 
 The *substance ELN* built-in schema provides several fields that allow input of different quantities:
 
 * Substance name: This is the name of the input file created.
 * Datetime: Allows entry for a date/time stamp. 
 
-* Substance ID: A human readable ID that is unique for the substance within the lab. 
+* Substance ID: A human-readable ID that is unique for the substance within the lab. 
 Can be manually entered.
 
 * Detailed Substance Description: A free text field that can be used to enter any additional information about the entry. 
@@ -40,7 +40,7 @@ Can be manually entered.
 
 The substance ELN allows you to include additional information for your entity by using sub-sections. 
 
-These can be found at the bottom of the Entry/Data/Data page and include
+These can be found at the bottom of the Entry/Data/Data page and include:
 
 * Elemental composition
 
@@ -51,11 +51,11 @@ These can be found at the bottom of the Entry/Data/Data page and include
 
 ![Alt text](../images/built-in_schema/substance/substance_sub_sections.png)
 
-### Elemental Composition sub-section:
+### Elemental Composition Sub-section:
 Here you can create quantities to define the chemical composition of your substance. You can add the chemical element, its atomic fraction, and its mass fraction. 
 Add as many elements as needed to represent your substance. This section is useful for chemical substances.
 
-### Pure substance sub-section:
+### Pure Substance Sub-section:
 Here you can define your substance as a pure material purchased from an external vendor. This sub-section allows data entry based on three different definition types. 
 * PubChem
 * CAS

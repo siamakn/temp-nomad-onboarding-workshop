@@ -4,18 +4,19 @@
 
 An Electronic Lab Notebook (ELN) is an essential tool for today's scientists, providing a reliable, searchable record of all experimental activities and measurements. Compared to traditional paper-based lab notebooks, ELNs offer significant advantages, including easy access to your research data from any device, seamless integration of measurements and key findings with detailed experimental metadata, and enhanced collaboration capabilities with colleagues and external partners.
 
-## Why use an ELN?
+## Why Use an ELN?
 
 - **Searchability:** Instantly locate and retrieve samples and experimental details.
 - **Organization:** Store all experimental data, from raw measurements to metadata, in one place.
 - **Collaboration:** Easily share and manage projects with your team.
 - **Security:** Ensure your data is backed up and protected from loss or damage.
 
-For more reasons to implement an ELN today, check out these resources: [Insert educational references here].
+For more reasons to implement an ELN today, check out this [resource on how ELNs enhance research reproducibility](https://www.scinote.net/blog/8-reasons-why-eln-enhance-research-reproducibility/)
+
 
 ## Typical Experimentation Processes
 
-- **Plannig:** Plan your experiment by identifying resources and outlining your process.
+- **Planning:** Plan your experiment by identifying resources and outlining your process.
 - **Documenting:** Record each step of your experiment, including materials, procedures, and results.
 - **Managing:** Organize your data, notes, and materials for easy access and review.
 - **Sharing:** Collaborate with others by sharing your progress and results within the ELN.
