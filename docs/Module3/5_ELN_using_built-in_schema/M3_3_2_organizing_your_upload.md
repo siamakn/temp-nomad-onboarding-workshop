@@ -19,7 +19,7 @@ In essence, this page acts as your online storage drive for the uploaded content
 
 You can organize your files by creating folders, upload additional items like images or PDFs, and even download the entire directory to your local computer for offline access.
 
-Note that changing the folders structre will not affect the view or the function of the entries on **Overview** page. 
+Note that changing the folders structre will not affect the view or the function of the entries on **overview** page. 
 
 ## Organizing Your Entries into Folders
 

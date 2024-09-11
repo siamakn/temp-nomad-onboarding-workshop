@@ -24,7 +24,7 @@ Using the NOMAD ELN functionality, you will want to capture all the information 
 
 For each record, an entry in NOMAD is created based on a data schema that defines the structure. A schema serves as a template with input fields for various parameters of each entry. NOMAD offers a wide range of built-in schemas for general use, as well as, the ability to create your own schema and uploading it to NOMAD. 
 
-## **Learning objectives**
+## **Learning Objectives**
 
 In this module, we will learn how a user can create entries of structured data in NOMAD.
 

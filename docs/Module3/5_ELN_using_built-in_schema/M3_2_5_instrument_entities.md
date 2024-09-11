@@ -12,9 +12,8 @@ Based on the example described earlier, we will need to create entries for the f
 5. Conductivity board
 6. Spin coater
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, see the [Getting Started](M3_2_0_getting_started.md) page. When you reach step 8, select *Instrument ELN* from the drop-down menu, enter a name for your entry, and click Create. 
+> For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step 8,, select **Instrument ELN** from the drop-down menu, enter a name for your entry, and click **Create**. 
 >
-> <mark>SN: I think the above text can be more precise, e.g., For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you the reach step depicted in figure 8, select **Instrument ELN** from the drop-down menu, enter a name for your entry, and click **Create**. <mark>
 
 Let's start by creating an entry for the UV Ozone Purifier. 
 

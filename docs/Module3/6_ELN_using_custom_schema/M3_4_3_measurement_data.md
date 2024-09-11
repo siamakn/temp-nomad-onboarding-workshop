@@ -98,7 +98,7 @@ definitions:
 
 ```
 ### **Step 4: Instructing NOMAD on How to Treat the Different Quantities**
-For this, we use the ```m_annotations``` function within each of the quantities to peeform the intended task. 
+For this, we use the ```m_annotations``` function within each of the quantities to perform the intended task. 
 **```data_file``` quantity**
 We will need three annotations: 
 - The first is to instruct NOMAD to allow for droping and selecting files in this quantity.

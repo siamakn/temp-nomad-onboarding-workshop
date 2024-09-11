@@ -42,6 +42,3 @@ Let's get hands-on and create entries for the different entities that will be us
 2. Samples
 3. Instruments
 
-<mark>All the built-in schemas in NOMAD contain a subsection that is called *entity_identifier*.
-(consice description is needed.) SN: perhaps can be omited if is not used later<mark> 
-

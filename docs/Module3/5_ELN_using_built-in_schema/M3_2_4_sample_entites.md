@@ -10,8 +10,7 @@ Based on the example described earlier, we need to create entries for the follow
 
 ![Alt text](../images/lab_images/samples.png)
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting Started](M3_2_0_getting_started.md) page. When you reach step 8, select the *Generic Sample ELN* from the drop-down menu, enter a name for your entry, and then click Create. 
-> > <mark>SN: I think the above text can be more precise, e.g., For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step depicted in figure 8, select **Generic Sample ELN** from the drop-down menu, enter a name for your entry, and click **Create**. <mark>
+> For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step 8, select **Generic Sample ELN** from the drop-down menu, enter a name for your entry, and click **Create**.
 
 ![Creating an entry in NOMAD for a sample entity and naming it P3HT_thin_film_on_glass](../images/built-in_schema/generic_sample/P3HT_film.png)
 

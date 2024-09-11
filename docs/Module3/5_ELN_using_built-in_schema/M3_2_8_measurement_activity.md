@@ -10,9 +10,8 @@ Based on the example described earlier, we will need to create entries for the f
 
 2. Measuring the electrical conductivity.
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please refer to the [Getting Started](M3_2_0_getting_started.md) page. When you reach step 8, select *Measurement ELN* from the drop-down menu, enter a name for your record, and click Create.
+> For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step 8, select **Measurement ELN** from the drop-down menu, enter a name for your entry, and click **Create**.
 >
-> > > <mark>SN: I think the above text can be more precise, e.g., For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step depicted in figure 8, select **Measurement ELN** from the drop-down menu, enter a name for your entry, and click **Create**. <mark>
 
 ![Creating an entry in NOMAD for measuring the optical absorption spectra and naming it optical absorption](../images/built-in_schema/measurement/create.png)
 

@@ -11,12 +11,8 @@ An Electronic Lab Notebook (ELN) is an essential tool for today's scientists, pr
 - **Collaboration:** Easily share and manage projects with your team.
 - **Security:** Ensure your data is backed up and protected from loss or damage.
 
-For more reasons to implement an ELN today, check out these resources: <mark>[Insert educational references here].<mark>
-<mark>[SN: please provide suggestions or if you find it proper, pick from the list bellow.
-https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Wegweiser_2020-10-05_view.pdf
-https://www.publisso.de/en/research-data-management/rd-documenting/benefits-of-an-eln
-https://www.scinote.net/blog/8-reasons-why-eln-enhance-research-reproducibility/
-].<mark>
+For more reasons to implement an ELN today, check out this [resource on how ELNs enhance research reproducibility](https://www.scinote.net/blog/8-reasons-why-eln-enhance-research-reproducibility/)
+
 
 ## Typical Experimentation Processes
 

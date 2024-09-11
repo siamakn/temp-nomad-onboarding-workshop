@@ -9,28 +9,38 @@ In NOMAD, this is done by creating entries for each entity and activity that wil
 
 
 
-### **Step 1:** Create a New Upload for the Electronic Lab Notebook for the Experiments. This Upload will be Your ELN of the Planned Experiment. 
+### Create a New ELN Upload.
 
+- **Step 1:**
 ![1- Create a new upload for the electronic lab notebook for the experiments.](../images/ELN_builtin_schema/1.png)
 
+- **Step 2:**
 ![2- Create a new upload for the electronic lab notebook for the experiments.](../images/ELN_builtin_schema/2.png)
     
+- **Step 3:**
 ![3- Create a new upload for the electronic lab notebook for the experiments.](../images/ELN_builtin_schema/3.png)
-    
+
+- **Step 4:**
 ![4- Click on the pen icon to provide a name for your upload](../images/ELN_builtin_schema/4.png)
-    
+
+- **Step 5:**
 ![5- Provide a descriptive name for your upload](../images/ELN_builtin_schema/5.png)
-    
+
+- **Step 6:**
 ![6- Click save](../images/ELN_builtin_schema/6.png)
 
-### **Step 2:** Create an **entry** Using NOMAD's Built-in Schema.
+### Create an **entry** Using NOMAD's Built-in Schema.
 
+- **Step 7:**
 ![1- Select a built-in schema step 1.](../images/ELN_builtin_schema/7.png)
 
+- **Step 8:**
 ![2- Select a built-in schema from the list](../images/ELN_builtin_schema/8.png)
 
+- **Step 9:**
 ![3- Provide a name for your entry](../images/ELN_builtin_schema/9.png)
 
+- **Step 10:**
 ![4- Click on the Create button](../images/ELN_builtin_schema/10.png)
 
 
