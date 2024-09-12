@@ -1,4 +1,4 @@
-# Create Entries for your Substance Using the *substance ELN* Schema
+# Create Entries for your Substance Using the *Substance ELN* Schema
 
 ![Screenshot from the NOMAD UI which shows the Substance ELN schema](../images/built-in_schema/substance/1.png)
 
@@ -13,11 +13,12 @@ Based on the example described earlier, we will need to create entries for the f
 
 ![Alt text](../images/lab_images/substances.png)
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please see the [Getting Started](M3_2_0_getting_started.md) page. Once you have reached step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
+> For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step 8, select *Substance ELN* from the drop down menu, enter a name for your record, and click Create. 
 
 ![Creating an entry in NOMAD for a substance entity and naming it P3HT_powder](../images/built-in_schema/substance/P3H_powder.png)
 
 After clicking the **Create** button, NOMAD will automatically perform the following tasks:
+
 1. NOMAD creates a file for the entry, using the format *.archive.json*.
 2. The entry file is stored in the main upload directory. 
 3. NOMAD will open the entry, switch to the *data* tab, and open the *data* sub-sections page. 

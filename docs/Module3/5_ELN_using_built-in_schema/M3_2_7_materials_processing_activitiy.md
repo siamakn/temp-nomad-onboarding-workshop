@@ -12,7 +12,7 @@ Based on the example described earlier, we will need to create entries for the f
 
 ![Alt text](../images/lab_images/samples.png)
 
-> For general steps on how to create records in NOMAD using the built-in ELN schema, please refer to the [Getting strated](M3_2_0_getting_started.md) page. When you reach step 8, select *Materials Processing ELN* from the drop down menu, enter a name for your record, and click Create. 
+> For general steps on how to create an entry in NOMAD using the built-in ELN schema, see the section [Entries in NOMAD](M3_2_1_creating_entries_built-in_schema.md). When you reach the step 8, select *Materials Processing ELN* from the drop down menu, enter a name for your record, and click Create. 
 
 ![Creating an entry in NOMAD for a material processing activity and naming it solution_preparation](../images/built-in_schema/material_processing/create.png)
 
