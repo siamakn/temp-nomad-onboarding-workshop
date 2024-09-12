@@ -2,7 +2,7 @@ Overview:
 =========
 
 NOMAD can be considered as a database for materials-science data.
-<!--hghghgghh-->
+
 A database is a structured collection of data designed to capture the relationships between sets of similar data. These specific pieces of data are referred to as data records.
 
 In NOMAD, data records are called **Entries**.
