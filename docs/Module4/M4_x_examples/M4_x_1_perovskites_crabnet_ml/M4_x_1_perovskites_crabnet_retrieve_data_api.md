@@ -9,37 +9,39 @@ The presented example here is based on the Jupyter notebook ``crabnet-perovskite
 
 ## Imports
 
-We will start by running a couple of pip installers and importing the necessary libraries.
+We will start by installing few libraries. The following pip commands will perform the installation: 
 
 ```python
 ! pip install torch
 ! pip install crabnet
 ! pip install pandas
 ```
-Then import necessary libraries:
+After the installations, we import the necessary libraries into our Python environment:
+
 ```python
 from crabnet.crabnet_ import CrabNet
 import numpy as np
 from crabnet.utils.data import groupby_formula
 import nest_asyncio
 import pandas as pd
-nest_asyncio.apply()
+nest_asyncio.apply() 
 
 ```
+<!-- the last line in the code above doesn't seem like an import process -->
+## Fetch Data Using NOMAD API
 
-## Fetch Data using NOMAD API
-
-In this section, we will fetch some perovskite solar cell data from the NOMAD API. This can be skipped if you already have the data available.
+In this section, we will fetch some perovskite solar cell data using the NOMAD API. 
 
 You can use your password if you need to access unpublished data from your uploads. If your screen is being shared or recorded, you probably want to hide your password when typing it. For this you might use the ``getpass`` library among other options:
-
+<!-- authintacation is not needed -->
 ```python
 import getpass
 password = getpass.getpass()
 ```
-Then, use the password to get data in which you have visibility. In the following code snippet, you authenticate yourself with ``yourusername`` and the password you gave above and get an access tocken:
+Then, use the password to get data in which you have visibility. In the following code snippet, you authenticate yourself with ``yourusername`` and the password you gave above and get an access token:
 
 ```python
+import requests
 response = requests.get(
     'https://nomad-lab.eu/prod/v1/staging/api/v1/auth/token', 
     params=dict(username='yourusername', password=password))
