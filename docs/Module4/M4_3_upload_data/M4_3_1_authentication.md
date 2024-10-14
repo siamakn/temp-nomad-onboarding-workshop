@@ -1,10 +1,10 @@
 # Authentication and Checking Uploads
 
-## Authentication
+## Authentication <!-- Authentication: Who you are? Authorization: Are you allowed to perfrom the actions?>
 
-Most of the API operations with NOMAD do not require any authorization and can be freely used without a user or credentials. However, to upload, edit, or view your own data or those shared with you, the API needs to authenticate you.
+Most of the API operations with NOMAD can be freely used without needing a login or credentials. However, to upload, edit, or view your own data or those shared with you, you'll need to log in to authenticate your identity.
 
-The NOMAD API uses OAuth and tokens to authenticate users. This guide will walk you through the process of obtaining access tokens, using the NOMAD Python package for authentication, and managing app tokens.
+The NOMAD API uses OAuth and tokens to authenticate users. This guide will show you how to get access tokens, use the NOMAD Python package to log in, and manage app tokens.
 
 ??? note "What is OAuth?"
 
@@ -16,12 +16,14 @@ The NOMAD API uses OAuth and tokens to authenticate users. This guide will walk 
         1. **Access Tokens**: Short-lived tokens used for API requests.
         2. **App Tokens**: Tokens with a user-defined expiration time, used for longer sessions.
 
-Users might need to authenticate themselves using their username and password in the following use cases:
+You will need to authenticate yourself using you username and password in the following use cases:
 
-    - When using the API dashboard
-    - When interacting with NOMAD API using python.
-    - When working with the NOMAD python package.
+- Using the API dashboard
+- Interacting with NOMAD API using python.
+- Working with the NOMAD python package. <!-- I don't get what is meant here -->
 
+<!-- These seem to be different methods to acquire the authorization token, correct? 
+I recommend that we only use one method to prevent distraction. I would go with using the NORTH platform. We can mention that there are other ways and refer to the documentation --> 
 1. To use authentication in the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs), simply use the "Authorize" button
 ![Authenticate in the API Dashboard](../images/API_dashboard_auth.gif)
 
@@ -65,12 +67,16 @@ uploads = response.json()['data']
 
 ```
 
-## Checking Uploads 
+## Checking You Uploads in NOMAD
 
-Following example shows how you can check your uploads in NOMAD.
+In this section, you'll learn how to check the uploads the you have created in your NOMAD account. The process involves two main steps:
 
-1.  send a GET request to the `/auth/token` endpoint and save your access token (repeated step).
-2. send a GET request to the `/uploads` endpoint contains your 'uploads' information. Let's print them!
+1. **Obtain an Access Token.** 
+In this step, you will send a GET request to the NOMAD API's token endpoint to authenticate your self. The code used in this step consists of four parts:
+    - Use the `requests.get()`.
+    - Specify the relevant endpoint to obtain the token, i.e., `/auth/token`.
+    - You pass your username and password as query parameters `params`, asking the API for an access token.
+    - You will need to extracts the `access_token` field from the response and store it in the `token` variable. This token will be used for further API requests.
 
 ```python
 import requests
@@ -80,14 +86,22 @@ response = requests.get(
     'https://nomad-lab.eu/prod/v1/api/v1/auth/token', params=dict(username='my_username', password='my_password'))
 
 token = response.json()['access_token']
+```
 
+2. **Retrieve Your Uploads:**
+Next, you'll use the access token to send a GET request to the NOMAD API's uploads endpoint. This will provide you with information about your uploads, which we’ll then print out for easy viewing. The code used in this step consists of points:
+    - Use the `requests.get()`.
+    - Specify the relevant endpoint to check your uploads, i.e., `/uploads`.
+    - Include the authorization token in the `header` of your request. 
+    - Extract and print the information about your uploads included `data` field from the response.
+
+```python
 response = requests.get(
     'https://nomad-lab.eu/prod/v1/api/v1/uploads',
     headers={'Authorization': f'Bearer {token}'}
 )
 uploads = response.json()['data']
 print(json.dumps(uploads, indent = 4))
-
 
 ```
 

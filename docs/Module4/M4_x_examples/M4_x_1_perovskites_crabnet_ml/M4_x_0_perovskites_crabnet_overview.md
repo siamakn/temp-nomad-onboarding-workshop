@@ -8,7 +8,7 @@ The key question we aim to address is:
 
 **How can we predict the bandgap of perovskite materials based on their chemical composition using machine learning?**
 
-Bandgap is a crucial property for materials used in optoelectronic devices, such as solar cells, as it determines the range of light the material can absorb and convert into electricity. Accurately predicting the bandgap from composition allows researchers to efficiently screen and design new materials with desired properties.
+Bandgap is a crucial property for materials used in optoelectronic devices, such as solar cells, as it determines the wavelength range of light the material can absorb. Predicting the bandgap from composition allows researchers to efficiently screen and design new materials with desired properties.
 
 ## What We Will Do
 

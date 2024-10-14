@@ -1,6 +1,47 @@
-## An example NOMAD API call 
+## Your first NOMAD API call 
 
-Let's consider the following example. Imagine we would like to send a POST request to NOMAD's API and make a *search query* for entries that contain both Ti and O in their chemical formula. The NOMAD database most probably contains a large number of entries that satisfy our search query. To narrow it down, we restrict it to 1 entry and only ask for the `entry_id` of that entry. You can simply run the following code in your terminal:
+Let's consider the following example. Imagine we would like scan all the entires in NOMAD to search for entries entries that contain both Ti and O in their chemical formula.
+For this you will need to create a *search query*, send it as request to the NOMAD servers via API, and then recieve the recieve the `entry_id` for those entries.
+
+### **Request:**
+-  The **HTTP method** to be used is `POST`, implying that the request is sending (or posting) data to create or update resources (in this case, we are *posting* data to initiate a search query, which did not exist previously, i.e., we are creating this search query). The `-X` flag in curl specifies the request method to use when communicating with the HTTP server.
+
+- The **endpoint** specifies the address of the resource on the server. You send the request to `"http://nomad-lab.eu/prod/v1/api/v1/entries/query"`. The API endpoint in this case is `"/entries/query"`.
+
+??? tip "API endpoints"
+    An API endpoint is a specific path in an API for accessing resources or functions. Each API has documentation explaining its endpoints. However, endpoints often imply their functionality. For instance, a `POST` request to the endpoint `/datasets/{dataset_id}/action/doi` implies assigning a DOI to a dataset by providing its `dataset_id`.
+
+```bash
+-X POST "http://nomad-lab.eu/prod/v1/api/v1/entries/query" \
+```
+
+-  **Headers** are flagged with `-H`. The header `Content-Type: application/json`  tells that the type of the content (request body) that we are sending is in JSON format. The `Accept: application/json` tells we would like to receive the response as JSON format as well. If an authentication were required, it would be included here as well.
+
+```bash
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \ 
+```
+
+-  The **body** (data we are sending) is flagged with `-d`. The JSON object after the flag `d` within the single quotes is the actual JSON data being sent with the request, which defines the search parameters and what information to include in the response. To limit the number of results returned, the paginiation method.
+
+```bash
+-d `{
+  "query": {
+    "results.material.elements": {
+      "all": ["Ti", "O"]
+    }
+  },
+  "pagination": {
+    "page_size": 1
+  },
+  "required": {
+    "include": ["entry_id"]
+  }
+}`
+```
+The body defines the search criteria (materials containing the elements "Ti" and "O"), how many results to return (in our case, 1), and what details to include in the response (entry_id).
+
+Here is how your request would look like, lets try it out!
 
 ```bash
 curl -X POST "http://nomad-lab.eu/prod/v1/api/v1/entries/query" \
@@ -20,34 +61,8 @@ curl -X POST "http://nomad-lab.eu/prod/v1/api/v1/entries/query" \
            }
          }'
 ```
-In this example: 
 
-- You send the request to `"http://nomad-lab.eu/prod/v1/api/v1/entries/query"`. The API endpoint is `"/entries/query"`.
-
-??? tip "API endpoints"
-    An API endpoint is a specific path in an API for accessing resources or functions. Each API has documentation explaining its endpoints. However, endpoints often imply their functionality. For instance, a `POST` request to the endpoint `/datasets/{dataset_id}/action/doi` implies assigning a DOI to a dataset by providing its `dataset_id`.
-
--  The **HTTP method** used is `POST`, implying that the request is sending (or posting) data to create or update resources (in this case, we are *posting* data to initiate a search query, which did not exist previously, i.e., we are creating this search query). The `-X` flag in curl specifies the request method to use when communicating with the HTTP server.
--  **Headers** are flagged with `-H`. The header `Content-Type: application/json`  tells that the type of the content (request body) that we are sending is in JSON format. The `Accept: application/json` tells we would like to receive the response as JSON format as well. If an authentication were required, it would be included here as well.
--  The **body** (data we are sending) is flagged with `-d`. The JSON object after the flag `d` within the single quotes is the actual JSON data being sent with the request, which defines the search parameters and what information to include in the response:
-  
-```json
-{
-  "query": {
-    "results.material.elements": {
-      "all": ["Ti", "O"]
-    }
-  },
-  "pagination": {
-    "page_size": 1
-  },
-  "required": {
-    "include": ["entry_id"]
-  }
-}
-
-```
-It defines the search criteria (materials containing the elements "Ti" and "O"), how many results to return (in our case, 1), and what details to include in the response (entry_id).
+### **Response:**
 
 The response you receive from the server will look *similar* to the following:
 
@@ -150,6 +165,8 @@ Please note, this is a simple query. More complex queries can be written using l
 “Please note that the `pagination` section in the response also includes default values for parameters not explicitly set in our POST request, such as `order_by`, `order`, and `next_page_after_value`. In our [next example](M4_2_2_leveraging_pagination.md), we will explore how these parameters can be used to enhance control over API calls.
 
 The above example was just to showcase different components of a simple API call. However, our focus in this tutorial will be on using the Python `requests` library. This approach combines simplicity with powerful capabilities, making it ideal for both beginners and experienced users. In particular its built-in JSON decoding capabilities,  simplify working with JSON data.
+
+<!-- I suggest to take the following part out -->
 
 The same POST request can be written using the Python `requests` library. For this, open a programming environment of your choice (e.g., VSCode, Jupyter notebook, NOMAD NORTH, etc.) and paste the following piece of code and run:
 

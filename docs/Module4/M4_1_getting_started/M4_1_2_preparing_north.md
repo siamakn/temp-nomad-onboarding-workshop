@@ -1,6 +1,6 @@
-## The NOMAD Remote Tools Hub (NORTH)
+## The NOMAD Remote Tools Hub (NORTH) <!-- I suggest using setting up instead of preparing to be consistent with wording on the overview page, but this is minor -->
 
-NORTH allows you to run pre-configured applications directly on the NOMAD servers. With NORTH, you can access, analyze, and create data directly in your uploads using your favorite tools with no setup required..
+NORTH allows you to run pre-configured applications directly on the NOMAD servers. With NORTH, you can access, analyze, and create data directly in your uploads using your favorite tools with no setup required.
 
 In this section, you will learn how to access and use the Jupyter Notebook interface via the NOMAD Remote Tools Hub (NORTH). Follow these steps to get started:
 
