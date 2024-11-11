@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document describes our Git collaboration workflow. I suggest using GitHub GUI instead of the command line for issue tracking and branch management, which allows for a relatively more straight forward integration of everyone's contributions.
+This document describes our Git collaboration workflow. I suggest using GitHub GUI instead of the command line for issue tracking and branch management, which allows for a relatively more straightforward integration of everyone's contributions.
 
 ## Workflow Steps
 

@@ -31,13 +31,13 @@ For instance, here we see cards for the electronic properties that we searched f
     <img src="images/entry_page.gif" alt="Entry Page" width="800">
 </div>
 
-## Raw and Processed Data in the ``Files`` and ``Data`` Tabs
+## Raw and Processed Data in the **FILES** and **DATA** Tabs
 
 After we could see an overview of the entry in the entry page, we might be interested to inspect more in two other places:
 
-1. ``FILES`` Tab: This tab shows the uploaded files. NOMAD lists all files in the same directory, as they usually belong together. The mainfile for this entry is displayed at the top. For example, if it is a VASP run, the mainfile would be the XML file. All the information in this entry are created from those files. You can preview text files and download all or individual files.
+1. **FILES** Tab: This tab shows the uploaded files. NOMAD lists all files in the same directory, as they usually belong together. The mainfile for this entry is displayed at the top. For example, if it is a VASP run, the mainfile would be the XML file. All the information in this entry are created from those files. You can preview text files and download all or individual files.
 
-2. ``DATA`` Tab: Also known as the "processed data" tab, this shows the results of the parsing and normalization process done by NOMAD. NOMAD puts all the data in a unified, hierarchical, and machine-processable format.
+2. **DATA** Tab: Also known as the "processed data" tab, this shows the results of the parsing and normalization process done by NOMAD. NOMAD puts all the data in a unified, hierarchical, and machine-processable format.
 
 <div style="text-align: center;">
     <img src="images/files_and_data_tabs.gif" alt="Files and Data Tabs" width="800">

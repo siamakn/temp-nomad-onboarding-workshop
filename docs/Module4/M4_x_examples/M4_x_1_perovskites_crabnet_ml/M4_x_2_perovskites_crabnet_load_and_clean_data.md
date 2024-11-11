@@ -13,7 +13,7 @@ df.describe()
 df.head()
 ```
 
-Let's see how our ``df`` look like:
+Let's see how our **df** look like:
 
 ```python
 df.describe()
@@ -28,7 +28,7 @@ df.dropna(inplace=True)
 df
 ```
 
-Let's rename columns and use the ``gourpby_formula`` function from CrabNet:
+Let's rename columns and use the **gourpby_formula** function from CrabNet:
 
 ```python
 # Rename the column 'bandgap' to 'target'

@@ -39,7 +39,7 @@ With over 13 million entries, mostly consisting of electronic structure calculat
 
 ### Filtering by Material and its Structure
 
-Let's start with a search based on material structure. The ``Elements / Formula`` tab allows you to filter entries by specific elements or chemical formulas. For instance, if you are interested in hexagonal boron nitride, select the B and N from the periodic table. As you select elements, the user interface dynamically updates, narrowing down the search results and altering the heatmap accordingly.
+Let's start with a search based on material structure. The **Elements / Formula** tab allows you to filter entries by specific elements or chemical formulas. For instance, if you are interested in hexagonal boron nitride, select the B and N from the periodic table. As you select elements, the user interface dynamically updates, narrowing down the search results and altering the heatmap accordingly.
 
 Filters are displayed in their respective sections, and you can remove individual filters or clear all filters to reset your search. The principle remains the same across different filter types — whether you are using the periodic table, formula input fields, structure/symmetry filters, or properties filters, your search is refined progressively.
 
@@ -47,11 +47,11 @@ For example, you could filter down to materials with only two atoms of B and N, 
 
 ### Method Filter
 
-Under the ``Method`` tab, you can control the applied physics method. This allows you to specify whether you are looking for simulation data (e.g., DFT) or experimental data (e.g., EELS). For example, you could filter h-BN data down to only those entries created using VASP.
+Under the **Method** tab, you can control the applied physics method. This allows you to specify whether you are looking for simulation data (e.g., DFT) or experimental data (e.g., EELS). For example, you could filter h-BN data down to only those entries created using VASP.
 
 ### Properties Filter
 
-The ``Properties`` filter tab allows you to focus on specific calculated or measured properties. For example, if you are interested in electronic properties, you can filter entries to display only those with available band structure or density of states data etc.
+The **Properties** filter tab allows you to focus on specific calculated or measured properties. For example, if you are interested in electronic properties, you can filter entries to display only those with available band structure or density of states data etc.
 
 
 ### Adding the Filters to the Search Interface

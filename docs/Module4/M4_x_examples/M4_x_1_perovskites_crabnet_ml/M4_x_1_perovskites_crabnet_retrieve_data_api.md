@@ -4,7 +4,7 @@ This tutorial demonstrates how to use [CrabNet](https://github.com/sparks-baird/
 
 *Authored by José A. Márquez, et al.*
 
-The presented example here is based on the Jupyter notebook ``crabnet-perovskite-bandgap-prediction.ipynb``  by *José A. Márquez, et al.* and can be found in NOMAD using the entry_id ``Should Ask Pepe for Permission and ID``. To follow along, you might either download the notebook and run the cells, or copy and paste the code snippets given here onto a jupyter notebook and run them. 
+The presented example here is based on the Jupyter notebook *crabnet-perovskite-bandgap-prediction.ipynb*  by *José A. Márquez, et al.* and can be found in NOMAD using the entry_id ``Should Ask Pepe for Permission and ID``. To follow along, you might either download the notebook and run the cells, or copy and paste the code snippets given here onto a jupyter notebook and run them. 
 
 
 ## Imports
@@ -215,4 +215,4 @@ df['bandgap'] = df['bandgap']*6.24150974e18
 df
 ```
 
-We have saved the the data we obtaine from NOMAD API with the name ``perovskite_bandgap_devices.csv`` into the folder ```data`` where your notebook is running. Next we will proceed with cleaning this data.
+We have saved the the data we obtaine from NOMAD API with the name **perovskite_bandgap_devices.csv** into the folder **data** where your notebook is running. Next we will proceed with cleaning this data.
