@@ -16,14 +16,14 @@ We had this previously, for the sake of completeness, the steps to follow are:
 ## Step 2: Find the relevant endpoing from API helper.
 
 1. Let's choose the first entry that appears in the filtered results. The principle is similar for all the entries, but if you would prefer to look at the same entry of this example, you can access the entry with the `entry_id` "kAarJxUt4bGajfLZFyqEPnxRK59_" (you can use the search bar in the GUI to access it)
-2. On the entry page, locate and click the API button (`API`) at the bottom-left of the page.
+2. On the entry page, locate and click the **API** button at the bottom-left of the page.
 3. Scroll down to see the POST request.
 5. Find the POST request, have look ok the URL: "https://nomad-lab.eu/prod/v1/api/v1//entries/kAarJxUt4bGajfLZFyqEPnxRK59_/archive/query". You can see that there is a key which looks like an `entry_id`. Also, you can distinguish the API endpoint `entries/{entry_id}/archive/query` implying that this endpoint allows you to query the 'archive' data, i.e., (processed) data, given you have its `entry_id`
 6. Copy the `entry_id` from the POST request.
 
 ## Step 3: Using the API Dashboard
 
-1. Open the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs) in a new tab.
+1. Open the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs){:target="_blank"} in a new tab.
 2. Navigate to the endpoint `entries/{entry_id}/archive/query` and expand it. The description says "Returns a partial archive for the given entry_id based on the required specified in the body." It seems like what we are interested in. It just needs an `entry_id` and `required` part. There is no need for a `pagination`, `owner` etc.
 3. Click on 'Try it out'.
 4. The `entry_id` can be copied from entry page or the URL of the POST request. In our example it is "kAarJxUt4bGajfLZFyqEPnxRK59_". In order to write the `required` part, we should first locate the desired data.
@@ -59,7 +59,7 @@ Now let's quickly verify if the dos data are in `/run/0/calculation/0/dos_electr
 
 ## Step 5: Constructing the `required` and executing the query 
 
-Switch to the API dashboard and under the endpoint `entries/{entry_id}/archive/query` click on 'Try it out'. Paste the `entry_id` to its place, if you havn't done it yet.
+Switch to the API dashboard and under the endpoint `entries/{entry_id}/archive/query` click on **Try it out**. Paste the `entry_id` to its place, if you havn't done it yet.
 
 Remember, the path to the data is `/run/0/calculation/0/dos_electronic/0/energies`. We need to construct the `required` field to reflect this path to be able to retrieve dos data. This is how it is done:
 
@@ -87,16 +87,16 @@ This structure tells the NOMAD backend to
 
 * Finally, retrieve everything in the `energies` section (`"energies": "*"`).
 
-After clicking on "Execute", the response is back via code 200 and can be downloaded as a JSON file.
+After clicking on **Execute**, the response is back via code 200 and can be downloaded as a JSON file.
 
 Well done! You could retrieve data from data containers (sections) deep in NOMAD data architecture.
 
-??? note "formatting JSON"
+??? info "Formatting JSON"
     When writing in JSON format (the `required`), indentation is not essential. One could write the same `required` as following:
     ```json
     {"required": {"run[0]": {"calculation[0]": {"dos_electronic[0]": {"energies": "*"}}}}} 
     ```
-    Indentation just helps to easily identify the structure and hierarchy of the JSON data. A common practice is to use two or four spaces for each level of indentation you can write it. You could write everything in 1 line, or alternatively get your JSON formatted using one of several available online tools, e.g., [this one](https://jsonformatter.org/). These tools often allow checking the correctness of JSON format, e.g., missing curled brackets etc.
+    Indentation just helps to easily identify the structure and hierarchy of the JSON data. A common practice is to use two or four spaces for each level of indentation you can write it. You could write everything in 1 line, or alternatively get your JSON formatted using one of several available online tools, e.g., [this one](https://jsonformatter.org/){:target="_blank"}. These tools often allow checking the correctness of JSON format, e.g., missing curled brackets etc.
 
 
 ![Example to use the API Dashboard](../../images/TiO_dos_complete.gif)
@@ -104,7 +104,7 @@ Well done! You could retrieve data from data containers (sections) deep in NOMAD
 ??? question "How do you retrieve dos data for 10 entries?"
     What would you do if you want to do the same procedure for 10 entries?
 
-??? note "Hint"
+??? tip "Hint"
 
     - The API dashboard also shows the CURL request that can be sent to retrieve this data.
     - You already learned how to use API via CURL [here](../M4_2_1_example_api_explained.md) 

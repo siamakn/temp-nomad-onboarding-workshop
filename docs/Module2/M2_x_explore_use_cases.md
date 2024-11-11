@@ -1,6 +1,6 @@
 # Exploring Data through Use Cases (Apps) in NOMAD
 
-The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an easy approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
+The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an efficient approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
 
 <div style="text-align: center;">
     <img src="images/explore_menu_use_cases_option.png" alt="Explore Menu Use Cases Option" width="800">
@@ -75,7 +75,7 @@ Now, we want to answer the following research question:
 
 4. **Modify or Add Customized Widgets:** All the widgets on each dashboard are customizable. By clicking on the pen icon on the top right of each widget, you can access the customizable quantities of that widget. For example, you can change the entity plotted on a specific axis, the color map, or the units in which that specific quantity is presented.
 
-5. **Explore Results:** Review the search results to find data entries that match your criteria. Here you can also look for specific entries in different visualizations. For example, you can zoom in on the scatter plots and hover your mouse pointer over each data point to read the value of the plotted entities. Clicking on each data point will bring you to the entry page. Each entry provides detailed metadata and links to the associated datasets, making it easy to download and use the data in your research.
+5. **Explore Results:** Review the search results to find data entries that match your criteria. Here you can also look for specific entries in different visualizations. For example, you can zoom in on the scatter plots and hover your mouse pointer over each data point to read the value of the plotted entities. Clicking on each data point will bring you to the entry page. Each entry provides detailed metadata and links to the associated datasets, making it accessible for researchers to find and use the most relevant data for their work.
 
 <div style="text-align: center;">
     <img src="images/sn_based_solar_cells_example.gif" alt="Sn-based Solar Cell example" width="800">

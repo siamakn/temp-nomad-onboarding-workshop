@@ -4,4 +4,6 @@ Finally, it is essential to share your progress and findings with others. This i
 
 NOMAD allows you to share your ELNs with your PI, collaborators, and the community. 
 
-![Alt text](../images/overview/5.png)
+<div style="text-align: center;">
+    <img src="../images/overview/5.png" alt="." width="600">
+</div>

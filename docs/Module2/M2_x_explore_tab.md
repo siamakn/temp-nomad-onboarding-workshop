@@ -7,7 +7,7 @@ The "EXPLORE" menu in NOMAD allows you to navigate and search through a vast amo
 - **Experiment**: Explore data from experimental sources, such as ELNs (Electronic Lab Notebooks) or characterization techniques e.g., EELS (Electron Energy Loss Spectroscopy).
 - **Use Cases**: Search data tailored to specific use cases, like Solar Cells or Metal-Organic Frameworks (MOFs).
 
-??? note "What are Entries?"
+??? details "What are **Entries** in NOMAD?"
 
     Entries are individual simulations, workflows, or measurements that have been uploaded to NOMAD. Each entry contains detailed metadata, making it possible to be searched, and subsequently analyzed, and reused.
 
@@ -39,7 +39,7 @@ With over 13 million entries, mostly consisting of electronic structure calculat
 
 ### Filtering by Material and its Structure
 
-Let's start with a simple search based on material structure. The ``Elements / Formula`` tab allows you to filter entries by specific elements or chemical formulas. For instance, if you are interested in hexagonal boron nitride, select the B and N from the periodic table. As you select elements, the user interface dynamically updates, narrowing down the search results and altering the heatmap accordingly.
+Let's start with a search based on material structure. The ``Elements / Formula`` tab allows you to filter entries by specific elements or chemical formulas. For instance, if you are interested in hexagonal boron nitride, select the B and N from the periodic table. As you select elements, the user interface dynamically updates, narrowing down the search results and altering the heatmap accordingly.
 
 Filters are displayed in their respective sections, and you can remove individual filters or clear all filters to reset your search. The principle remains the same across different filter types — whether you are using the periodic table, formula input fields, structure/symmetry filters, or properties filters, your search is refined progressively.
 
@@ -56,7 +56,7 @@ The ``Properties`` filter tab allows you to focus on specific calculated or meas
 
 ### Adding the Filters to the Search Interface
 
-You can customize your search interface by pinning filter items from any filter tab to the search page. Clicking the (+) button adds the selected filter to your custom search interface, allowing you to use them side by side.
+You can customize your search interface by pinning filter items from any filter tab to the search page. Clicking the **(+)** button adds the selected filter to your custom search interface, allowing you to use them side by side.
 
 This feature helps uncover relationships within the data on NOMAD. For example, selecting Boron and fixing the symmetry to hexagonal might reveal a pattern where many entries involve elements from group 5 in the periodic table, reflecting the abundance of III-V semiconductor data in NOMAD.
 
@@ -74,7 +74,7 @@ A very useful tool to explore entries in NOMAD is the search bar, which allows y
 ??? question "Do you think a bandgap filter exist?"
     How will you find out if there is a filter for bandgap of materials in NOMAD? Does it give the bandgap value or the direct/indirect characteristic?
 
-??? note "Hint"
+??? tip "Hint"
 
     - Try different terms or combinations of the words that seem logical or intuitive to you in the search bar. In this case it might incluidng "bandgap", "band gap", "band_gap" etc. Look at the search bar suggestions, to see if you can find the one you were looking for. Do the same for "direct" or "indirect".
 

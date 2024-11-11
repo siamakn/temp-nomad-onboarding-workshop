@@ -24,7 +24,7 @@ NOMAD offers important features for effective research data management including
 - **Extensible Schema**: With NOMAD, you have highest flexibility for your RDM needs. The existing NOMAD schema can be extended to suit your specific needs.
 - **Practical User Control**: Using NOMAD, you can manage your data privately or collaborate within your group before making it public. For even higher privacy, e.g., due to restrictions within an institute or research group, NOMAD has further solutions, the NOMAD Oasis.  
 - **Integrated Analysis Tools**: NOMAD offers a programming environment for your advanced analysis processes and visualizations, e.g., you can run Jupyter notebooks and other tools directly on NOMAD. Access and modify your data, and publish your Jupyter notebooks.
-- **DOI Assignment**: With NOMAD, you can publish and archive your data for free, with the ability to assign DOIs to datasets for easy referencing in publications.
+- **DOI Assignment**: With NOMAD, you can publish and archive your data for free, with the ability to assign DOIs to datasets for efficient referencing in publications.
 - **Comprehensive Database**: NOMAD Combines data from popular sources like the Materials Project, AFLOW, and OQMD, making it the largest database of its kind.
 
 
@@ -48,7 +48,7 @@ NOMAD Oasis allows you to manage your data locally, while still being prepared t
 
 Most important features of NOMAD Oasis include:
 
-- **Easy Installation and Scalability**: Install with a simple guide on any computer with Docker, and utilize unlimited scalability on Kubernetes clusters when needed.
+- **Easy Installation and Scalability**: Install with a quick guide on any computer with Docker, and utilize unlimited scalability on Kubernetes clusters when needed.
 - **Local Operation**: NOMAD Oasis can be customized to operate behind your firewall and inside your VPN.
 - **Control over Published Data**: NOMAD Oasis allows managing data without publishing them. Soon, NOMAD Oasis will be connected to the public NOMAD service, allowing you to publish selected data with one click.
 - **Custom ELNs**: Extend and customize NOMAD's schema to create specialized ELNs for documenting your work and data.

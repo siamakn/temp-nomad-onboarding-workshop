@@ -5,7 +5,7 @@ NOMAD offers several API helpers to facilitate data retrieval, processing, and i
 
 ## 1. API button on GUI pages
 
-When exploring data in NOMAD, each page in the GUI includes an API button (`API`) or symbol (`<>`). This shows the GET request used to retrieve the data for that page. Often, there is an additional POST request available, for instance:
+When exploring data in NOMAD, each page in the GUI includes an API button, (**API**), or it's symbol, (**<>**). This shows the GET request used to retrieve the data for that page. Often, there is an additional POST request available, for instance:
 
 - **Explore tab**: Shows a POST request to narrow down entries based on filter criteria:
   - `https://nomad-lab.eu/prod/v1/api/v1/entries/query`
@@ -18,7 +18,7 @@ Depending on the data being requested from the API, the endpoints vary.
 
 ## 2. NOMAD API dashboard
 
-The NOMAD [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs) is a powerful tool for accessing and experimenting with NOMAD's data resources. It provides detailed documentation and interactive features that make it easy to learn and use the API effectively. Whether you are developing applications, automating data upload or retrieval, or just exploring data, the API dashboard is an important resource.
+The NOMAD [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs) is a powerful tool for accessing and experimenting with NOMAD's data resources. It provides detailed documentation and interactive features that make it possible to learn and use the API effectively. Whether you are developing applications, automating data upload or retrieval, or just exploring data, the API dashboard is an important resource.
 
 ### Accessing the API dashboard
 
@@ -40,4 +40,4 @@ The API dashboard can be accessed from the 'ANALYZE' menu under NOMAD APIs.
     - Based on OpenAPI, the dashboard provides an interactive experience where you can explore all API endpoints.
     - The 'Try it out' feature allows you to test API calls directly in the browser. You can modify the request parameters and see real-time responses from the NOMAD backend. This feature is very useful for testing, debugging, and learning how different API calls work.
 
-The [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides further information.
+The [API section of the NOMAD documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html){:target="_blank"} provides further information.

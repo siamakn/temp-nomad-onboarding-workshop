@@ -1,4 +1,4 @@
-# Planning Your Expriment
+# Planning Your Expriments
 
 Planning is the critical first step in effectively conducting your experiments to obtain meaningful results and conclusions. This is the foundation for taking full advantage of NOMAD's ELN functionality and the ELN's built-in schemas.
 
@@ -16,4 +16,7 @@ Planning is the critical first step in effectively conducting your experiments t
 
 By carefully completing these planning tasks, you will lay a solid foundation for the smooth execution and meaningful results of your scientific endeavors.
 
-![Alt text](../images/overview/2.png)
+
+<div style="text-align: center;">
+    <img src="../images/overview/2.png" alt="." width="600">
+</div>

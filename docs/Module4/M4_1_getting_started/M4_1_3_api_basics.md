@@ -2,7 +2,7 @@ Before we start with the practical examples of using NOMAD’s API, let's briefl
 
 ### API (Application Programming Interface):
 An API is a set of rules and protocols that allows different software programs to communicate with each other, facilitating communication and data exchange between them. This very broad term is often used for web-based systems, database systems, operating systems, or even computer hardware communicating with each other.
-You can think of an API as a waiter in a restaurant: you place your order (the request), the waiter brings it to the kitchen (the server). After your ordered dish is prepared, the waiter delivers the dish (the response) back to you. This *waiter-service interaction* is similar to how an API functions as a *messenger* between you and an application. For a simple explanation, check out this [YouTube video](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+You can think of an API as a waiter in a restaurant: you place your order (the request), the waiter brings it to the kitchen (the server). After your ordered dish is prepared, the waiter delivers the dish (the response) back to you. This *waiter-service interaction* is similar to how an API functions as a *messenger* between you and an application[^1}. For further explanation, check out this [YouTube video](https://www.youtube.com/watch?v=s7wmiS2mSXY){:target="_blank"}.
 
 
 ### HTTP (Hypertext Transfer Protocol):
@@ -17,7 +17,7 @@ There are five fundamental HTTP methods used to interact with resources:
 *   **PUT**: Updates the target resource with the data provided in the request body or creates it if it doesn’t exist.
 
 
-> **Note:** NOMAD highlights the type of requests that are possible on each resource. Here is an example from the [NOMAD's API Dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs):
+> **Note:** NOMAD highlights the type of requests that are possible on each resource. Here is an example from the [NOMAD's API Dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs){:target="_blank"}:
 ![Example NOMAD API Dashboard](../images/API_dashboard_example.png)
 
 #### Understanding HTTP status and error codes
@@ -42,7 +42,7 @@ When interacting with APIs, it is also necessary to understand the meaning of th
 ### REST API (Representational State Transfer API):
 A REST API is a variant of API that primarily handles the interaction with *web services* through *HTTP* methods. It utilizes standard operations defined by HTTP — such as GET to fetch data, POST to create new resources, PUT to update existing ones, and DELETE to remove them. Data is usually exchanged in well-known and standard formats like JSON or XML. 
 
-**JSON** (JavaScript Object Notation) is a format for structuring data as key-value pairs, making it easy for humans to read and machines to parse.
+**JSON** (JavaScript Object Notation) is a format for structuring data as key-value pairs, making it possible for humans to read and machines to parse.
 ```json
 {
   "name": "Max Mustermann",
@@ -63,3 +63,6 @@ A REST API is a variant of API that primarily handles the interaction with *web 
 </contact>
 
 ```
+
+---
+[^1]: For a visual explanation of how APIs work, you may find this [YouTube video](https://www.youtube.com/watch?v=s7wmiS2mSXY){:target="_blank"} helpful.

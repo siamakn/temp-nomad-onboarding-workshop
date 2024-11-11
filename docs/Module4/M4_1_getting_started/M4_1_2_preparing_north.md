@@ -4,10 +4,10 @@ NORTH allows you to run pre-configured applications directly on the NOMAD server
 
 In this section, you will learn how to access and use the Jupyter Notebook interface via the NOMAD Remote Tools Hub (NORTH). Follow these steps to get started:
 
-1.  Begin by visiting the [NOMAD homepage](https://nomad-lab.eu/nomad-lab/). Once there, open NOMAD to reach the main interface.
+1.  Begin by visiting the [NOMAD homepage](https://nomad-lab.eu/nomad-lab/){:target="_blank"}. Once there, open NOMAD to reach the main interface.
 
 
-2.  Navigate to the 'ANALYZE' section, which you'll find at the top of the page. Here, click on `'NOMAD Remote Tools Hub'` to access the remote tools available to you.
+2.  Navigate to the 'ANALYZE' section, which you'll find at the top of the page. Here, click on **NOMAD Remote Tools Hub** to access the remote tools available to you.
 ![ANALYZE Section](../images/1.png)
 
 3.  To use NORTH, you need to be logged in. Click on 'LOGIN / REGISTER' to proceed. If you are not yet registered, now is the right the time to join the NOMAD community.

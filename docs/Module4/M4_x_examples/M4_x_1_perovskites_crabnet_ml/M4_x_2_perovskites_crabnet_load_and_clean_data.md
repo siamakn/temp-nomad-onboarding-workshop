@@ -45,7 +45,7 @@ Let's now check the shape of the datafram:
 df_grouped_formula.shape
 ```
 #### Element Prevalence 
-We will use `pymatviz` ([link to docs](https://pymatviz.janosh.dev/)) for visualizing the element prevalence.
+We will use `pymatviz` ([link to docs](https://pymatviz.janosh.dev/){:target="_blank"}) for visualizing the element prevalence.
 
 Run the following snippet if the package is not installed in the environment yet, otherwise skip it.
 

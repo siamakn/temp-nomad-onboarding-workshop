@@ -51,10 +51,10 @@ To get the response data in JSON format, use the API Dashboard:
 
 1. Copy the POST request body to your clipboard.
 2. Navigate to the API Dashboard, find the `entries/query` endpoint under 'entries/metadata'.
-3. Click on 'Try it out', replace the existing body with your copied request body, and click `Execute`.
+3. Click on 'Try it out', replace the existing body with your copied request body, and click **Execute**.
 4. If you want faster results, reduce the `page_size` to a smaller value, e.g., 1.
    
-After execution, scroll down and you will see a successful response (code 200). Look for the `entry_id` under `data` in the response. You can download this response as a JSON file using the `Download` button at the bottom-right of the response window.
+After execution, scroll down and you will see a successful response (code 200). Look for the `entry_id` under `data` in the response. You can download this response as a JSON file using the **Download** button at the bottom-right of the response window.
 
 ![Example to use the API helper in explore tab](../../images/example_use_API_explore.gif)
 

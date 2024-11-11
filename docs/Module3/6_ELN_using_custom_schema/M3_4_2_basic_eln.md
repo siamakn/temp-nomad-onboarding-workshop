@@ -21,7 +21,7 @@ We would like our ELN to accept input for the following quantities:
 
 ## **Let's Build Our Custom Schema**
 The first step of writing a schema is to create a new file using any text editor and save it in the  `.archive.yaml` format.
-Lets name our file `My_spincoating_ELN.archive.yaml`.
+Let's name our file `My_spincoating_ELN.archive.yaml`.
 
 The next step is to start filling in the schema file with the name, description, and sections. 
 
@@ -59,11 +59,12 @@ definitions:
         Film thickness:
         Comments:
 ```
-At this stage, we have created the skeleton for our custom schema. Lets add a type for each of the quantities in the schema using the keyword `type`, which will define the kind of values that can be used for each quantity.
-A comprehensive list of all the values that `type` accepts can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/basics.html#type).
+At this stage, we have created the skeleton for our custom schema. Let's add a type for each of the quantities in the schema using the keyword `type`, which will define the kind of values that can be used for each quantity.
+A comprehensive list of all the values that `type` accepts can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/basics.html#type){:target="_blank"}.
 We will also add `units` to the numerical quantities to define their physical meaning. 
 
 In our example, we will use the following types for our data:
+
 - text (str)
 - numbers (np.float64)
 - date and time (Datetime)
@@ -130,7 +131,7 @@ Annotations are named blocks of key-value pairs.
           key1: value
           key2: value
 ```
-A complete list of annotations available in NOMAD can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/reference/annotations.html).
+A complete list of annotations available in NOMAD can be found [here](https://nomad-lab.eu/prod/v1/staging/docs/reference/annotations.html){:target="_blank"}.
 
 We will primarily use the ELN annotations in the schema to allow data entry to quantities we have created. 
 
@@ -226,3 +227,5 @@ You can see now that the ELN allows for interactivity, and accepts input of user
 
 This is now a functional ELN in which you can document the samples and the fabrication conditions. 
 Let's create a few entries with your first ELN. 
+
+<!-- I would suggest to showcase creation of an entry based on this custom schema incl. screenshots. -->

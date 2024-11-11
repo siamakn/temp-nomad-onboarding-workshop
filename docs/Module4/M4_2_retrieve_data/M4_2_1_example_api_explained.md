@@ -24,7 +24,7 @@ In this example:
 
 - You send the request to `"http://nomad-lab.eu/prod/v1/api/v1/entries/query"`. The API endpoint is `"/entries/query"`.
 
-??? tip "API endpoints"
+??? info "API endpoints"
     An API endpoint is a specific path in an API for accessing resources or functions. Each API has documentation explaining its endpoints. However, endpoints often imply their functionality. For instance, a `POST` request to the endpoint `/datasets/{dataset_id}/action/doi` implies assigning a DOI to a dataset by providing its `dataset_id`.
 
 -  The **HTTP method** used is `POST`, implying that the request is sending (or posting) data to create or update resources (in this case, we are *posting* data to initiate a search query, which did not exist previously, i.e., we are creating this search query). The `-X` flag in curl specifies the request method to use when communicating with the HTTP server.
@@ -109,7 +109,7 @@ Let’s consider the following simplified layout of the server response that we 
 Now, let's break it down and explore more:
 
 **`owner`**: The `owner` parameter in the NOMAD API allows you to filter entries based on their visibility and ownership. You can specify your search to include various levels of access such as `admin`, `all`, `public`, `shared`, `staging`, `user`, and `visible`. 
-Each option tailors the search to different visibility levels, from entries accessible by all users to those restricted to private use. For detailed explanations of each option, refer to the [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html).
+Each option tailors the search to different visibility levels, from entries accessible by all users to those restricted to private use. For detailed explanations of each option, refer to the [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html){:target="_blank"}.
 
 **`query`**: the reformatted version of our initial query (see the "name" and "value" lables):
 
@@ -124,8 +124,8 @@ Each option tailors the search to different visibility levels, from entries acce
   }
 }
 ```
-Please note, this is a simple query. More complex queries can be written using logical operators such as **and**, **or** and, **not**. Also shortcuts can be alternatively used to change the logical combination of values in a list, e.g., a suffix to the quantity `any:` (the default), `none:`. Furthermore, comparison operators such as `lt` (less than), or `gt` (greater than)
- can be used to add more filter in the query, both in the form of shortcuts (`lt:`, and `gt:`) and as extra filter parameters. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides more details and examples on this topic.
+Please note, this is a basic query. More complex queries can be written using logical operators such as **and**, **or** and, **not**. Also shortcuts can be alternatively used to change the logical combination of values in a list, e.g., a suffix to the quantity `any:` (the default), `none:`. Furthermore, comparison operators such as `lt` (less than), or `gt` (greater than)
+ can be used to add more filter in the query, both in the form of shortcuts (`lt:`, and `gt:`) and as extra filter parameters. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html){:target="_blank"} provides more details and examples on this topic.
 
 
 * **`pagination`**: The `pagination` section in the API **response** organizes how results are delivered:
@@ -135,7 +135,7 @@ Please note, this is a simple query. More complex queries can be written using l
     - `order_by`: Indicates the criteria used to order the entries. Here the matching 41544 entries were sorted by `entry_id` (the default in this case) and the first one (`"page_size": 1`) is returned in the response.
     - `order`:  The sorting direction to sort the 41544 matching entries. can be ascending `asc`)  or descending `desc`. The default is `asc`.
     - `total`: Total number of entries matching the query, here 41544.
-    - `next_page_after_value`: Provides a cursor for pagination. This value is used to fetch the next set of results in subsequent queries. It helps in managing large datasets by allowing the user to continue retrieving data right where the previous query left off. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html) provides a an example on how to use the `next_page_after_value` in order to fetch larger datasets. 
+    - `next_page_after_value`: Provides a cursor for pagination. This value is used to fetch the next set of results in subsequent queries. It helps in managing large datasets by allowing the user to continue retrieving data right where the previous query left off. The [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html){:target="_blank"} provides a an example on how to use the `next_page_after_value` in order to fetch larger datasets. 
 
 
 ```json
@@ -149,7 +149,7 @@ Please note, this is a simple query. More complex queries can be written using l
 ```
 “Please note that the `pagination` section in the response also includes default values for parameters not explicitly set in our POST request, such as `order_by`, `order`, and `next_page_after_value`. In our [next example](M4_2_2_leveraging_pagination.md), we will explore how these parameters can be used to enhance control over API calls.
 
-The above example was just to showcase different components of a simple API call. However, our focus in this tutorial will be on using the Python `requests` library. This approach combines simplicity with powerful capabilities, making it ideal for both beginners and experienced users. In particular its built-in JSON decoding capabilities,  simplify working with JSON data.
+The above example was just to showcase different components of a basic API call. However, our focus in this tutorial will be on using the Python `requests` library. This approach combines simplicity with powerful capabilities, making it ideal for both beginners and experienced users. In particular its built-in JSON decoding capabilities,  simplify working with JSON data.
 
 The same POST request can be written using the Python `requests` library. For this, open a programming environment of your choice (e.g., VSCode, Jupyter notebook, NOMAD NORTH, etc.) and paste the following piece of code and run:
 

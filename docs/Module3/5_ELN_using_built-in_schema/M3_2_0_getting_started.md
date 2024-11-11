@@ -10,11 +10,7 @@ Similar to general use databases, NOMAD manages a structured collection of data 
 
 In NOMAD, data records are called **Entries**, which have individual pages that can be explored using the NOMAD graphical user interface (GUI) or programmatically via the API.
 
-Every **entry** in NOMAD (data record) includes a set of attributes defining information about the respective record.
-
-In databases, at least one attribute serves as the unique identifier for the record, known as the primary key.
-
-In NOMAD, the primary key for an Entry is the **entry_id**, and is assigned automatically by NOMAD.
+Every **entry** in NOMAD (data record) includes a set of attributes defining information about the respective record. In databases generally, at least one attribute serves as the unique identifier for the record, known as the primary key. In NOMAD, the primary key for an entry is the **entry_id**, and is assigned automatically by NOMAD.
 
 Entries related to the same subject (application, experimental method, computation method, etc.) are organized into groups, each with a defined organizational structure. The arrangement of a data group is known as a **schema**, serving as a map that outlines the relationships between each attribute in a data record. Importantly, all records within a data group adhere to the same schema. The precise definition of the schema is crucial for optimizing database searches and constructing FAIR(Findable, Accessible, Interoperable, and Reusable) data.
 

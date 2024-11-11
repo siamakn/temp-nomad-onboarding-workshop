@@ -73,4 +73,4 @@ You can now check the response, e.g., print it to see if the file has been uploa
 print(json.dumps(response.json(), indent=4))
 ```
 
-Congratulations! You have learned the principles of working with the NOMAD API and can now leverage your programming skills to explore the NOMAD API in more details. [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/publish_python.html) also provides further information and examples.
+Congratulations! You have learned the principles of working with the NOMAD API and can now leverage your programming skills to explore the NOMAD API in more details. [NOMAD Documentation](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/publish_python.html){:target="_blank"} also provides further information and examples.

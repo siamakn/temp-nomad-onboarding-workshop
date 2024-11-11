@@ -2,9 +2,9 @@
 
 ## Inspecting the Entries in the Explore Page
 
-In the [previous section](M2_x_explore_tab.md), we learned how to use the GUI filters, to filter the entries which match our search criteria. Now let's look at the the search results in more details. In the center of the page, you will find a list of all entries that fulfill our chosen search criteria. By default, the GUI lists the 20 newest entries first, but we can load more entries by clicking on the *LOAD MORE* at the bottom of the list.
+In the [previous section](M2_x_explore_tab.md), we learned how to use the GUI filters, to filter the entries which match our search criteria. Now let's look at the the search results in more details. In the center of the page, you will find a list of all entries that fulfill our chosen search criteria. By default, the GUI lists the 20 newest entries first, but we can load more entries by clicking on the **LOAD MORE** at the bottom of the list.
 
-You can also customize the columns displayed by using the button on the top right.
+You can also customize the columns displayed by using the button with three vertical thick lines on the top right.
 
 <div style="text-align: center;">
     <img src="images/load_results_add_columns.gif" alt="LOAD Results Add Columns" width="800">

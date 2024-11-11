@@ -4,8 +4,8 @@ The NOMAD Graphical User Interface (GUI) is designed to provide quick access to 
 
 To access the NOMAD GUI, follow these steps:
 
-1. Open your web browser and go to [nomad-lab.eu](https://nomad-lab.eu).
-2. Click on the ``OPEN NOMAD`` button on the top right corner of the homepage. You will be redirected to the NOMAD Landing Page.
+1. Open your web browser and go to [nomad-lab.eu](https://nomad-lab.eu){:target="_blank"}.
+2. Click on the **OPEN NOMAD** button on the top right corner of the homepage. You will be redirected to the NOMAD Landing Page.
 
    ![Open NOMAD](images/NOMAD_homepage_openNOMAD.gif)
 
@@ -37,5 +37,5 @@ In addition to these three main tabs for data management functionalities, you wi
     - The main NOMAD GitLab Project, allowing access to the source code NOMAD.
     - Terms of use of NOMAD.
 
-Please note that certain tabs and sections require logging in. At the top right of the GUI, you will find the ``LOGIN / REGISTER`` button for this purpose. There is also a ``Units`` tool at the top right, which allows you to select the units you would like to see for quantities in the GUI.
+Please note that certain tabs and sections require logging in. At the top right of the GUI, you will find the **LOGIN / REGISTER** button for this purpose. There is also a ``Units`` tool at the top right, which allows you to select the units you would like to see for quantities in the GUI.
 
