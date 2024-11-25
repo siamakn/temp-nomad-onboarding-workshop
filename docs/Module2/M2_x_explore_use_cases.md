@@ -1,6 +1,6 @@
 # Exploring Data through Use Cases (Apps) in NOMAD
 
-The ``USE CASES`` option in the ``EXPLORE`` menu in NOMAD is designed to help researchers discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an easy approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
+The **USE CASES** option in the **EXPLORE** menu in NOMAD is designed to help researchers discover domain-specific data tailored to their research needs. By focusing on predefined categories, use cases provide an efficient approach to exploring datasets relevant to specific scientific domains, ensuring that researchers can find the most relevant data and use the dashboards readily designed for this purpose.
 
 <div style="text-align: center;">
     <img src="images/explore_menu_use_cases_option.png" alt="Explore Menu Use Cases Option" width="800">
@@ -23,11 +23,11 @@ The FAIRmat community is actively working on expanding/advancing the use cases t
 - **Heterogeneous Catalysis:** Focuses on data related to catalytic processes, including catalyst design, reaction mechanisms, and efficiency.
 - **Batteries:** Encompasses data on battery materials, electrochemical performance, and simulations relevant to energy storage technologies.
 
-## How to Explore Data using the `USE CASES` page 
+## How to Explore Data Using the **USE CASES** Page
 
-The ``USE CASES`` page in the EXPLORE menu is designed to facilitate exploring data in that specific field. Once you choose a use case, a predefined dashboard containing various important widgets which offer key information and visualizations to explore and analyze the data (that comply with that use case schema) is presented. Each research topic may have details and intricacies that the predefined dashboard does not address. However, NOMAD offers high flexibility, allowing you to edit the dashboard to meet your needs or add your own visualizations.
+The **USE CASES** page in the EXPLORE menu is designed to facilitate exploring data in that specific field. Once you choose a use case, a predefined dashboard containing various important widgets which offer key information and visualizations to explore and analyze the data (that comply with that use case schema) is presented. Each research topic may have details and intricacies that the predefined dashboard does not address. However, NOMAD offers high flexibility, allowing you to edit the dashboard to meet your needs or add your own visualizations.
 
-## Advanced Tips for Using the ``USE CASES`` page
+## Advanced Tips for Using the **USE CASES** Page
 
 To make the most out of the use cases feature, consider the following tips:
 
@@ -49,11 +49,11 @@ Suppose we are working on Sn-based solar cell research, and the project is about
 
 Now, we want to answer the following research question:
 
-**Which HTL materials improve efficiency in Sn-based solar cells with C60 as the ETL?**
+**Which hole transport layer (HTL) materials improve efficiency in Sn-based solar cells with C60 as the electron transport layer (ETL)?**
 
-1. Start by navigating to the ``EXPLORE`` menu in the NOMAD GUI. From here, select ``Solar Cells`` under use cases.
+1. Start by navigating to the **EXPLORE** menu in the NOMAD GUI. From here, select **Solar Cells** under **USE CASES**.
 
-2. Once you have selected the ``Solar Cells`` use case, you will be presented with a predefined search dashboard optimized for research in solar cells. This interface allows you to apply filters readily and easily narrow down the data to what is most relevant for your research.
+2. Once you have selected the **Solar Cells** use case, you will be presented with a predefined search dashboard optimized for research in solar cells. This interface allows you to apply filters readily and easily narrow down the data to what is most relevant for your research.
 
 <div style="text-align: center;">
     <img src="images/solar_cells_dashboard.png" alt="Solar Cells Dashboard" width="800">
@@ -75,7 +75,7 @@ Now, we want to answer the following research question:
 
 4. **Modify or Add Customized Widgets:** All the widgets on each dashboard are customizable. By clicking on the pen icon on the top right of each widget, you can access the customizable quantities of that widget. For example, you can change the entity plotted on a specific axis, the color map, or the units in which that specific quantity is presented.
 
-5. **Explore Results:** Review the search results to find data entries that match your criteria. Here you can also look for specific entries in different visualizations. For example, you can zoom in on the scatter plots and hover your mouse pointer over each data point to read the value of the plotted entities. Clicking on each data point will bring you to the entry page. Each entry provides detailed metadata and links to the associated datasets, making it easy to download and use the data in your research.
+5. **Explore Results:** Review the search results to find data entries that match your criteria. Here you can also look for specific entries in different visualizations. For example, you can zoom in on the scatter plots and hover your mouse pointer over each data point to read the value of the plotted entities. Clicking on each data point will bring you to the entry page. Each entry provides detailed metadata and links to the associated datasets, making it accessible for researchers to find and use the most relevant data for their work.
 
 <div style="text-align: center;">
     <img src="images/sn_based_solar_cells_example.gif" alt="Sn-based Solar Cell example" width="800">

@@ -1,11 +1,19 @@
 # Using the API helper in the Explore Page
 
-Let's consider [our first basic example](../M4_2_1_example_api_explained.md). Suppose we want to find `entry_id` entries that contain both Ti and O in their chemical formula, this time using the NOMAD GUI.
+In this section, you will learn how to:
 
-1. Open the NOMAD GUI, go to the 'Explore' tab.
-2. On the left sidebar under 'Filters', select 'Ti' and 'O' from the periodic table under 'Elements / Formula'. You will see that approximately 41,544 entries match your search criteria.
-3. Locate the API symbol (`<>`) at the top-left of the page and click on it.
-4. A new page opens showing a query independent of the actual request. Scroll down to find the related POST request to the `entries/query` endpoint. This request body, similar to the `request_data` in our [[our first example]](../M4_2_1_example_api_explained.md), is a JSON object containing `owner`, `query`, `aggregations`, `pagination`, and `required` parts.
+* Find the exact POST request, after you applied filters in explore page.
+* Inspect the response to find your requested piece of data.
+* Download the API response using the GUI.
+
+Let's consider [our first basic example](../M4_2_1_example_api_explained.md). Suppose we want to find the `entry_id` of entries that contain both Ti and O in their chemical formula, this time using the NOMAD GUI. 
+
+## Finding the POST Request
+
+1. Open NOMAD, from the **EXPLORE** menu select **Entries** to go to the [explore page](https://nomad-lab.eu/prod/v1/gui/search/entries){:target="_blank"}.
+2. On the left sidebar under **FILTERS**, click on **Elements / Formula** and select 'Ti' and 'O' in the periodic table that opens as a submenu. On top of the periodic table you can see how many entries match your search criteria.
+3. Locate the API symbol (**<>**) at the top of the page and click on it.[^1]
+4. A new page opens showing a query independent of the actual request. Scroll down, under **Request**, you will find the related POST request to the `entries/query` endpoint. This request body, similar to the `request_data` in [[our first example]](../M4_2_1_example_api_explained.md), is a JSON object containing `owner`, `query`, `aggregations`, `pagination`, and `required` parts.
 
 The request body should look like this:
 ```json
@@ -38,23 +46,25 @@ The request body should look like this:
 * The `aggregations` define how data is displayed, e.g., histograms. 
 * The `required` section excludes specific data fields (`quantities`, `sections`, and `files`)
 
-The response body in the GUI in the compact view looks like this:
+## Inspecting the Response
+
+Scroll down further to reach **Response**. The response body in the GUI in the compact view looks like this:
 
 ![GUI response compact](../../images/response_compact.png)
 
 
-The `data` part contains our actual results, with entries listed from 0 to 19 (since `page_size` is 20). The `entry_id` can be found at the bottom of each entry. 
+The `data` section contains our requested data. Once expanded, you see entries listed from 0 to 19 (since `page_size` is 20). Once you expand each of these entries, you can find its `entry_id` close to the bottom of the expanded list.
 
-## Downloading the API response using the GUI
+## Downloading the Response Using the GUI
 
 To get the response data in JSON format, use the API Dashboard:
 
-1. Copy the POST request body to your clipboard.
-2. Navigate to the API Dashboard, find the `entries/query` endpoint under 'entries/metadata'.
-3. Click on 'Try it out', replace the existing body with your copied request body, and click `Execute`.
+1. Copy the POST request **body** to your clipboard.
+2. Navigate to the API Dashboard, find the **`entries/query`** endpoint under **entries/metadata**.
+3. Click on **Try it out** button, replace the existing body with your copied request body, and click **Execute**.
 4. If you want faster results, reduce the `page_size` to a smaller value, e.g., 1.
    
-After execution, scroll down and you will see a successful response (code 200). Look for the `entry_id` under `data` in the response. You can download this response as a JSON file using the `Download` button at the bottom-right of the response window.
+After execution, scroll down and you will see a successful response (code 200). Look for the `entry_id` under `data` in the response. You can download this response as a JSON file using the **Download** button at the bottom-right of the response window.
 
 ![Example to use the API helper in explore tab](../../images/example_use_API_explore.gif)
 
@@ -118,8 +128,12 @@ Executing this will give a response similar to:
 }
 
 ```
-You can download this JSON object or use it programmatically to extract the `entry_id`.
+You can download this JSON object and use it programmatically to extract the `entry_id`.
 
 ![Example to use the API helper in explore tab with required fields](../../images/example_use_API_explore_required.gif)
 
-Remember, the API dashboard is a helper tool, not the most efficient or fastest way to use the API. It helps you understand the correct request body and endpoint. To explore available information from this endpoint (or other endpoints), we can remove the `required` field completely, or set it to `"required": {}`, and use `"page_size": 1` to obtain all possible information from the endpoint.
+Remember, the API dashboard is a helper tool, not the most efficient or fastest way to use the API. It helps you understand the **correct request body** and the **relevant endpoint**. To explore available information from this endpoint (or other endpoints), we can remove the `required` field completely, or set it to `"required": {}`, and use `"page_size": 1` to obtain all possible information from the endpoint.
+
+
+---
+[^1]: The placement of the API symbol may differ slightly from the animated screenshot provided, as it is currently located on the top right of the explore page in the updated GUI.

@@ -6,52 +6,48 @@ repo_url: https://github.com/siamakn/temp-nomad-onboarding-workshop
 edit_uri: ""
 
 nav:
-  - Home: index.md
-  - Creating workshop materials:
-    - Creating_Workshop_Materials/creating_workshop_materials.md
-    - Creating_Workshop_Materials/git_collaboration_training_materials.md
+#  - Home: index.md
+#  - Creating workshop materials:
+#    - Creating_Workshop_Materials/creating_workshop_materials.md
+#    - Creating_Workshop_Materials/git_collaboration_training_materials.md
   - RDM with NOMAD:
     - Introduction: Module1/M1_1_RDM_with_NOMAD.md
-    - From Raw Files to FAIR Data: Module1/M1_x_NOMAD_workflow.md
-    - Towards a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis: Module1/M1_2_NOMAD_and_oasis.md
-    - NOMAD Data Model: Module1/M1_x_NOMAD_datamodel.md
-    - Levels of NOMAD Users: Module1/M1_x_NOMAD_users.md
-    - Getting Support: Module1/M1_x_getting_support.md
-    - NOMAD Glossary: Module1/M1_x_glossary.md
+    - From Raw Files to FAIR Data: Module1/M1_2_NOMAD_workflow.md
+#    - Towards a Federated FAIR Data Infrastructure with NOMAD and NOMAD Oasis: Module1/M1_x_NOMAD_and_oasis.md
+    - NOMAD Data Model: Module1/M1_3_NOMAD_datamodel.md
+    - Levels of NOMAD Users: Module1/M1_4_NOMAD_users.md
+    - Getting Support: Module1/M1_5_getting_support.md
   - First touches with NOMAD:
-    - NOMAD Access Points: Module2/M2_x_accessing_NOMAD.md
-    - The NOMAD Graphical User Interface: Module2/M2_x_NOMAD_GUI.md
-    - Creating a User Account: Module2/M2_x_create_account.md
-    - Explore: Module2/M2_x_explore_tab.md
-    - Inspecting Entry Pages: Module2/M2_x_inspecting_entry_pages.md
-    - Customized Search Dashboard: Module2/M2_x_customized_search_dashboard.md
-    - Explore Data for Specific Use Cases: Module2/M2_x_explore_use_cases.md
+#    - Access NOMAD: Module2/M2_x_accessing_NOMAD.md
+    - NOMAD GUI: Module2/M2_x_NOMAD_GUI.md
+    - Create Account: Module2/M2_x_create_account.md
+    - Explore Menu: Module2/M2_x_explore_tab.md
+    - Entry Pages: Module2/M2_x_inspecting_entry_pages.md
+    - Customized Dashboards: Module2/M2_x_customized_search_dashboard.md
+    - Use Cases: Module2/M2_x_explore_use_cases.md
   - Using NOMAD as an ELN:
-    - Overview:
-      - Introduction: Module3/5_ELN_using_built-in_schema/M3_1_0_ELN_overview.md
-      - Planning your Experiment: Module3/5_ELN_using_built-in_schema/M3_1_1_planning_your_experiments.md
-      - Documenting your Plans: Module3/5_ELN_using_built-in_schema/M3_1_2_documenting_your_experiments.md
-      - Managing your Experiments: Module3/5_ELN_using_built-in_schema/M3_1_3_managing_your_experiments.md
-      - Sharing your Progress: Module3/5_ELN_using_built-in_schema/M3_1_4_sharing_your_experiments.md
-    - Getting Started: Module3/5_ELN_using_built-in_schema/M3_2_0_getting_started.md
-    - Entries in NOMAD: Module3/5_ELN_using_built-in_schema/M3_2_1_creating_entries_built-in_schema.md
-    - Creating Entities:
-      - Substances: Module3/5_ELN_using_built-in_schema/M3_2_3_substance_entities.md
-      - Samples: Module3/5_ELN_using_built-in_schema/M3_2_4_sample_entites.md
-      - Instruments: Module3/5_ELN_using_built-in_schema/M3_2_5_instrument_entities.md
-    - Creating Activities: 
-      - Create the Activities of Your Experiments: Module3/5_ELN_using_built-in_schema/M3_2_6_creating_activities.md
-      - Processing: Module3/5_ELN_using_built-in_schema/M3_2_7_materials_processing_activitiy.md
-      - Measurements: Module3/5_ELN_using_built-in_schema/M3_2_8_measurement_activity.md
-    - Managing Experiments: 
-      - Introduction: Module3/5_ELN_using_built-in_schema/M3_3_0_managing_experiments.md
-      - Integrating activities into an experiment: Module3/5_ELN_using_built-in_schema/M3_3_1_integrating_your_experiment.md
-      - Organizing the Upload: Module3/5_ELN_using_built-in_schema/M3_3_2_organizing_your_upload.md
-      - Sharing and Collaboration: Module3/5_ELN_using_built-in_schema/M3_4_0_sharing_your_eln.md
-    - ELN Based on Custom Schema:
-      - Introduction: Module3/6_ELN_using_custom_schema/M3_4_0_overview.md
-      - Ground Rules: Module3/6_ELN_using_custom_schema/M3_4_1_ground_rules.md
-      - Building a custom ELN: Module3/6_ELN_using_custom_schema/M3_4_2_basic_eln.md
+    - Introduction:
+      - Overview: Module3/5_ELN_using_built-in_schema/M3_1_0_ELN_overview_combined_concise.md
+      - ELN entries in NOMAD: Module3/5_ELN_using_built-in_schema/M3_2_0_getting_started_combined_concise.md
+    - Build your ELN:
+      - Getting started: Module3/5_ELN_using_built-in_schema/M3_2_1_creating_entries_built-in_schema.md
+      - Creating Entities:
+          - Entities of the Experiment: Module3/5_ELN_using_built-in_schema/M3_2_2_creating_entities.md
+          - Substances: Module3/5_ELN_using_built-in_schema/M3_2_3_substance_entities.md
+          - Samples: Module3/5_ELN_using_built-in_schema/M3_2_4_sample_entites.md
+          - Instruments: Module3/5_ELN_using_built-in_schema/M3_2_5_instrument_entities.md
+      - Creating Activities: 
+          - Activities of the Experiment: Module3/5_ELN_using_built-in_schema/M3_2_6_creating_activities.md
+          - Processes: Module3/5_ELN_using_built-in_schema/M3_2_7_materials_processing_activitiy.md
+          - Measurements: Module3/5_ELN_using_built-in_schema/M3_2_8_measurement_activity.md
+      - Managing Experiments: 
+          - Overview: Module3/5_ELN_using_built-in_schema/M3_3_0_managing_experiments.md
+          - Integrating Activities: Module3/5_ELN_using_built-in_schema/M3_3_1_integrating_your_experiment.md
+          - Organizing the Upload: Module3/5_ELN_using_built-in_schema/M3_3_2_organizing_your_upload.md
+          - Sharing and Collaboration: Module3/5_ELN_using_built-in_schema/M3_4_0_sharing_your_eln.md
+    - Customize your ELN:
+      - Getting started: Module3/6_ELN_using_custom_schema/M3_4_1_ground_guidelines.md
+      - Building a Custom ELN: Module3/6_ELN_using_custom_schema/M3_4_2_basic_eln.md
       - Using the Tabular Parser: Module3/6_ELN_using_custom_schema/M3_4_3_measurement_data.md
   - Using NOMAD's API:
     - Overview: Module4/M4_0_overview.md
@@ -61,22 +57,23 @@ nav:
       - Cloud-based (NORTH): Module4/M4_1_getting_started/M4_1_2_preparing_north.md
       - API Basics: Module4/M4_1_getting_started/M4_1_3_api_basics.md
     - Retrieving Data:
-      - A Simple API Call Explained: Module4/M4_2_retrieve_data/M4_2_1_example_api_explained.md
-      - Leveraging Pagination: Module4/M4_2_retrieve_data/M4_2_2_leveraging_pagination.md
+      - Your First API Call: Module4/M4_2_retrieve_data/M4_2_1_example_api_explained.md
+      - Retrieving Multiple Entries: Module4/M4_2_retrieve_data/M4_2_2_leveraging_pagination.md
       - Using API Helpers:
         - NOMAD API Helpers: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_0_nomad_api_helpers.md
-        - API Helpers in Explore Tab: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_1_helper_explore.md
-        - API Helpers in Entry Page: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_2_helper_entry_page.md
-    - Authentication and Uploading Data: 
+        - In Explore Page: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_1_helper_explore.md
+        - In Entry Page: Module4/M4_2_retrieve_data/M4_2_3_api_helpers/M4_2_3_2_helper_entry_page.md
+    - Uploading Data: 
       - Authentication: Module4/M4_3_upload_data/M4_3_1_authentication.md
-      - Creating Datasets and Uploading Data: Module4/M4_3_upload_data/M4_3_2_upload.md
+      - Creating Datasets: Module4/M4_3_upload_data/M4_3_2_upload.md
     - Scientific Case Studies:
       - Overview: Module4/M4_x_examples/M4_x_0_overview.md
-      - Compositional Based Property Prediction of Perovskites with CrabNet:
+      - ML Using NOMAD's data:
         - Overview: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_0_perovskites_crabnet_overview.md
         - Retrieve Data: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_1_perovskites_crabnet_retrieve_data_api.md
-        - Load and Clean Data: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_2_perovskites_crabnet_load_and_clean_data.md
-        - Bandgap Prediction using ML: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_3_perovskites_crabnet_ml.md
+        - Clean Data: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_2_perovskites_crabnet_load_and_clean_data.md
+        - Bandgap Prediction: Module4/M4_x_examples/M4_x_1_perovskites_crabnet_ml/M4_x_3_perovskites_crabnet_ml.md
+  - NOMAD Glossary: Misc/Miscx_x_glossary.md
 plugins:
  - search
 theme:
@@ -90,6 +87,8 @@ theme:
   favicon: assets/favicon.png
   features:
     - navigation.instant
+    - navigation.footer
+    - content.code.copy
   custom_dir: docs/theme
 markdown_extensions:
   - attr_list

@@ -2,30 +2,30 @@
 
 ## Authentication
 
-Most of the API operations with NOMAD do not require any authorization and can be freely used without a user or credentials. However, to upload, edit, or view your own data or those shared with you, the API needs to authenticate you.
+Most of the API operations with NOMAD can be freely used without needing a login or credentials. However, to upload, edit, or view your own data or those shared with you, the API needs to authenticate you.
 
-The NOMAD API uses OAuth and tokens to authenticate users. This guide will walk you through the process of obtaining access tokens, using the NOMAD Python package for authentication, and managing app tokens.
+The NOMAD API uses OAuth and tokens to authenticate users. This guide will walk you through the steps of getting access tokens, using the NOMAD Python package for authentication, and managing app tokens.
 
-??? note "What is OAuth?"
+??? info "What is OAuth?"
 
     OAuth is an open standard for access delegation commonly used as a way to grant websites or applications limited access to user information without exposing passwords. It allows third-party services to exchange information securely and efficiently.
 
-??? note "What are Tokens?"
+??? info "What are Tokens?"
 
-    Tokens are pieces of data that are used to authorize access to an API. In the NOMAD API, tokens are used to authenticate users. There are two main types of tokens:
+    In general, tokens are pieces of data that are used to authorize access to an API. In the NOMAD API, tokens are also used to authenticate users. There are two main types of tokens:
         1. **Access Tokens**: Short-lived tokens used for API requests.
         2. **App Tokens**: Tokens with a user-defined expiration time, used for longer sessions.
 
-Users might need to authenticate themselves using their username and password in the following use cases:
+Depending on what you want to do (e.g., uploading data) you may need to authenticate yourself using your username and password in the following use cases:
 
-    - When using the API dashboard
-    - When interacting with NOMAD API using python.
-    - When working with the NOMAD python package.
+    - Using the API dashboard
+    - Interacting with NOMAD API using Python.
+    - Working with the NOMAD Python package.
 
-1. To use authentication in the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs), simply use the "Authorize" button
+1. To use authentication in the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs){:target="_blank"}, simply use the **Authorize** button
 ![Authenticate in the API Dashboard](../images/API_dashboard_auth.gif)
 
-2. When interacting with NOMAD using python you need access tokens. You can obtain access tokens by sending a GET request to the NOMAD authentication endpoint (/auth/token', see the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs)). In the following example, we first obtain our access token from the `/auth/token` endpoint, and use it later as a `header` parameter when sending other requests. Simply replace 'myname' and 'mypassword' with your actual username and password and run it. 
+2. When interacting with NOMAD using Python you need access tokens. You can obtain access tokens by sending a GET request to the NOMAD authentication endpoint (/auth/token', see the [API dashboard](https://nomad-lab.eu/prod/v1/api/v1/extensions/docs){:target="_blank"}). In the following example, we first obtain our access token from the `/auth/token` endpoint, and use it later as a `header` parameter when sending other requests. Simply replace 'myname' and 'mypassword' with your actual username and password and run it. 
 
 ```python
 import requests
@@ -39,7 +39,7 @@ response = requests.get(
 token = response.json()['access_token']
 ```
 
-??? tip "App tokens"
+??? tip "How to obtain ppp tokens in NOMAD"
     If the short-term expiration of the default access token (obtained from the `/auth/token` endpoint) does not suit your needs, you can request an app token with a user-defined expiration from the `/auth/app_token` endpoint:
 
     ```python
@@ -69,8 +69,8 @@ uploads = response.json()['data']
 
 Following example shows how you can check your uploads in NOMAD.
 
-1.  send a GET request to the `/auth/token` endpoint and save your access token (repeated step).
-2. send a GET request to the `/uploads` endpoint contains your 'uploads' information. Let's print them!
+1. Send a GET request to the `/auth/token` endpoint and save your access token (see above).
+2. Send a GET request to the `/uploads` endpoint contains your 'uploads' information. Let's print them!
 
 ```python
 import requests
@@ -91,7 +91,7 @@ print(json.dumps(uploads, indent = 4))
 
 ```
 
-The output of the above snippet should look like the following. It is a python list with several elements (in this example only 1). Each element is a JSON (or python dict) containing information about each of your uploads.
+The output of the above snippet should look like the following. It is a Python list with several elements (in this example only 1). Each element is a JSON (or Python dict) containing information about each of your uploads.
 
 ```JSON
 [

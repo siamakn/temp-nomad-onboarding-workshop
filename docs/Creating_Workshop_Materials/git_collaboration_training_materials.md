@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document describes our Git collaboration workflow. I suggest using GitHub GUI instead of the command line for issue tracking and branch management, ensuring a smooth and easy integration of everyone's contributions.
+This document describes our Git collaboration workflow. I suggest using GitHub GUI instead of the command line for issue tracking and branch management, which allows for a relatively more straightforward integration of everyone's contributions.
 
 ## Workflow Steps
 
@@ -64,7 +64,7 @@ Once the work is done and you ready for review, push your branch to the remote r
 
 - **Create a Pull Request using the GitHub GUI:**
   - Go to the GitHub repository webpage
-  - You will typically see a prompt to create a pull request for your recently pushed branch. If not, go to the 'Pull requests' tab and click 'New pull request'.
+  - You will typically see a prompt to create a pull request for your recently pushed branch. If not, go to the 'Pull requests' tab and click **New pull request**.
   - Select `branch_123` to compare with the 'main' branch.
   -   Fill in the details of the pull request with a title and description of the changes you made.
   -   Submit the pull request.

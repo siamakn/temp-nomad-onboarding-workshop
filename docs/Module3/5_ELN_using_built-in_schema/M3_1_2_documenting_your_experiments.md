@@ -15,7 +15,9 @@ Here's how to document your plans with NOMAD:
 
 By documenting your experimental plans with NOMAD, you create a comprehensive record that not only helps maintain clarity and organization, but also facilitates reproducibility and collaboration with other researchers.
 
-![Aspects of an experiment to be documented](../images/overview/3.png)
+<div style="text-align: center;">
+    <img src="../images/overview/3.png" alt="Aspects of an experiment to be documented" width="600">
+</div>
 
 NOMAD offers specifically tailored built-in schemas that can be used to create the records mentioned above: 
 

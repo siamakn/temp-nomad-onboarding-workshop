@@ -10,7 +10,7 @@ Among many alternatives for creating Markdown files, Visual Studio Code (VSCode)
 
 1. Open VSCode and create a new file.
 2. Add the `.md` extension to your filename.
-3. To see a live preview, click on the "Open Preview to the Side" icon located at the top right of the editor.
+3. To see a live preview, click on the **Open Preview to the Side** icon located at the top right of the editor.
 
 ## To create a new documentation page:
 

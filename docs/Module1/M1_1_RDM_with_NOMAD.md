@@ -6,29 +6,48 @@ Materials science researchers often struggle with managing the diverse and vast 
 
 NOMAD is a free, open-source data management platform designed specifically for materials science. Its main mission is to ensure that research data adhere to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
 
-NOMAD offers a comprehensive suite of tools that go beyond simple storage to support the entire research data lifecycle. By using NOMAD you will be actively controlling the following areas of RDM:
+??? info "What are the FAIR Principles?"
+    The FAIR principles, introduced by [Wilkinson et al. in 2016](https://doi.org/10.1038/sdata.2016.18){:target="_blank"}, outline a framework for making research data more **Findable, Accessible, Interoperable, and Reusable** (FAIR). These principles emphasize the importance of improving data management to maximize the value of data in research.
 
-- **Data Management**: Efficiently structure and organize your data, ensuring clarity and ease of access.
-- **Data Sharing**: Collaborate seamlessly with colleagues by sharing your data within a secure platform.
+    1. **Findable**: Data should be easy to locate, both by humans and machines, using persistent identifiers and descriptive metadata. This includes making data searchable in registries or repositories with unique identifiers.
+    2. **Accessible**: Data and metadata should be retrievable by identifiers using standard protocols that are open and free to ensure widespread access. While not all data must be openly available, clear accessibility conditions should be provided.
+    3. **Interoperable**: To integrate with other datasets or tools, data should use standard formats and vocabularies, facilitating cross-domain data usage and interoperability.
+    4. **Reusable**: Data should have clear and accessible licenses, detailed provenance, and should be well-described to enable reuse in different contexts and by different communities.
+
+    Together, these principles help ensure that data can be found, accessed, combined, and reused effectively across different projects and disciplines. Embracing FAIR doesn’t just make data management smoother—it opens doors to collaboration, accelerates discovery, and gives your data a meaningful, extended life in the research community!
+
+NOMAD provides a comprehensive set of tools that go beyond simple storage to support the entire research data lifecycle. With NOMAD you actively control the following areas of RDM:
+
+- **Data Management**: Structure and organize your data for clarity and ease of access.
+- **Data Sharing**: Collaborate securely with colleagues by sharing your data.
 - **Data Publishing**: Publish your research data for broader access and use by the scientific community.
 
-![NOMAD Overview Diagram](images/nomad_overview.png)
+<div style="text-align: center;">
+    <img src="images/publish_explore_analyze.png" alt="NOMAD Publish Explore Analyze Diagram" width="400">
+</div>
 
-NOMAD addresses the challenge of managing large amounts of heterogeneous research data, benefiting researchers on multiple levels. Individual scientists can better organize and analyze their data, while research groups gain a platform that facilitates collaboration and knowledge sharing. Ultimately, NOMAD helps create a rich, centralized archive of FAIR research data for the entire materials-science community.
+NOMAD addresses the challenge of managing large amounts of heterogeneous research data, benefiting individual research groups by improving data organization, analysis, collaboration, and knowledge sharing. It ultimately builds a centralized archive of FAIR research data for the entire materials-science community.
 
 ## **NOMAD and the Research Data Lifecycle**
 
 The data lifecycle refers to the journey data take throughout their existence. This journey typically involves several stages: data generation or collection, processing for accuracy and usability, analysis to extract insights, secure storage for later access, and eventual sharing with colleagues or the broader scientific community. Following these steps ensures that valuable data are not lost but preserved and fully utilized.
 
-![RDM with NOMAD](images/RDM_with_NOMAD2.png)
+<!--  ![RDM with NOMAD](images/RDM_with_NOMAD2.png) -->
+
+
+<div style="text-align: center;">
+    <img src="images/data_lifecycle.png" alt="Data Lifecycle" width="300">
+</div>
 
 NOMAD will support you throughout the research data lifecycle stages:
 
-- **Planning**: Help you effectively organize and manage data from the start of a project.
-- **Collection**: Offer an Electronic Lab Notebook (ELN), allowing you to provide rich metadata in a structured way for data documentation. Additionally, NOMAD provides connectivity to NOMAD CAMELS, a powerful instrument control software that enhances data collection by generating structured and FAIR data directly from instruments.
-- **Analysis**: With the NOMAD Remote Tools Hub (NORTH), you can perform data post-processing and analysis using custom scripts. NORTH supports flexible and powerful data exploration through tools like Jupyter notebooks.
-- **Preservation**: Data in NOMAD are preserved for a long time. When using the centralized NOMAD infrastructure, your data are kept safe and secure. For researchers who prefer local control, NOMAD Oasis allows you to store your data on your own servers. This flexibility ensures that researchers can choose the data storage solution that best suits their needs.
-- **Sharing**: Securely share your data with colleagues through NOMAD's user management system, which controls access and facilitates collaboration. NOMAD also improves data visibility and citation by enabling researchers to obtain Digital Object Identifiers (DOIs) for their datasets, ensuring that data can be easily found and properly credited in publications.
-- **Reuse**: NOMAD actively promotes data reuse. The platform stores data with rich metadata, enabling comprehensive search and exploration. NOMAD's exploration interface provides an easy-to-use GUI with various filters based on this metadata. Additionally, NOMAD offers a powerful API for programmatic access to the data, allowing researchers to automate data exploration and integration into their workflows.
 
-By solving the problem of disorganized and hard-to-find data, NOMAD enhances data management and collaboration at every stage of the research lifecycle. It helps individual scientists streamline their workflows, supports research groups in sharing and building on each other's work, and ultimately contributes to a centralized and accessible archive of valuable research data for the entire materials science community.
+- **Planning**: Organize and manage data from the start of your project.
+- **Collection**: Use NOMAD's Electronic Lab Notebook (ELN) functionality for structured data documentation. *NOMAD CAMELS* enhances data collection by generating FAIR-compliant data directly from instruments.
+- **Analysis**: Post-process and analyze data with *NOMAD Remote Tools Hub (NORTH)*, using tools like Jupyter notebooks for flexible data exploration.
+- **Preservation**: Keep data secure with NOMAD’s centralized infrastructure, or use *NOMAD Oasis* for local storage, offering flexibility for your preferred data storage solution.
+- **Sharing**: Share your data securely with colleagues. DOIs ensure data visibility and proper citation in publications.
+- **Reuse**: NOMAD promotes data reuse with rich metadata and advanced search capabilities. The powerful *API* allows programmatic access for automating data exploration.
+
+
+<!-- By solving the problem of disorganized and hard-to-find data, NOMAD enhances data management and collaboration at every stage of the research lifecycle. It helps individual scientists streamline their workflows, supports research groups in sharing and building on each other's work, and ultimately contributes to a centralized and accessible archive of valuable research data for the entire materials science community. -->

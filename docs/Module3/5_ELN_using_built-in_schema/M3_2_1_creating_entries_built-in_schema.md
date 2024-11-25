@@ -9,7 +9,9 @@ In NOMAD, this is done by creating entries for each entity and activity that wil
 
 
 
-### Create a New ELN Upload.
+### Creating entries using built-in ELN Schemas
+
+To create an entry in NOMAD using a built-in ELN schema, you may follow these general steps. For this example, we select the *Basic ELN* built-in schema in Step 8, which provides a free-text field. Alternatively, you can choose other built-in schemas from a list, depending on your needs.
 
 - **Step 1:**
 ![1- Create a new upload for the electronic lab notebook for the experiments.](../images/ELN_builtin_schema/1.png)
@@ -41,7 +43,7 @@ In NOMAD, this is done by creating entries for each entity and activity that wil
 ![3- Provide a name for your entry](../images/ELN_builtin_schema/9.png)
 
 - **Step 10:**
-![4- Click on the Create button](../images/ELN_builtin_schema/10.png)
+![4- Click on the CREATE button](../images/ELN_builtin_schema/10.png)
 
 
 ## What is Next?
