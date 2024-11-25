@@ -49,9 +49,9 @@ Suppose we are working on Sn-based solar cell research, and the project is about
 
 Now, we want to answer the following research question:
 
-**Which HTL materials improve efficiency in Sn-based solar cells with C60 as the ETL?**
+**Which hole transport layer (HTL) materials improve efficiency in Sn-based solar cells with C60 as the electron transport layer (ETL)?**
 
-1. Start by navigating to the **EXPLORE** menu in the NOMAD GUI. From here, select **Solar Cells** under use cases.
+1. Start by navigating to the **EXPLORE** menu in the NOMAD GUI. From here, select **Solar Cells** under **USE CASES**.
 
 2. Once you have selected the **Solar Cells** use case, you will be presented with a predefined search dashboard optimized for research in solar cells. This interface allows you to apply filters readily and easily narrow down the data to what is most relevant for your research.
 

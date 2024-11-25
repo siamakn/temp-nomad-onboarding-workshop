@@ -26,7 +26,7 @@ NOMAD provides a comprehensive set of tools that go beyond simple storage to sup
     <img src="images/publish_explore_analyze.png" alt="NOMAD Publish Explore Analyze Diagram" width="400">
 </div>
 
-NOMAD addresses the challenge of managing large amounts of heterogeneous research data, benefiting individual research groups by improving data organization, analysis, collaboration, and knowledge sharing. platform that facilitates collaboration and knowledge sharing. It ultimately builds a centralized archive of FAIR research data for the entire materials-science community.
+NOMAD addresses the challenge of managing large amounts of heterogeneous research data, benefiting individual research groups by improving data organization, analysis, collaboration, and knowledge sharing. It ultimately builds a centralized archive of FAIR research data for the entire materials-science community.
 
 ## **NOMAD and the Research Data Lifecycle**
 
@@ -43,7 +43,7 @@ NOMAD will support you throughout the research data lifecycle stages:
 
 
 - **Planning**: Organize and manage data from the start of your project.
-- **Collection**: Use NOMAD's Electronic Lab Notebook (ELN) functionality for structured data documentation. *NOMAD CAMELS* enhances data collection by generating FAIR data directly from instruments.
+- **Collection**: Use NOMAD's Electronic Lab Notebook (ELN) functionality for structured data documentation. *NOMAD CAMELS* enhances data collection by generating FAIR-compliant data directly from instruments.
 - **Analysis**: Post-process and analyze data with *NOMAD Remote Tools Hub (NORTH)*, using tools like Jupyter notebooks for flexible data exploration.
 - **Preservation**: Keep data secure with NOMAD’s centralized infrastructure, or use *NOMAD Oasis* for local storage, offering flexibility for your preferred data storage solution.
 - **Sharing**: Share your data securely with colleagues. DOIs ensure data visibility and proper citation in publications.

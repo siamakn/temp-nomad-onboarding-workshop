@@ -4,7 +4,7 @@ One of the strengths of NOMAD is that it allows you to search entries based on r
 
 In NOMAD, the author has the choice to provide rich metadata or simply use the software as a basic storage platform. If rich metadata is provided according to schemas, it can be effectively used for searching. On the other hand, if (meta)data are provided not according to schemas (e.g., in free text fields) or stored externally, it cannot be utilized for searchability within NOMAD.
 
-Once (meta)data are stored using schemas in NOMAD they become machine-actionable. NOMAD has built-in customizable widgets that allow users to create advanced dashboards for exploring data. The buttons to create customizable widgets are located just below the search bar in the Explore menu.
+Once (meta)data are stored using schemas in NOMAD they become machine-actionable. NOMAD has built-in customizable widgets that allow users to create advanced dashboards for exploring data. The buttons to create customizable widgets are located just below the search bar, once you are in any NOMAD page selected from the EXPLORE menu.
 
 <div style="text-align: center;">
     <img src="images/customizable_widgets.png" alt="Customizable Widgets" width="800">
@@ -17,9 +17,9 @@ Here are the main four widgets:
 - **SCATTER PLOT:** Generate scatter plots to visualize relationships between different quantities.
 - **PERIODIC TABLE:** Filter data by selecting elements directly from an interactive periodic table.
 
-## How to Create Customizable Widgets For ETL Materials in Solar Cells
+## Create Customizable Widgets For ETL Materials in Solar Cells
 
-In the following, we'll walk you through an example to help you better understand how to use these widgets. Imagine we are working on solar cell research and have fabricated solar cell devices using the absorber material 'CsPbBrI' (Cesium Lead Bromine Iodide), a mixed halide perovskite. The device's structure is illustrated below:"
+In the following, we'll walk you through an example to help you better understand how to use these widgets. Imagine we are working on solar cell research and have fabricated solar cell devices using the absorber material 'CsPbBrI' (Cesium Lead Bromine Iodide), a mixed halide perovskite. The device's structure is illustrated below:
 
 <div style="text-align: center;">
     <img src="images/solar_cell_device.png" alt="Solar Cell Device" width="500">

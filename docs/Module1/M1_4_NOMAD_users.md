@@ -10,7 +10,7 @@ In general, individuals who interact with NOMAD can be categorized into three gr
 Users are scientists who directly interact with the NOMAD software. They upload datasets, search for data, and use applications within the NOMAD software. The majority of NOMAD functionalities are developed to support this user group with their RDM needs.
 
 ### Application Administrator
-Application administrators, also known as data stewards or data scientists, are responsible for implementing or creating use-case applications within NOMAD. This role requires an understanding of NOMAD, as well as proficiency in Python programming and tools like Jupyter. They build applications for the main users (researcjers) to address their specific RDM requirements.
+Application administrators, also known as data stewards or data scientists, are responsible for implementing or creating use-case applications within NOMAD. This role requires an understanding of NOMAD, as well as proficiency in Python programming and tools like Jupyter. They build applications for the researchers to address their specific RDM requirements.
 
 ### System Administrator
 System administrators set up local NOMAD installations (NOMAD Oasis) on servers of a university or a research institute. Their responsibilities include configuring and maintaining the server and managing access. In addition to the requirements described for the Application Administrators, this role also requires knowledge of Docker and Keycloak.
